@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>CSC 235 forms demo</title>
+</head>
+<body>
+    <h1>CSC 235 forms demo</h1>
+    <h2>GET form</h2>
+    <form method="GET" action="https://moodle.converse.edu/CSC235/formecho.php"
+            id="getform" name="getform">
+        <fieldset>
+            <legend>Silly questions</legend>
+            <label for="getname">What is your name?</label>
+                <input type="text" id="getname" name="name"/>
+            <br /><label for="getquest">What is your quest?</label>
+                <input type="text" id="getquest" name="quest"/>
+            <br /><label for="getcolor">What is your favorite color?</label>
+            <select id="getcolor" name="color">
+                <option value=""> &mdash; Select a color &mdash; </option>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+                <option value="AAAAUUUGGGHHH!">I don't know!</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Biographical information</legend>
+            <label for="getusername">Username:</label>
+                <input type="text" id="getusername" name="username" /><br />
+            <label for="getpassword">Password (not really):</label>
+                <input type="password" id="getpassword" name="password" value="insecure" /><br />
+            <label for="getbirthdate">Birth date:</label>
+                <input type="date" id="getbirthdate" name="birthdate" /><br />
+            <label for="gettemp">Current outside temperature:</label>
+                <input type="range" min="0" max="110" id="gettemp" name="temperature" /><br />
+            <label>In terms of &ldquo;20 Questions&rdquo;, I am:</label><br />
+            <input type="radio" id="getanimal" name="classification" value="animal" />
+                <label for="getanimal">Animal</label><br />
+            <input type="radio" id="getvegetable" name="classification" value="vegetable"/>
+                <label for="getvegetable">Vegetable</label><br />
+            <input type="radio" id="getmineral" name="classification" value="mineral" />
+                <label for="getmineral">Mineral</label><br />
+            <input type="hidden" value="unseen data" id="gethidden" name="hidden" />
+        </fieldset>
+        <fieldset>
+            <legend>Legal</legend>
+            <input type="checkbox" id="getkidneys" name="go_ahead_take_my_kidneys" />
+                <label for="getkidneys">I have pretended to read and agree to the dense legal text
+                    that gives your lawyers rights to important internal organs.</label>
+        </fieldset>
+        <br /><input type="submit" /><input type="reset" />
+    </form>
+    <h2>POST form</h2>
+    <form method="POST" action="https://moodle.converse.edu/CSC235/formecho.php"
+            id="postform" name="postform">
+        <label for="putname">Name:</label><input type="text" id="putname" />
+        <input type="submit" value="Submit via POST"/>
+    </form>
+</body>
+</html>
