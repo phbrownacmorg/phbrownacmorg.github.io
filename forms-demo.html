@@ -32,8 +32,29 @@
                 <input type="password" id="getpassword" name="password" value="insecure" /><br />
             <label for="getbirthdate">Birth date:</label>
                 <input type="date" id="getbirthdate" name="birthdate" /><br />
-            <label for="gettemp">Current outside temperature:</label>
-                <input type="range" min="0" max="110" id="gettemp" name="temperature" /><br />
+        </fieldset>
+        <fieldset>
+            <legend>Random questions unrelated to grails</legend>
+            <label for="getcomplaints">Complaints:</label><br />
+            <textarea id="getcomplaints" name="complaints" rows="10" cols="80">Initial contents for the user to (usually) remove</textarea><br />
+            <datalist id="tickmarks">
+                <option value="0" label="0%"></option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50" label="50%"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100" label="100%"></option>
+            </datalist>
+            <label for="getvol">Volume of complaints:</label>
+                <input type="range" min="0" max="100" id="getvol" 
+                    list="tickmarks" name="volume" /><br />
+            <label for="gettemp">Outside temperature (&deg;F):</label>
+                <input type="number" min="10" max="110" step="1" /><br />
             <label>In terms of &ldquo;20 Questions&rdquo;, I am:</label><br />
             <input type="radio" id="getanimal" name="classification" value="animal" />
                 <label for="getanimal">Animal</label><br />
@@ -54,8 +75,55 @@
     <h2>POST form</h2>
     <form method="POST" action="https://moodle.converse.edu/CSC235/formecho.php"
             id="postform" name="postform">
-        <label for="putname">Name:</label><input type="text" id="putname" />
-        <input type="submit" value="Submit via POST"/>
+        <fieldset>
+            <legend>Silly questions</legend>
+            <label for="postname">What is your name?</label>
+                <input type="text" id="postname" name="name"/>
+            <br /><label for="postquest">What is your quest?</label>
+                <input type="text" id="postquest" name="quest"/>
+            <br /><label for="postcolor">What is your favorite color?</label>
+            <select id="postcolor" name="color">
+                <option value=""> &mdash; Select a color &mdash; </option>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+                <option value="AAAAUUUGGGHHH!">I don't know!</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Biographical information</legend>
+            <label for="postusername">Username:</label>
+                <input type="text" id="postusername" name="username" /><br />
+            <label for="postpassword">Password (not really):</label>
+                <input type="password" id="postpassword" name="password" value="insecure" /><br />
+            <label for="postbirthdate">Birth date:</label>
+                <input type="date" id="postbirthdate" name="birthdate" /><br />
+        </fieldset>
+        <fieldset>
+            <legend>Random questions unrelated to grails</legend>
+            <label for="postcomplaints">Complaints:</label><br />
+            <textarea id="postcomplaints" name="complaints" rows="10" cols="80">Initial contents for the user to (usually) remove</textarea><br />
+            <label for="postvol">Volume of complaints:</label>
+                <input type="range" min="0" max="100" id="postvol" 
+                    list="tickmarks" name="volume" /><br />
+            <label for="posttemp">Outside temperature (&deg;F):</label>
+                <input type="number" min="10" max="110" step="1" /><br />
+            <label>In terms of &ldquo;20 Questions&rdquo;, I am:</label><br />
+            <input type="radio" id="postanimal" name="classification" value="animal" />
+                <label for="postanimal">Animal</label><br />
+            <input type="radio" id="postvegetable" name="classification" value="vegetable"/>
+                <label for="postvegetable">Vegetable</label><br />
+            <input type="radio" id="postmineral" name="classification" value="mineral" />
+                <label for="postmineral">Mineral</label><br />
+            <input type="hidden" value="unseen data" id="posthidden" name="hidden" />
+        </fieldset>
+        <fieldset>
+            <legend>Legal</legend>
+            <input type="checkbox" id="postkidneys" name="go_ahead_take_my_kidneys" />
+                <label for="postkidneys">I have pretended to read and agree to the dense legal text
+                    that gives your lawyers rights to important internal organs.</label>
+        </fieldset>
+        <br /><input type="submit" value="Submit via POST"/><input type="reset" />
     </form>
 </body>
 </html>
