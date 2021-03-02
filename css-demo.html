@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>CSC 235 tags demo</title>
+    <link rel="stylesheet" href="demo.css" />
+    
+    <style> 
+        /* Overrides the stuff in demo.css, because it's read later */
+        div { background-color: lightslategray;
+              /* Overridden by the style attribute */ 
+              border-top: thick dotted;
+            }
+
+    </style>
+</head>
+<body>
+    <nav><ul><li>Search engines</li><li>Converse resources</li></ul></nav>
+    <h1>CSC 235 tags demo</h1>
+
+    <p>This file demonstrates various HTML tags.  This text is contained within a <code>&lt;p&gt;</code> tag, for "paragraph".</p>
+
+    <p>This file is intended to be displayed using <a href="https://pages.github.com/">Github Pages</a> 
+        at <a href="https://phbrownacmorg.github.io">phbrownacmorg.github.io</a>.</p>
+
+    <div id="Tags_that_do_not_change_the_look_by_themselves" style="border-top: thin solid; border-bottom: thin solid">
+        <h2>Tags that don't change the look</h2>
+        <p>This section is contained in a <code>&lt;div&gt;</code> tag, indicated by the 
+            horizontal lines.  The lines are not produced by the tag itself, however, but by 
+            its <code>style</code> attribute.</p>  
+        <p class="spandemo"><code>&lt;span&gt;</code> tags do pretty much the same thing, but at text level 
+            rather than block level.  Formatting a booktitle, such as 
+            <span class="booktitle">Magical Creatures I Have Known</span>, is one common use of a 
+            <code>&lt;span&gt;</code> tag.</p>
+    </div>
+
+    <p>Hyperlinks, which take you somewhere else when you click on them, are what put the Web into <a id="WWW" href="https://en.wikipedia.org/wiki/World_Wide_Web">World Wide <em>Web</em></a>,  as opposed to the World Wide Collection of Linear Documents.  Hyperlinks can also be targets, allowing for linking into <a id="target">the middle of a page</a>.</p>
+
+    <pre>Unlike most tags, text 
+        within a <code>&lt;pre&gt;</code>
+        tag preserves the white space 
+        (such as line breaks) in the HTML.</pre>
+
+    <p>Some things can't be too <strong>strongly</strong> <em>emphasized</em>.</p>
+    <ul>
+        <li>Bulleted list</li>
+        <li>These items are not strongly ordered</li>
+    </ul>
+    <ol>
+        <li>Numbered list</li>
+        <li>These</li>
+        <li>items</li>
+        <li>have</li>
+        <li>a</li>
+        <li>strong</li>
+        <li>natural</li>
+        <li>ordering</li>
+    </ol>
+    <dl>
+        <dt>Definition list</dt>
+        <dd>A <strong>definition list</strong> is used to define terms within a document.</dd>
+    </dl>
+
+    <h2>Tabular data</h2>
+
+    <table>
+        <tr><th colspan="4">Spartanburg temperatures 2/7-2/13/2021</th></tr>
+        <tr><th>Date</th><th>Low</th><th>High</th><th>Average</th></tr>
+        <tr><th>2/7</th><td>32&deg;</td><td>50&deg;</td><td>39.5&deg;</td></tr>
+        <tr><th>2/8</th><td>30&deg;</td><td>55&deg;</td><td>41.5&deg;</td></tr>
+        <tr><th>2/9</th><td>43&deg;</td><td>64&deg;</td><td>51.5&deg;</td></tr>
+        <tr><th>2/10</th><td>41&deg;</td><td>66&deg;</td><td>52.1&deg;</td></tr>
+        <tr><th>2/11</th><td>41&deg;</td><td>54&deg;</td><td>50.5&deg;</td></tr>
+        <tr><th>2/12</th><td>34&deg;</td><td>41&deg;</td><td>35.9&deg;</td></tr>
+        <tr><th>2/13</th><td>34&deg;</td><td>37&deg;</td><td>35.6&deg;</td></tr>
+    </table>
+
+    <p>Data from the <a href="https://www.wunderground.com/history/weekly/us/sc/spartanburg/KSPA/date/2021-2-13">Weather Underground</a>, visited 2021-02-16.</p>
+
+    <h2>Images</h2>
+
+    <p>A somewhat idealized view of downtown Spartanburg</p></div>
+    <div><img src="https://www.weather-us.com/weather/images/city/8/7/2382878-750-75.jpg"
+        alt="A somewhat idealized view of downtown Spartanburg" />
+    <div><p>Tornado damage from Feb. 2020</p><img src="https://bloximages.newyork1.vip.townnews.com/foxcarolina.com/content/tncms/assets/v3/editorial/3/ab/3ab98994-4913-11ea-990b-bb12720eb932/5e3c62c8a628a.image.jpg"
+        alt="Damage from the tornado of Feb. 2020" width="100%" /></div>
+    <div><p>The current National Weather Service &ldquo;weather story&rdquo; image</p><img src="https://www.weather.gov/images/gsp/weatherstory.gif"
+        alt="Current NWS weather story" width="100%"/></div>
+</body>
+</html>

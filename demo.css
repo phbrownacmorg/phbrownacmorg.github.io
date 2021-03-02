@@ -1,0 +1,80 @@
+/* Style data attached by element type.  All the <div> elements in the document... */
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: greenyellow;
+}
+
+/* Style data attached by ID attribute */
+#Tags_that_do_not_change_the_look_by_themselves {
+    border-right: thin solid;
+}
+
+/* Style data attached by class attribute */
+.booktitle {
+    font-style: italic;
+}
+
+/* <code> element with a <div> somewhere in its ancestry. */
+div code {
+    font-size: larger;
+    font-style: italic;  
+}
+
+/* <code> element that's the direct child of a <p> with class "spandemo". 
+  This selector (parent selector) overrides the ancestor selector just
+  above because it's more specific. */
+p.spandemo > code {
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* <code> element that's the next sibling after a <span> element. 
+   This overrides the element selector attached to the enclosing <div>
+   because it's more specific. */
+span + code {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;  /* "smaller" undoes the "larger" from the "div code" */
+}
+
+/* Matching by pseudoclasses */
+
+/* Structural pseudoclasses */
+
+/* <li> that's the first child of its parent */
+li:first-child {
+    font-weight: bold;
+}
+
+/* Sixth <li> in a list */
+li:nth-of-type(6) {
+    font-weight: bold;
+}
+
+/* Seventh <li> in a list */
+li:nth-of-type(7) {
+    font-style: italic;
+}
+
+/* First <td> in a table row */
+td:first-of-type {
+    color: blue;
+}
+
+/* Second to last <td> in a table row */
+td:nth-last-of-type(2) {
+    color: red;
+}
+
+/* User-action pseudoclasses */
+
+/* <li> element with the mouse over it */
+li:hover {
+    background-color: purple;
+    color: gold;
+}
+
+nav > ul > li { 
+    display: table-cell;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
