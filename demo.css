@@ -73,8 +73,125 @@ li:hover {
     color: gold;
 }
 
+/*
+nav li:hover {
+    background-color: inherit;
+    color: inherit;
+}
+*/
+
+nav li:first-child {
+    font-weight: normal;
+}
+
 nav > ul > li { 
     display: table-cell;
     padding-left: 0.5em;
     padding-right: 0.5em;
+}
+
+
+nav > ul > li > ul {
+    display: none;
+    list-style-type: none;
+    border: thin solid;
+    background-color: gold;
+    margin: 0;
+}
+
+nav > ul > li:hover > ul {
+    display: inherit;
+}
+
+nav > ul > li > ul > li {
+    margin-left: 0;
+}
+
+nav > ul > li > ul > li:hover {
+    background-color:purple;
+    color: gold;
+}
+
+nav > ul > li > ul > li:hover > a {
+    background-color:purple;
+    color: gold;
+}
+
+/* Font manipulation */
+
+/* Font family */
+.fontdemo span:first-child {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fontdemo span:nth-child(2) {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fontdemo span:nth-child(3) {
+    font-family: 'Brush Script MT', 'Brush Script Std', 'Lucida Calligraphy', 'Lucida Handwriting', 'Apple Chancery', cursive;
+}
+
+.fontdemo span:nth-child(4) {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fontdemo span:nth-child(5) {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fontdemo span:nth-child(6) {
+    font-family: Lucida Bright, Lucida Fax, Palatino, "Palatino Linotype", Palladio, "URW Palladio", serif;
+}
+
+.fontdemo span:nth-child(7) {
+    font-style: normal;
+}
+
+.fontdemo span:nth-child(8) {
+    font-style: italic;
+}
+
+.fontdemo span:nth-child(9) {
+    font-style: oblique;
+}
+
+.fontdemo span:nth-child(10) {
+    font-variant: small-caps;
+}
+
+.fontdemo span:nth-child(11) {
+    font-size: xx-small;
+}
+
+.fontdemo span:nth-child(12) {
+    font-size: 75%;
+}
+
+.fontdemo span:nth-child(13) {
+    font-size: medium;
+}
+
+.fontdemo span:nth-child(14) {
+    font-size: 16pt;
+}
+
+.fontdemo span:nth-child(15) {
+    font-size: x-large;
+}
+
+.fontdemo span:nth-child(16) {
+    font-weight: 100;
+}
+
+.fontdemo span:nth-child(17) {
+    font-weight: lighter;
+}
+
+.fontdemo span:nth-child(18) {
+    font-weight: bold;
+}
+
+.fontdemo span:nth-child(19) {
+    font-weight: 900;
 }
