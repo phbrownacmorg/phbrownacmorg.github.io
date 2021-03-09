@@ -56,11 +56,11 @@
         (such as line breaks) in the HTML.</pre>
 
     <p>Some things can't be too <strong>strongly</strong> <em>emphasized</em>.</p>
-    <ul>
+    <ul class="listdemo">
         <li>Bulleted list</li>
         <li>These items are not strongly ordered</li>
     </ul>
-    <ol>
+    <ol class="listdemo">
         <li>Numbered list</li>
         <li>These</li>
         <li>items</li>
@@ -86,6 +86,57 @@
         <span>size</span> <span>can</span> <span>be</span> <span>varied</span>,
         <span>as</span> <span>can</span> <span>font</span> 
         <span>weight</span>.</p>
+
+    <div class="textdemo">
+    <h2>Text properties</h2>
+        <p>Text properties applicable to entire paragraphs
+            include <code>text-indent</code> and <code>text-align</code>.
+            <code>text-indent</code> allows the first line of a paragraph
+            to be indented a given amount from the left (more or less as 
+            you would expect).  <code>text-align</code> allows text to be
+            aligned:</p>
+        <p class="align">left,</p>
+        <p class="align">center,</p>
+        <p class="align">or right.</p>
+        <p class="decorations">Available text decorations include 
+            <span>overline</span> (as for a vector), <span>underline</span> 
+            (for emphasis), and <span>line-through</span> (for mistakes/edits).</p>
+        <p class="transform"><code>text-transform</code> allows text to be rendered
+            in <span>uPpErCaSe</span>, <span>title case (approximately)</span>, or 
+            <span>LoWeRcAsE</span> regardless of its actual capitalization.  (Note
+            that <code>text-transform: capitalize</code> does not change the capitalization
+            of letters other than the first letter in each word.)
+        </p>
+        <p class="whitespace"><code>white-space</code> gives several ways of making
+            the white space      in the HTML code      significant in the output.</p>
+        <p class="whitespace">       A broken ALTAR, Lord, thy servant rears,
+        Made of a heart and cemented with tears:
+         Whose parts are as thy hand did frame;
+       No workman's tool hath touch'd the same.
+                          A HEART alone
+                          Is such a stone,
+                         As nothing but
+                         Thy pow'r doth cut.
+                         Wherefore each part
+                         Of my hard heart
+                         Meets in this frame,
+                         To praise thy name:
+              That if I chance to hold my peace,
+        These stones to praise thee may not cease.
+          Oh, let thy blessed SACRIFICE be mine,
+            And sanctify this ALTAR to be thine.</p>
+    </div>
+
+    <div class="colordemo">
+    <h2>Colors and images</h2>
+
+    <p>The three common ways to specify colors are these:</p>
+    <ol>
+        <li><span>Named colors</span></li>
+        <li><span>RGB using hexadecimal digits</span>, and</li>
+        <li><span>RGB using the <code>rgb()</code> macro</span></li>
+    </ol>
+    </div>  
 
     <h2>Tabular data</h2>
 

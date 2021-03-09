@@ -195,3 +195,103 @@ nav > ul > li > ul > li:hover > a {
 .fontdemo span:nth-child(19) {
     font-weight: 900;
 }
+
+div.textdemo {
+    font: inherit;
+    border: none;
+    background-color: inherit;
+}
+
+.textdemo > p:first-of-type { text-indent: 3em; }
+
+.align {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.textdemo > p.align:nth-of-type(2) {
+    text-align: left;
+}
+
+.textdemo > p.align:nth-of-type(3) {
+    text-align: center;
+}
+
+.textdemo > p.align:nth-of-type(4) {
+    text-align: right;
+}
+
+.decorations > span:first-of-type {
+    text-decoration: overline;
+}
+
+.decorations > span:nth-of-type(2) {
+    text-decoration: underline;
+}
+
+.decorations > span:nth-of-type(3) {
+    text-decoration: line-through;
+}
+
+.transform > span:first-of-type{
+    text-transform: uppercase;
+}
+
+.transform > span:nth-of-type(2) {
+    text-transform: capitalize;
+}
+
+.transform > span:nth-of-type(3) {
+    text-transform: lowercase;
+}
+
+.whitespace {
+    white-space: pre;
+}
+
+div.colordemo {
+    font: inherit;
+    border: none;
+    background-color: inherit;
+    background-image: url('Converse_logo_type-100w-noalpha.png');
+    background-repeat: no-repeat;
+    background-position: bottom 75% right 50%;
+}
+
+.colordemo > ol > li:first-of-type > span {
+    background-color: green;
+}
+
+.colordemo > ol > li:nth-of-type(2) > span {
+    background-color: #FF8800;
+}
+
+.colordemo > ol > li:nth-of-type(3) > span {
+    background-color: rgb(128, 128, 128);
+}
+
+/* Lists */
+
+ul.listdemo li:first-of-type {
+    list-style-type: circle;
+}
+
+ul.listdemo li:last-of-type {
+    list-style-type: square;
+}
+
+ol.listdemo li:nth-of-type(2) {
+    list-style-type: upper-alpha;
+}
+
+ol.listdemo li:nth-of-type(3) {
+    list-style-type: lower-alpha;
+}
+
+ol.listdemo li:nth-of-type(4) {
+    list-style-type: upper-roman;
+}
+
+ol.listdemo li:nth-of-type(5) {
+    list-style-type: lower-roman;
+}
