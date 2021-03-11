@@ -249,6 +249,8 @@ div.textdemo {
     white-space: pre;
 }
 
+/* Colors */
+
 div.colordemo {
     font: inherit;
     border: none;
@@ -294,4 +296,73 @@ ol.listdemo li:nth-of-type(4) {
 
 ol.listdemo li:nth-of-type(5) {
     list-style-type: lower-roman;
+}
+
+/* Box model (padding, border, margin) */
+.colordemo > ol > li:first-of-type > span {
+    margin-top: 4ex;    /* No effect.  <li> takes its height strictly */
+    margin-bottom: 2ex;  /* from its content, ignoring margins. */
+    margin-left: 2em;
+    margin-right: 3em;
+    border: thin solid #003300;
+}
+
+.colordemo > ol > li:first-of-type {
+    margin-top: 4ex;
+    margin-bottom: 2ex;
+    border: thin solid #003300;
+}
+
+.colordemo > ol > li:nth-of-type(2) > span {
+    border: medium outset saddlebrown;
+}
+
+.colordemo > ol > li:nth-of-type(2) {
+    border-top: thick dashed brown;
+    border-left: 10px solid brown;
+    border-bottom: 5px double brown;
+    border-right: medium dotted brown;   
+}
+
+.colordemo > ol > li:nth-of-type(3) > span {
+    border: thin solid rgb(64, 64, 64);
+    padding-left: 2em;
+    padding-right: 3em;
+}
+
+.colordemo > ol > li:nth-of-type(3) {
+    border: thin solid rgb(64, 64, 64);
+    padding-top: 4ex;
+    padding-bottom: 2ex;
+}
+
+/* Width, height */
+table {
+    width: 100%;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    border: thin solid;
+}
+
+tr {
+    border-bottom: thin solid gray; 
+}
+
+tr:first-child {
+    border-bottom: none;
+}
+
+tr:nth-of-type(2) {
+    border-bottom: double;
+}
+
+th:first-child {
+    border-right: double;
+}
+
+tr:first-child > th:first-child {
+    border-right: none;
 }
