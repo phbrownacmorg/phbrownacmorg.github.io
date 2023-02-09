@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Forms demo, CSC 235, spring 2023</title>
+    </head>
+    <body>
+        <h1>Forms demo, CSC 235, spring 2023</h1>
+
+        <h2>GET form</h2>
+        <form action="https://cs.converse.edu/CSC235/formecho.php" method="get"
+         name="getform">
+            <label for="getname">What is your name?</label> 
+            <input name="name" id="getname" type="text"><br>
+            <label for="getquest">What is your quest?</label> 
+            <input name="quest" id="getquest" type="text"><br>
+            <label for="getcolor">What is your favorite color?</label>
+            <input type="color" id="getcolor" name="color"><br>
+            <label for="getbday">Date of birth:</label>
+            <input type="date" id="getbday" name="birthdate"><br>
+            <p>What is your graduating class?
+                <input type="radio" id="get-2023" value="2023"> 
+                <label for="get-2023">2023</label>
+                <input type="radio" id="get-2024" value="2024"> 
+                <label for="get-2024">2024</label>
+                <input type="radio" id="get-2025" value="2025"> 
+                <label for="get-2025">2025</label>
+                <input type="radio" id="get-2026" value="2026"> 
+                <label for="get-2026">2026</label>
+            </p>
+            <input type="submit" value="Submit"><input type="reset" value="Reset">
+        </form>
+
+        <h2>POST form</h2>
+        <form action="https://cs.converse.edu/CSC235/formecho.php" method="post"
+         name="postform">
+            <label for="postname">What is your name?</label> 
+            <input name="name" id="postname" type="text"><br>
+            <label for="postquest">What is your quest?</label> 
+            <input name="quest" id="postquest" type="text"><br>
+            <label for="postcolor">What is your favorite color?</label>
+            <input type="color" id="postcolor" name="color"><br>
+            <label for="postbday">Date of birth:</label>
+            <input type="date" id="postbday" name="birthdate"><br>
+            <p>What is your graduating class?
+                <input type="radio" id="post-2023" value="2023"> 
+                <label for="post-2023">2023</label>
+                <input type="radio" id="post-2024" value="2024"> 
+                <label for="post-2024">2024</label>
+                <input type="radio" id="post-2025" value="2025"> 
+                <label for="post-2025">2025</label>
+                <input type="radio" id="post-2026" value="2026"> 
+                <label for="post-2026">2026</label>
+            </p>
+            <input type="submit" value="Submit"><input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
