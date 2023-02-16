@@ -3,35 +3,39 @@
     <head>
         <meta charset="utf-8">
         <title>Forms demo, CSC 235, spring 2023</title>
+        <link rel="stylesheet" href="formsdemo.css">
+        <style>
+            h2 { color: purple; }
+        </style>
     </head>
     <body>
         <h1>Forms demo, CSC 235, spring 2023</h1>
 
-        <h2>GET form</h2>
+        <h2 style="text-align: left">GET form</h2>
         <form action="https://cs.converse.edu/CSC235/formecho.php" method="get"
          name="getform">
-            <fieldset>
+            <fieldset class="monty-python">
                 <legend>Monty Python's Bridge of Death</legend>
-                <label for="getname">What is your name?</label> 
-                <input name="name" id="getname" type="text"><br>
-                <label for="getquest">What is your quest?</label> 
-                <input name="quest" id="getquest" type="text"><br>
-                <label for="getcolor">What is your favorite color?</label>
-                <input type="color" id="getcolor" name="color"><br>
-                <label for="getswallow">What is the average speed of a swallow carrying a coconut?</label>
-                <input type="number" name="swallow" id="getswallow" min="-1" max="1" step="0.01"> <label for="getswallow">m/s</label><br>
-                <label for="get-can-swallow">Can a swallow <em>really</em> carry a coconut?</label>
+                <div><label for="getname">What is your name?</label> 
+                <input name="name" id="getname" type="text"></div>
+                <div><label for="getquest">What is your quest?</label> 
+                <input name="quest" id="getquest" type="text"></div>
+                <div><label for="getcolor">What is your favorite color?</label>
+                <input type="color" id="getcolor" name="color"></div>
+                <div class="gotcha"><label for="getswallow">What is the average speed of a swallow carrying a coconut?</label>
+                <input type="number" name="swallow" id="getswallow" min="-1" max="1" step="0.01"> <label for="getswallow">m/s</label></div>
+                <div><label for="get-can-swallow">Can a swallow <em>really</em> carry a coconut?</label>
                 <select name="can-swallow" id="get-can-swallow">
                     <option value="">&mdash;Please choose an option&mdash;</option>
-                    <option>No, the swallow is much too small</option>
-                    <option>Yes, it's SuperSwallow&trade;</option>
+                    <option id="get-small">No, the swallow is much too small</option>
+                    <option id="get-super-swallow">Yes, it's SuperSwallow&trade;!</option>
                     <option>Would that be an African swallow or a European swallow?</option>
-                    <option>Only if it's attached to a Chinese spy balloon</option>
-                </select><br>
+                    <option id="get-balloon">Only if it's attached to a Chinese spy balloon</option>
+                </select></div>
             </fieldset>
-            <fieldset>
+            <fieldset class="choices">
                 <legend>Choices&hellip;</legend>
-                <p>What is your graduating class?
+                <div id="getclass" class="choice"><p>What is your graduating class?</p>
                     <input type="radio" id="get-2023" name="graduation" value="2023"> 
                     <label for="get-2023">2023</label>
                     <input type="radio" id="get-2024" name="graduation" value="2024"> 
@@ -40,8 +44,8 @@
                     <label for="get-2025">2025</label>
                     <input type="radio" id="get-2026" name="graduation" value="2026"> 
                     <label for="get-2026">2026</label>
-                </p>
-                <p>My favorite animal(s) include (check all that apply):<br>
+                </div>
+                <div id="animal" class="choice"><p>My favorite animal(s) include (check all that apply):</p>
                     <input type="checkbox" value="cats" name="animal-cats" id="getcats">
                     <label for="getcats">Cats</label>
                     <input type="checkbox" value="dogs" name="animal-dogs" id="getdogs">
@@ -54,13 +58,13 @@
                     <label for="getcats">Anything cuddly</label>
                     <input type="checkbox" value="edible" name="animal-edible" id="getedible">
                     <label for="getcats">Anything that goes well on a grill</label>
-                </p>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Assorted randommess</legend>
-                <label for="gettemp">Approximate outside temperature (&deg;F):</label>
+                <div><label for="gettemp">Approximate outside temperature (&deg;F):</label>
                 <input type="range" name="temp" id="gettemp" min="30" max="110"
-                    list="templist"><br>
+                    list="templist"></div>
                     <datalist id="templist">
                         <option value="30"></option>
                         <option value="50"></option>
@@ -68,13 +72,13 @@
                         <option value="90"></option>
                         <option value="110"></option>
                     </datalist>
-                <label for="getbday">Date of birth:</label>
-                <input type="date" id="getbday" name="birthdate"><br>
-                <label for="getpassword">The super-secret password is:</label>
-                <input type="password" name="password" id="getpassword"><br>
+                <div><label for="getbday">Date of birth:</label>
+                <input type="date" id="getbday" name="birthdate"></div>
+                <div><label for="getpassword">The super-secret password is:</label>
+                <input type="password" name="password" id="getpassword"></div>
                 <input type="hidden" name="hidden" value="This is most often useful for communicating state between forms">
-                <p><label for="getcomments">Comments:</label>
-                   <textarea name="comments" id="getcomments">Sample text can go here</textarea></p>
+                <div><label for="getcomments">Comments:</label>
+                   <textarea name="comments" id="getcomments">Sample text can go here</textarea></div>
             </fieldset>
             <input type="submit" value="Submit"><input type="reset" value="Reset">
         </form>

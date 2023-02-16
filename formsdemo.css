@@ -1,0 +1,34 @@
+/* Element selection by tag name.  Useful when appearance and structure
+   are closely related.  Selectors separated by commas, as here, mean
+   that the style data applies to elements that match *any* of the 
+   selectors.*/
+h1, h2, h3, h4, h5, h6 {  /* Center all the headers! (at any level) */
+    text-align: center;
+}
+
+/* element selection by parent gives some context to the selection */
+fieldset > div {
+    padding-bottom: 1ex;
+}
+
+/* element selection by parent doesn't have to use element tags only */
+.choice > p {
+    margin: 0;
+}
+
+/* element selection by class (and then inheritance).
+  This is probably *the* most common selector. */
+.gotcha {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 110%;
+}
+
+/* element selection by id
+    Highly specific, but you can only do one element at a time. */
+#get-super-swallow {
+    font-family: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    font-style: italic;
+    font-size: 125%;
+    font-weight: bold;
+}
