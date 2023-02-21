@@ -17,21 +17,21 @@
             <fieldset class="monty-python">
                 <legend>Monty Python's Bridge of Death</legend>
                 <div><label for="getname">What is your name?</label> 
-                <input name="name" id="getname" type="text"></div>
+                    <input name="name" id="getname" type="text"></div>
                 <div><label for="getquest">What is your quest?</label> 
-                <input name="quest" id="getquest" type="text"></div>
+                    <input name="quest" id="getquest" type="text"></div>
                 <div><label for="getcolor">What is your favorite color?</label>
-                <input type="color" id="getcolor" name="color"></div>
+                    <input type="color" id="getcolor" name="color"></div>
                 <div class="gotcha"><label for="getswallow">What is the average speed of a swallow carrying a coconut?</label>
-                <input type="number" name="swallow" id="getswallow" min="-1" max="1" step="0.01"> <label for="getswallow">m/s</label></div>
-                <div><label for="get-can-swallow">Can a swallow <em>really</em> carry a coconut?</label>
-                <select name="can-swallow" id="get-can-swallow">
-                    <option value="">&mdash;Please choose an option&mdash;</option>
-                    <option id="get-small">No, the swallow is much too small</option>
-                    <option id="get-super-swallow">Yes, it's SuperSwallow&trade;!</option>
-                    <option>Would that be an African swallow or a European swallow?</option>
-                    <option id="get-balloon">Only if it's attached to a Chinese spy balloon</option>
-                </select></div>
+                    <input type="number" name="swallow" id="getswallow" min="-1" max="1" step="0.01"> <label for="getswallow">m/s</label></div>
+                <div class="riposte"><label for="get-can-swallow">Can a swallow <em>really</em> carry a coconut?</label>
+                    <select name="can-swallow" id="get-can-swallow">
+                        <option value="">&mdash;Please choose an option&mdash;</option>
+                        <option id="get-small">No, the swallow is much too small</option>
+                        <option id="get-super-swallow">Yes, it's SuperSwallow&trade;!</option>
+                        <option>Would that be an African swallow or a European swallow?</option>
+                        <option id="get-balloon">Only if it's attached to a Chinese spy balloon</option>
+                    </select></div>
             </fieldset>
             <fieldset class="choices">
                 <legend>Choices&hellip;</legend>
@@ -82,6 +82,51 @@
             </fieldset>
             <input type="submit" value="Submit"><input type="reset" value="Reset">
         </form>
+
+        <h2>Outline</h2>
+
+        <ol class="outline">
+            <li>Beginning<ol>
+                <li>Beginning of the beginning<ol>
+                    <li>Beginning of the beginning of the beginning</li>
+                    <li>Middle of the beginning of the beginning</li>
+                    <li>End of the beginning of the beginning</li>
+                </ol></li>
+                <li>Middle of the beginning</li>
+                <li>End of the beginning (El Alamein)<ol>
+                    <li>Beginning of the end of the beginning</li>
+                    <li>Middle of the end of the beginning<ol>
+                        <li>Beginning of the middle of the end of the beginning</li>
+                        <li>Middle of the middle of the end of the beginning</li>
+                        <li>End of the middle of the end of the beginning<ol>
+                            <li>Beginning of the end of the middle of the end of the beginning</li>
+                            <li>Middle of the end of the middle of the end of the beginning</li>
+                            <li>End of the end of the middle of the end of the beginning</li>
+                        </ol></li>
+                    </ol></li>
+                    <li>End of the end of the beginning<ol>
+                        <li>Beginning of the end of the end of the beginning</li>
+                        <li>Middle of the end of the end of the beginning</li>
+                        <li>End of the end of the end of the beginning</li>
+                    </ol></li>
+                </ol></li>
+            </ol></li>
+            <li>Middle<ol>
+                <li>Beginning of the middle</li>
+                <li>Middle of the middle</li>
+                <li>End of the middle</li>
+            </ol></li>
+            <li>End (not El Alamein)<ol>
+                <li>Beginning of the end (not <span class="dropdown-root"><a href="https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein">El Alamein</a>)
+                    <ul class="dropdown">
+                        <li><a href="https://en.wikipedia.org/wiki/Battle_of_Britain">Battle of Britain</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Battle_of_Midway">Midway</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Battle_of_Stalingrad">Stalingrad</a></li>
+                    </ul></span></li>  
+                <li>Middle of the end</li>
+                <li>End of the end</li>
+            </ol></li>
+        </ol>
 
         <h2>POST form</h2>
         <form action="https://cs.converse.edu/CSC235/formecho.php" method="post"

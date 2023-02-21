@@ -32,3 +32,67 @@ fieldset > div {
     font-size: 125%;
     font-weight: bold;
 }
+
+/* element selection by :last-child pseudo-class.  Pseudo-classes are 
+   are often helpful when you don't have control of the HTML, *but*
+   they are usually vulnerable to somebody editing (especially reordering)
+   the HTML. */
+.monty-python > :last-child {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Element selection by ancestry, producing a classic outline.
+   The more-specific-stuff-rules part of the CSS cascade is crucial here. */
+.choices label {
+    background-color: tan;
+}
+
+.outline > li {
+    list-style-type: upper-roman;
+}
+
+.outline > li li {
+    list-style-type: upper-alpha;
+}
+
+.outline > li li li {
+    list-style-type: decimal;
+}
+
+.outline > li li li li {
+    list-style-type: lower-alpha;
+}
+
+.outline > li li li li li {
+    list-style-type: lower-roman;
+}
+
+/* Element selection by sibling (the + part) and :first-of-type pseudoclass. */
+div.choice:first-of-type > input:first-of-type + label, div.choice:first-of-type > input:nth-of-type(3) + label { 
+    background-color: red;  /* Red Devil year */
+}
+
+div.choice:first-of-type > input:last-of-type + label, div.choice:first-of-type > input:nth-of-type(2) + label { 
+    background-color: pink; /* Pink Panther year */
+}
+
+/* Using dynamic pseudoclasses to create a CSS-only dropdown menu. */
+span.dropdown-root > ul.dropdown > li {
+    list-style-type: none;
+    position: absolute;
+}
+
+.dropdown-root > ul.dropdown {
+    /* background-color: green; */
+    display: none;
+    /* top: 3ex; */
+}
+
+.dropdown-root > ul.dropdown > li {
+    position: relative;
+    left: 15em;
+}
+
+.dropdown-root:hover > ul {
+    display: inherit;
+}
