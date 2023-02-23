@@ -121,25 +121,12 @@ div.choice:first-of-type > input:nth-of-type(2) + label {
 }
 
 /* ------------------- Indicate required items ------------------------------------------------ */
-ul.validity {
-    list-style-type: none;
-    padding-inline-start: 0;
-}
-
-.invalid {
-    color: red;
-}
-
-.valid {
-    color: green;
-}
-
 span.flag {
-    color: red;
+    color: firebrick;
 }
 
 span.flag::before {
-    color: red;
+    color: firebrick;
     content: '*';
 }
 
@@ -147,3 +134,18 @@ span.flag::before {
     color: green;
     content: '✓';
 }
+
+/* for the key at the top */
+ul.validity {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.invalid {
+    color: firebrick;
+}
+
+.valid {
+    color: green;
+}
+

@@ -12,6 +12,10 @@
         <h1>Forms demo, CSC 235, spring 2023</h1>
 
         <h2 style="text-align: left">GET form</h2>
+        <ul class="validity key">
+            <li class="invalid"><span>*</span> Required field, not yet valid</li>
+            <li class="valid"><span>&check;</span> Valid field</li>
+        </ul>
         <form action="https://cs.converse.edu/CSC235/formecho.php" method="get"
          name="getform">
             <fieldset class="monty-python">
@@ -43,7 +47,7 @@
                     <label for="get-2024">2024</label>
                     <input type="radio" id="get-2025" name="graduation" value="2025"> 
                     <label for="get-2025">2025</label>
-                    <input type="radio" id="get-2026" name="graduation" value="2026" required> 
+                    <input type="radio" id="get-2026" name="graduation" value="2026"> 
                     <label for="get-2026">2026</label>
                 </div>
                 <div id="animal" class="choice"><p>My favorite animal(s) include (check all that apply):<span class="flag"></span></p>
@@ -138,13 +142,14 @@
                 <label for="postname">What is your name?</label> 
                 <input name="name" id="postname" type="text" required><br>
                 <label for="postquest">What is your quest?</label> 
-                <input name="quest" id="postquest" type="text"><br>
+                <input name="quest" id="postquest" type="text" required><br>
                 <label for="postcolor">What is your favorite color?</label>
-                <input type="color" id="postcolor" name="color"><br>
+                <input type="color" id="postcolor" name="color" required><br>
                 <label for="postswallow">What is the average speed of a swallow carrying a coconut?</label>
-                <input type="number" name="swallow" id="postswallow" min="-1" max="1" step="0.01"> <label for="postswallow">m/s</label><br>
+                <input type="number" name="swallow" id="postswallow" min="-1" max="1" step="0.01" required> 
+                <label for="postswallow">m/s</label><br>
                 <label for="post-can-swallow">Can a swallow <em>really</em> carry a coconut?</label>
-                <select name="can-swallow" id="post-can-swallow">
+                <select name="can-swallow" id="post-can-swallow" required>
                     <option value="">&mdash;Please choose an option&mdash;</option>
                     <option>No, the swallow is much too small</option>
                     <option>Yes, it's SuperSwallow&trade;</option>
@@ -155,7 +160,7 @@
             <fieldset>
                 <legend>Choices&hellip;</legend>
                 <p>What is your graduating class?
-                    <input type="radio" id="post-2023" value="2023"> 
+                    <input type="radio" id="post-2023" value="2023" required> 
                     <label for="post-2023">2023</label>
                     <input type="radio" id="post-2024" value="2024"> 
                     <label for="post-2024">2024</label>
