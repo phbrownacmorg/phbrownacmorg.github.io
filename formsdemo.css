@@ -68,31 +68,82 @@ fieldset > div {
 }
 
 /* Element selection by sibling (the + part) and :first-of-type pseudoclass. */
-div.choice:first-of-type > input:first-of-type + label, div.choice:first-of-type > input:nth-of-type(3) + label { 
+div.choice:first-of-type > input:first-of-type + label, 
+div.choice:first-of-type > input:nth-of-type(3) + label { 
     background-color: red;  /* Red Devil year */
 }
 
-div.choice:first-of-type > input:last-of-type + label, div.choice:first-of-type > input:nth-of-type(2) + label { 
+div.choice:first-of-type > input:last-of-type + label, 
+div.choice:first-of-type > input:nth-of-type(2) + label { 
     background-color: pink; /* Pink Panther year */
 }
 
 /* Using dynamic pseudoclasses to create a CSS-only dropdown menu. */
-span.dropdown-root > ul.dropdown > li {
-    list-style-type: none;
-    position: absolute;
+
+/* The parent of the dropdown has to be a block-level element */
+.dropdown-root {
+    display: inline-block; /* Don't display as block */
+    position: relative; /* Allow this element to be used for positioning */
 }
 
-.dropdown-root > ul.dropdown {
-    /* background-color: green; */
+/* Hide the dropdown menu normally */
+.dropdown-root > .dropdown {
     display: none;
-    /* top: 3ex; */
 }
 
-.dropdown-root > ul.dropdown > li {
-    position: relative;
-    left: 15em;
+/* Show the menu when the mouse hovers over the parent */
+.dropdown-root:hover > .dropdown {
+    display: block;
+    /* Position when it shows up should be *outside* the normal flow */
+    position: absolute; /* Relative to the positioning parent */
+    /* The position can be adjusted using left, right, top, and bottom */
+    left: 1em;
+
+    /* Get rid of the space before the items, so I can put a border around the whole thing */
+    padding-inline-start: 0;
+    border: thin solid black;
 }
 
-.dropdown-root:hover > ul {
-    display: inherit;
+/* Just ".dropdown > li" would be enough if there were no other rules applying */
+.dropdown-root > .dropdown > li {
+    list-style-type: none;
+    /* Mark off the items from each other */
+    border: thin solid black;
+    /* Make the menu items obscure anything they cover */
+    background-color: antiquewhite;
+    /* Make the items a little less cramped-looking */
+    padding: .1em;
+}
+
+/* Turn the menu items' background white when the mouse hovers over the item. */
+.dropdown > li:hover {
+    background-color: white;
+}
+
+/* ------------------- Indicate required items ------------------------------------------------ */
+ul.validity {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.invalid {
+    color: red;
+}
+
+.valid {
+    color: green;
+}
+
+span.flag {
+    color: red;
+}
+
+span.flag::before {
+    color: red;
+    content: '*';
+}
+
+:valid + span.flag::before, span.flag.valid::before {
+    color: green;
+    content: '✓';
 }
