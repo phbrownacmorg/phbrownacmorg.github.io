@@ -1,0 +1,73 @@
+/* For an exploration of CSS selectors, see formsdemo.css. */
+
+/* --------------------- FONTS -----------------------------------------*/
+
+/* Font family */
+.gill_sans {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cursive {
+    font-family: 'Zapfino', cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Font style */
+.italic {
+    font-style: italic; 
+}
+
+.nonitalic {
+    font-style: normal;
+}
+
+/* Font variant */
+.small-caps {
+    font-variant: small-caps;
+}
+
+/* Font weight */
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+/* Font size */
+.size100 {
+    font-size: 100%; /* Not relative to parent, but (usually) to normal size of self,
+                        despite the spec */
+}
+
+.size75 {
+    font-size: 75%;
+}
+
+.size110 {
+    font-size: 110%;
+}
+
+.size125 {
+    font-size: 125%;
+}
+
+.size150 {
+    font-size: 150%;
+}
+
+.size200 {
+    font-size: 200%;
+}

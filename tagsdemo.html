@@ -3,20 +3,24 @@
     <head>
         <meta charset="utf-8">
         <title>HTML tags demo, CSC 235, Spring 2023</title>
+        <link rel="stylesheet" href="tagsdemo.css">
         <style>
             table { border-collapse: collapse; }
             th, td { border: thin solid; }
         </style>
     </head>
     <body>
-        <h1 id="tags">HTML tags</h1>
-        <p>HTML indicates structure, and only incidentally appearance.  Much
-            seriously noxious HTML comes from trying to get the HTML to do appearance,
-            when CSS is really a far better tool for that.</p>
+        <h1 id="tags">HTML <span class="size75">tags</span></h1>
+        <p>HTML indicates structure, and only <span class="gill_sans">incidentally 
+            appearance</span>.  Much <span class="cursive">seriously noxious HTML</span>
+            comes from trying to get the HTML to <span class="fantasy">do appearance</span>,
+            when CSS is really a <span class="monospace">far better tool</span> for that.</p>
         <h2>Structural elements</h2>
-        <p>Structural elements are part of the structure of the document,
-            without necessarily having a whole lot to do with its appearance.
-            So &lt;div&gt; marks off a division within the document, but says
+        <p><span class="italic">Structural elements <span class="nonitalic">are part</span>
+            of the structure</span>
+            of the document, <span class="bold">without</span> necessarily <span class="bolder">having
+             a whole lot <span class="lighter">to do with</span>
+            its appearance</span>.  So &lt;div&gt; marks off a division within the document, but says
             nothing whatever about what <em>kind</em> of division.  Similarly,
             &lt;span&gt; marks off a <span style="font-family: monospace">span of characters</span>, but tells nothing
             about why those particular characters are special.  The most common
@@ -25,7 +29,10 @@
             attributes, which we'll see in more detail later).
         </p>
         <h3>Headers</h3>
-        <p>Header tags are also structural, but do tell something about what's
+        <p><span class="small-caps">Header tags</span> <span class="size75">are</span>
+            <span class="size100">also</span> <span class="size110">structural,</span> 
+            <span class="size125">but</span> <span class="size150">do</span> 
+            <span class="size200">tell</span> something about what's
             special&mdash;that text is a header of the given level.</p>
         <h2>Links</h2>
         <p>Links, made with the &lt;a&gt; tag, make the World Wide Web actually

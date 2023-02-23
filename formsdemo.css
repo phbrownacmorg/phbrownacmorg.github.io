@@ -1,3 +1,5 @@
+/* For a more organized exploration of CSS attributes, see tagsdemo.css */
+
 /* Element selection by tag name.  Useful when appearance and structure
    are closely related.  Selectors separated by commas, as here, mean
    that the style data applies to elements that match *any* of the 
@@ -16,12 +18,15 @@ fieldset > div {
     margin: 0;
 }
 
-/* element selection by class (and then inheritance).
-  This is probably *the* most common selector. */
+/* element selection by class.
+  This is probably *the* most common selector. 
+  Note that the CSS properties set here are *inherited* by the descendants
+  of the element that actually matches this selector (which is a div). */
 .gotcha {
     font-weight: bold;
     font-style: italic;
     font-size: 110%;
+    background-color: lightgray;
 }
 
 /* element selection by id
@@ -110,7 +115,7 @@ div.choice:first-of-type > input:nth-of-type(2) + label {
     /* Mark off the items from each other */
     border: thin solid black;
     /* Make the menu items obscure anything they cover */
-    background-color: antiquewhite;
+    background-color: tan;
     /* Make the items a little less cramped-looking */
     padding: .1em;
 }
@@ -121,16 +126,13 @@ div.choice:first-of-type > input:nth-of-type(2) + label {
 }
 
 /* ------------------- Indicate required items ------------------------------------------------ */
-span.flag {
-    color: firebrick;
-}
-
 span.flag::before {
     color: firebrick;
     content: '*';
 }
 
-:valid + span.flag::before, span.flag.valid::before {
+:valid + span.flag::before, span.flag.valid::before, 
+:valid + label + span.flag::before {
     color: green;
     content: '✓';
 }
