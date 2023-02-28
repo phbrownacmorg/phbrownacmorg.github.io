@@ -71,3 +71,44 @@
 .size200 {
     font-size: 200%;
 }
+
+/* Indenting text */
+.indented { text-indent: 2em; } /* Only affects the first line */
+/* alignment */
+h1, .centered { text-align: center; }
+.right { text-align: right; }
+
+/* Text decoration */
+.underline { text-decoration: underline; }
+.overline { text-decoration: overline; }
+.line-through { text-decoration: line-through; }
+
+/* White space */
+.pre { white-space: pre; } /* Like the <pre> tag, but without the font change */
+.pre-wrap { white-space: pre-wrap; } /* Don't collapse white space, but do wrap */
+.pre-line { white-space: pre-line; } /* Just preserves line breaks */
+
+/* Colors */
+.red { color: darkred; }
+.green { color: #006600; } /* Hex code: RRGGBB */
+.blue { color: rgb(0, 0, 255); }
+.gray { background-color: rgb(160, 160, 160); }
+.brown { background-color: peru;}
+
+.boxed {
+    padding: 2ex;
+    background-color: lightblue;
+    border-top: thin solid;
+    border-bottom: thin dashed;
+    border-left: medium dotted;
+    border-right: medium double;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.colhead { border-right: double; }
+
+thead {
+    border-bottom: double; 
+}
+

@@ -6,17 +6,17 @@
         <link rel="stylesheet" href="tagsdemo.css">
         <style>
             table { border-collapse: collapse; }
-            th, td { border: thin solid; }
+            /* th, td { border: thin solid; } */
         </style>
     </head>
     <body>
         <h1 id="tags">HTML <span class="size75">tags</span></h1>
-        <p>HTML indicates structure, and only <span class="gill_sans">incidentally 
+        <p class="centered">HTML indicates structure, and only <span class="gill_sans">incidentally 
             appearance</span>.  Much <span class="cursive">seriously noxious HTML</span>
             comes from trying to get the HTML to <span class="fantasy">do appearance</span>,
             when CSS is really a <span class="monospace">far better tool</span> for that.</p>
         <h2>Structural elements</h2>
-        <p><span class="italic">Structural elements <span class="nonitalic">are part</span>
+        <p class="indented"><span class="italic">Structural elements <span class="nonitalic">are part</span>
             of the structure</span>
             of the document, <span class="bold">without</span> necessarily <span class="bolder">having
              a whole lot <span class="lighter">to do with</span>
@@ -46,34 +46,40 @@
             encloses strongly emphasized text, usually rendered in bold (<strong>again,
                 this is not guaranteed!</strong>).
         </p>
-        <h3>Less common</h3>
+        <h3 class="centered">Less common</h3>
         <p><sub>&lt;sub&gt;</sub> and <sup>&lt;sup&gt;</sup> do what they say.  &lt;br /&gt; forces<br>a line break.</p>
         <pre>HTML generally collapses white space in the code; use &lt;pre&gt; if you
             must
             have    control.
-        </pre> 
+        </pre>
+        <p><span class="pre">White 
+            space 
+                  can</span> <span class="pre-wrap">
+        also                                                be                                                    controlled                                                           from                                                            CSS,</span> 
+        <span class="pre-line">with             far                   more                flexibility
+                    than the &lt;pre&gt; tag allows.</span></p> 
         <blockquote style="margin-bottom: 0">The &lt;blockquote&gt; tag is good for long quotations, unlike this one.</blockquote><p style="font-size: 85%; margin-top: 0; margin-left: 50%">&mdash;somebody quotable once said&hellip;</p>
-        <h3>Geeks only</h3>
+        <h3 class="right">Geeks only</h3>
         <p>&lt;code&gt; encloses computer code.  &lt;var&gt; encloses variables, so:<br>
             <code><var>i</var> = <var>i</var> + 1</code>
         </p>
         <h2>Lists</h2>
         <ol>
-            <li>One (These items have a natural ordering.)</li>
+            <li class="underline">One (These items have a natural ordering.)</li>
             <li>Two</li>
-            <li>Three</li>
-            <li>Four</li>
+            <li class="overline">Three</li>
+            <li class="line-through">Four</li>
         </ol>
         <ul>
-            <li>Red (These items don't.)</li>
-            <li>Green</li>
-            <li>Blue</li>
-            <li>Gray</li>
-            <li>Brown</li>
+            <li class="red">Red (These items don't.)</li>
+            <li class="green">Green</li>
+            <li class="blue">Blue</li>
+            <li class="gray">Gray</li>
+            <li class="brown">Brown</li>
         </ul>
         <dl>
             <dt>Term</dt>
-            <dd>A <em>term</em> is an item in a definition list.</dd>
+            <dd class="boxed">A <em>term</em> is an item in a definition list.</dd>
             <dt>Definition</dt>
             <dd>A <em>definition</em> is the writer's valiant attempt to make sense of the term.</dd>
         </dl>
@@ -81,6 +87,10 @@
         <h2>Tables</h2>
         <table>
             <caption>This afternoon's weather</caption>
+            <colgroup>
+                <col class="colhead" span="2">
+                <col class="coldata" span="4">
+            </colgroup>
             <thead>
                 <tr><th rowspan="2">Date</th><th rowspan="2">Time</th><th colspan="4">Conditions</th></tr>
                 <tr><th>Temperature</th><th>Wind</th><th>Humidity</th><th>Barometer</th></tr>

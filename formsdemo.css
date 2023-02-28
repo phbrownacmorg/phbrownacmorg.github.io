@@ -68,8 +68,16 @@ fieldset > div {
     list-style-type: lower-alpha;
 }
 
+.outline > li li li li:first-child::marker {
+    content: "(" counter(list-item, lower-alpha) ") ";
+}
+
 .outline > li li li li li {
     list-style-type: lower-roman;
+}
+
+.outline > li li li li li:first-child::marker {
+    content: "(" counter(list-item, lower-roman) ") ";
 }
 
 /* Element selection by sibling (the + part) and :first-of-type pseudoclass. */
