@@ -106,9 +106,23 @@ h1, .centered { text-align: center; }
     margin-bottom: 1em;
 }
 
-.colhead { border-right: double; }
 
-thead {
-    border-bottom: double; 
+th {
+    border-right: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+    padding: .2ex .2em; /* top right bottom left */
 }
+th:last-child { border-right: none; }
+
+td { 
+    border-right: 1px dotted gray; 
+    border-top: 1px dotted gray;
+    text-align: center;
+    padding: .2ex .2em; /* top right bottom left */
+}
+td:last-child { border-right: none; }
+
+.coltime { border-right: 2px solid; }
+
+thead { border-bottom: 2px solid; }
 

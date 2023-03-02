@@ -86,13 +86,15 @@
 
         <h2>Tables</h2>
         <table>
-            <caption>This afternoon's weather</caption>
+            <caption class="bold size125">This afternoon's weather</caption>
             <colgroup>
-                <col class="colhead" span="2">
-                <col class="coldata" span="4">
+                <col class="coldate" span="1">
+                <col class="coltime" span="1">
+                <col class="coldata" span="3">
+                <col class="colright" span="1">
             </colgroup>
             <thead>
-                <tr><th rowspan="2">Date</th><th rowspan="2">Time</th><th colspan="4">Conditions</th></tr>
+                <tr class="toprow"><th rowspan="2">Date</th><th rowspan="2">Time</th><th colspan="4">Conditions</th></tr>
                 <tr><th>Temperature</th><th>Wind</th><th>Humidity</th><th>Barometer</th></tr>
             </thead>
             <tbody>
@@ -101,11 +103,11 @@
                 <tr><td>1:15 PM</td><td>63&deg; F</td><td>WSW 12 MPH</td><td>27%</td><td>30.31" Hg</td></tr>
                 <tr><td>12:55 PM</td><td>63&deg; F</td><td>SW 8 MPH</td><td>30%</td><td>30.32" Hg</td></tr>
                 <tr><td>12:35 PM</td><td>61&deg; F</td><td>SW 8 MPH</td><td>34%</td><td>30.33" Hg</td></tr>
-                <tr><td>12:15 PM</td><td>61&deg; F</td><td>S 7 MPH</td><td>34%</td><td>30.35" Hg</td></tr>
+                <tr class="lastrow"><td>12:15 PM</td><td>61&deg; F</td><td>S 7 MPH</td><td>34%</td><td>30.35" Hg</td></tr>
             </tbody>
         </table>
         <h2>Images</h2>
-        <img style="width: 100%" src="https://www.american-rails.com/images/00912487235617824091hj5186209878.jpg"
+        <img style="width: 75%; margin-left: 12.5%" src="https://www.american-rails.com/images/00912487235617824091hj5186209878.jpg"
                 alt="Large electric locomotive">
     </body>
 </html>
