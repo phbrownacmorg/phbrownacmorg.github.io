@@ -96,16 +96,23 @@ h1, .centered { text-align: center; }
 .brown { background-color: peru;}
 
 .boxed {
-    padding: 2ex;
+    padding: .5ex;
     background-color: lightblue;
     border-top: thin solid;
     border-bottom: thin dashed;
     border-left: medium dotted;
     border-right: medium double;
+    margin-left: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
+.boxed3 {
+    padding: 2ex;
+    border-radius: 2ex;
+    border: medium outset;
+    box-shadow: 0.5em 0.5em 0.4em rgba(0, 0, 0, 0.2) ;
+}
 
 th {
     border-right: 1px dotted gray;
@@ -126,3 +133,16 @@ td:last-child { border-right: none; }
 
 thead { border-bottom: 2px solid; }
 
+/* Line height */
+.line140 { line-height: 140%; }
+
+/* Newspaper columns */
+.newspaper {
+    columns: 3;
+    column-rule: thin solid slategrey;
+}
+
+.columnspan {
+    column-span: all;
+    text-align: center;
+}
