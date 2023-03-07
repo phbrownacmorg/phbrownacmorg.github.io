@@ -146,3 +146,83 @@ thead { border-bottom: 2px solid; }
     column-span: all;
     text-align: center;
 }
+
+/* ---------------- POSITIONING ----------------------*/
+
+.positioning {
+    line-height: 200%;
+    position: relative;
+}
+
+.positioning > p {
+    border: thin dotted gray;
+    width: 220px;
+    height: 200px;
+}
+
+.outer { 
+    color: red;
+    border: thin dotted red;    
+ }
+.inner { 
+    color: blue; 
+    border: thin dotted blue;
+}
+.sibling { 
+    color: green;
+    border: thin dotted green; 
+}
+
+.relative > .outer {
+    position: relative;
+    top: -16px;
+}
+.relative .inner {
+    position: relative;
+    top: 16px;
+}
+
+.floating .inner {
+    float: right;
+    width: 80px;
+}
+
+.clear .sibling { /* Why does this not have any effect? */
+    clear: both;
+}
+
+.absolute > .outer {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    width: 200px;
+}
+
+.parented > .outer {
+    position: relative; /* Not moved, just used to establish a parent */
+}
+
+.parented .inner {
+    position: absolute;
+    top: 100px;
+    left: -50px;
+    width: 80px;
+    height: 80px;
+}
+
+.changebars {
+    position: relative;
+    left: 10px; 
+    margin-right: 10px; 
+}
+.changebar {
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: auto; /* In other words, where it would have been without positioning */
+    left: -0.5em;
+}
+
+/* Vertical alignment */
+.toprow > th:first-child { vertical-align: top; }
+thead th:nth-of-type(2) { vertical-align: bottom; }

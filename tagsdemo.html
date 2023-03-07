@@ -109,5 +109,52 @@
         <h2>Images</h2>
         <img style="width: 60%; margin-left: 20%" src="https://www.american-rails.com/images/00912487235617824091hj5186209878.jpg"
                 alt="Large electric locomotive">
+        <div class="positioning">
+            <h2>Positioning</h2>
+            <h3>Normal flow</h3>
+            <p class="normal">Beginning of body contents.  
+                <span class="outer">Start of outer contents. 
+                    <span class="inner">Inner contents.</span>
+                End of outer contents.</span>
+            End of body contents.</p>
+            <h3>Relative positioning</h3>
+            <p class="relative">Beginning of body contents.  
+                <span class="outer">Start of outer contents. 
+                    <span class="inner">Inner contents.</span>
+                End of outer contents.</span>
+            End of body contents.</p>
+            <h3>Floating a box</h3>
+            <p class="floating">Beginning of body contents.  
+                <span class="outer">Start of outer contents. 
+                    <span class="inner">Inner contents.</span>
+                    <span class="sibling">Sibling contents.</span>
+                End of outer contents.</span>
+            End of body contents.</p>
+            <h4>Floating with <samp>clear</samp></h4>
+            <p class="floating clear">Beginning of body contents.  
+                <span class="outer">Start of outer contents. 
+                    <span class="inner">Inner contents.</span>
+                    <span class="sibling">Sibling contents.</span>
+                End of outer contents.</span>
+            End of body contents.</p>
+            <h3>Absolute positioning</h3>
+            <p class="absolute">Beginning of body contents.  
+                <span class="outer">Start of outer contents. 
+                    <span class="inner">Inner contents.</span>
+                End of outer contents.</span>
+            End of body contents.  (The positioning parent is the &lt;div&gt;,
+            which is why the outer &lt;span&gt; ran away from here.)</p>
+            <h4>Absolute positioning, with positioning parent</h4>
+            <p class="parented">Beginning of body contents.  
+                <span class="outer">Start of outer contents. 
+                    <span class="inner">Inner contents.</span>
+                End of outer contents.</span>
+            End of body contents.</p>
+            <h3>Change bars</h3>
+            <p class="changebars">Using a red | to serve as a change bar,
+                it can be "floated" to the left of THIS<span class="changebar">|</span>
+                word.
+            </p>
+        </div>
     </body>
 </html>
