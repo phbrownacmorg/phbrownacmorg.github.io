@@ -114,6 +114,10 @@ h1, .centered { text-align: center; }
     box-shadow: 0.5em 0.5em 0.4em rgba(0, 0, 0, 0.2) ;
 }
 
+/*------------ TABLES ---------------------------------*/
+
+/* Collapsed borders */
+
 th {
     border-right: 1px dotted gray;
     border-bottom: 1px dotted gray;
@@ -132,6 +136,41 @@ td:last-child { border-right: none; }
 .coltime { border-right: 2px solid; }
 
 thead { border-bottom: 2px solid; }
+
+/* Table with separated borders */
+table.separate-borders {
+    border-collapse: separate;
+    border-spacing: 1ex;
+    empty-cells: hide;
+}
+
+.separate-borders th, .separate-borders td {
+    border: 1px solid gray;
+}
+
+.separate-borders tr:last-child > th,
+.separate-borders th[rowspan] {
+    border-bottom: 2px solid black;
+}
+
+.separate-borders td:first-of-type,
+.separate-borders tr:first-child td:nth-of-type(2) {
+    border-right: 2px solid black;
+}
+
+img {
+    width: 60%;
+    margin-left: 20%;
+}
+
+img.small {
+    width: 15%;
+    max-width: 150px;
+}
+
+.separate-borders td[rowspan] {
+    border-right: 1px solid gray;
+}
 
 /* Line height */
 .line140 { line-height: 140%; }
@@ -226,3 +265,4 @@ thead { border-bottom: 2px solid; }
 /* Vertical alignment */
 .toprow > th:first-child { vertical-align: top; }
 thead th:nth-of-type(2) { vertical-align: bottom; }
+
