@@ -168,6 +168,45 @@ img.small {
     max-width: 150px;
 }
 
+img.responsive {
+    aspect-ratio: 3300 / 1743;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* Now, use media queries to load the correct image */
+@media (max-width: 533px) {
+    img.responsive {
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Butte%2C_Anaconda_and_Pacific_Railway_electric_locomotive.jpg/320px-Butte%2C_Anaconda_and_Pacific_Railway_electric_locomotive.jpg");
+    }
+}
+@media (min-width: 534px) and (max-width: 1067px) {
+    img.responsive {
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Butte%2C_Anaconda_and_Pacific_Railway_electric_locomotive.jpg/640px-Butte%2C_Anaconda_and_Pacific_Railway_electric_locomotive.jpg");
+    }
+}
+@media (min-width: 1068px) and (max-width: 1333px) {
+    img.responsive {
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Butte%2C_Anaconda_and_Pacific_Railway_electric_locomotive.jpg/800px-Butte%2C_Anaconda_and_Pacific_Railway_electric_locomotive.jpg");
+    }
+}
+@media (min-width: 1334px) and (max-width: 1706px) {
+    img.responsive {
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Butte%2C_Anaconda_and_Pacific_Railway_electric_locomotive.jpg/1024px-Butte%2C_Anaconda_and_Pacific_Railway_electric_locomotive.jpg");
+    }
+}
+@media (min-width: 1707px) and (max-width: 2133px) {
+    img.responsive {
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Butte%2C_Anaconda_and_Pacific_Railway_electric_locomotive.jpg/1280px-Butte%2C_Anaconda_and_Pacific_Railway_electric_locomotive.jpg");
+    }
+}
+@media (min-width: 2134px) {
+    img.responsive {
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9a/Butte%2C_Anaconda_and_Pacific_Railway_electric_locomotive.jpg");
+    }
+}
+
+
 .separate-borders td[rowspan] {
     border-right: 1px solid gray;
 }
@@ -177,7 +216,7 @@ img.small {
 
 /* Newspaper columns */
 .newspaper {
-    columns: 3;
+    column-width: 12em;
     column-rule: thin solid slategrey;
 }
 
