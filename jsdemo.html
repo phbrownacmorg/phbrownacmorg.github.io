@@ -5,6 +5,20 @@
         <title>Javascript demo, CSC 235, Spring 2023</title>
         <style>
             div { margin-bottom: 3ex; }
+            .output {
+                border-style: inset;
+                padding: 0 .5em;
+            }
+            table {
+                border-collapse: collapse;
+            }
+            thead {
+                border-bottom: thin solid;
+            }
+            td, th {
+                padding: 0 0.3em;
+                text-align: right;
+            }
         </style>
         <script src="jsdemo.js"></script>
         <script>
@@ -35,5 +49,22 @@
         <script>
             document.write('<p style="font-size: larger;">This text was inserted programmatically.</p>');
         </script>
+        <noscript>Javascript is not enabled.  If it were, it would programmatically
+            insert some text here to demonstrate <code>document.write()</code>.</noscript>
+        <div id="loops">
+            <h2>Loops</h2>
+            <h3>Indefinite</h3>
+            <form>The greatest common divisor of
+                <input type="number" id="num1" step="1" value="1" onchange="showGCD();"> and
+                <input type="number" id="num2" step="1" value="1" onchange="showGCD();"> is
+                <span id="GCDtarget" class="output">1</span>
+            </form>
+            <h3>Definite</h3>
+            <form>Print a multiplication table up through
+                <input type="number" id="timesN" min="1" step="1" value="1"
+                    onchange="timesTable(parseInt(this.value));">
+            </form>
+            <div id="timesTableTarget"></div>
+        </div>  
     </body>
 </html>
