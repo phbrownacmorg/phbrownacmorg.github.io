@@ -1,0 +1,161 @@
+/* For a more organized exploration of CSS attributes, see tagsdemo.css */
+
+/* Element selection by tag name.  Useful when appearance and structure
+   are closely related.  Selectors separated by commas, as here, mean
+   that the style data applies to elements that match *any* of the 
+   selectors.*/
+h1, h2, h3, h4, h5, h6 {  /* Center all the headers! (at any level) */
+    text-align: center;
+}
+
+/* element selection by parent gives some context to the selection */
+fieldset > div {
+    padding-bottom: 1ex;
+}
+
+/* element selection by parent doesn't have to use element tags only */
+.choice > p {
+    margin: 0;
+}
+
+/* element selection by class.
+  This is probably *the* most common selector. 
+  Note that the CSS properties set here are *inherited* by the descendants
+  of the element that actually matches this selector (which is a div). */
+.gotcha {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 110%;
+    background-color: lightgray;
+}
+
+/* element selection by id
+    Highly specific, but you can only do one element at a time. */
+#get-super-swallow {
+    font-family: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    font-style: italic;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+/* element selection by :last-child pseudo-class.  Pseudo-classes are 
+   are often helpful when you don't have control of the HTML, *but*
+   they are usually vulnerable to somebody editing (especially reordering)
+   the HTML. */
+.monty-python > :last-child {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Element selection by ancestry, producing a classic outline.
+   The more-specific-stuff-rules part of the CSS cascade is crucial here. */
+.choices label {
+    background-color: tan;
+}
+
+.outline > li {
+    list-style-type: upper-roman;
+}
+
+.outline > li li {
+    list-style-type: upper-alpha;
+}
+
+.outline > li li li {
+    list-style-type: decimal;
+}
+
+.outline > li li li li {
+    list-style-type: lower-alpha;
+}
+
+.outline > li li li li:first-child::marker {
+    content: "(" counter(list-item, lower-alpha) ") ";
+}
+
+.outline > li li li li li {
+    list-style-type: lower-roman;
+}
+
+.outline > li li li li li:first-child::marker {
+    content: "(" counter(list-item, lower-roman) ") ";
+}
+
+/* Element selection by sibling (the + part) and :first-of-type pseudoclass. */
+div.choice:first-of-type > input:first-of-type + label, 
+div.choice:first-of-type > input:nth-of-type(3) + label { 
+    background-color: red;  /* Red Devil year */
+}
+
+div.choice:first-of-type > input:last-of-type + label, 
+div.choice:first-of-type > input:nth-of-type(2) + label { 
+    background-color: pink; /* Pink Panther year */
+}
+
+/* Using dynamic pseudoclasses to create a CSS-only dropdown menu. */
+
+/* The parent of the dropdown has to be a block-level element */
+.dropdown-root {
+    display: inline-block; /* Don't display as block */
+    position: relative; /* Allow this element to be used for positioning */
+}
+
+/* Hide the dropdown menu normally */
+.dropdown-root > .dropdown {
+    display: none;
+}
+
+/* Show the menu when the mouse hovers over the parent */
+.dropdown-root:hover > .dropdown {
+    display: block;
+    /* Position when it shows up should be *outside* the normal flow */
+    position: absolute; /* Relative to the positioning parent */
+    /* The position can be adjusted using left, right, top, and bottom */
+    left: 1em;
+
+    /* Get rid of the space before the items, so I can put a border around the whole thing */
+    padding-inline-start: 0;
+    border: thin solid black;
+}
+
+/* Just ".dropdown > li" would be enough if there were no other rules applying */
+.dropdown-root > .dropdown > li {
+    list-style-type: none;
+    /* Mark off the items from each other */
+    border: thin solid black;
+    /* Make the menu items obscure anything they cover */
+    background-color: tan;
+    /* Make the items a little less cramped-looking */
+    padding: .1em;
+}
+
+/* Turn the menu items' background white when the mouse hovers over the item. */
+.dropdown > li:hover {
+    background-color: white;
+}
+
+/* ------------------- Indicate required items ------------------------------------------------ */
+span.flag::before {
+    color: firebrick;
+    content: '*';
+}
+
+:valid + span.flag::before, span.flag.valid::before, 
+:valid + label + span.flag::before {
+    color: green;
+    content: '✓';
+}
+
+/* for the key at the top */
+ul.validity {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.invalid {
+    color: firebrick;
+}
+
+.valid {
+    color: green;
+}
+

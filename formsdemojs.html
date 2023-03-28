@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Forms demo with validation, CSC 235, spring 2023</title>
+        <link rel="stylesheet" href="formsdemojs.css">
+        <script src="formsdemojs.js"></script>
+    </head>
+    <body>
+        <h1>Forms demo with validation, CSC 235, spring 2023</h1>
+
+        <h2 style="text-align: left">GET form</h2>
+        <ul class="validity key">
+            <li class="invalid"><span>*</span> Required field, not yet valid</li>
+            <li class="valid"><span>&check;</span> Valid field</li>
+        </ul>
+        <form action="https://cs.converse.edu/CSC235/formecho.php" method="get"
+         name="getform" onsubmit="return validForm(this);">
+            <fieldset class="monty-python">
+                <legend>Monty Python's Bridge of Death</legend>
+                <div><label for="getname">What is your name?</label> 
+                    <input name="name" id="getname" type="text" value="Sir Robin of Camelot" required><span class="flag"></span></div>
+                <div><label for="getquest">What is your quest?</label> 
+                    <input name="quest" id="getquest" type="text" value="I seek the Holy Grail" required><span class="flag"></span></div>
+                <div><label for="getcolor">What is your favorite color?</label>
+                    <input type="color" id="getcolor" name="color" required><span class="flag"></span></div>
+                <div class="gotcha"><label for="getswallow">What is the average speed of a swallow carrying a coconut?</label>
+                    <input type="number" name="swallow" id="getswallow" min="0" max="300" step="0.01" value="10" required>
+                    <label for="getswallow">m/s</label><span class="flag"></span></div>
+                <div class="riposte"><label for="get-can-swallow">Can a swallow <em>really</em> carry a coconut?</label>
+                    <select name="can-swallow" id="get-can-swallow" required>
+                        <option value="">&mdash;Please choose an option&mdash;</option>
+                        <option id="get-small">No, the swallow is much too small</option>
+                        <option id="get-super-swallow">Yes, it's SuperSwallow&trade;!</option>
+                        <option>Would that be an African swallow or a European swallow?</option>
+                        <option id="get-balloon" selected>Only if it's attached to a Chinese spy balloon</option>
+                    </select><span class="flag"></span></div>
+            </fieldset>
+            <fieldset class="choices">
+                <legend>Choices&hellip;</legend>
+                <div id="getclass" class="choice"><p>What is your graduating class?<span class="flag"></span></p>
+                    <input type="radio" id="get-2023" name="graduation" value="2023" required> 
+                    <label for="get-2023">2023</label>
+                    <input type="radio" id="get-2024" name="graduation" value="2024"> 
+                    <label for="get-2024">2024</label>
+                    <input type="radio" id="get-2025" name="graduation" value="2025"> 
+                    <label for="get-2025">2025</label>
+                    <input type="radio" id="get-2026" name="graduation" value="2026" checked> 
+                    <label for="get-2026">2026</label>
+                </div>
+                <div id="animal" class="choice"><p>My favorite animal(s) include (check all that apply):<span class="flag"></span></p>
+                    <input type="checkbox" value="cats" name="animal-cats" id="getcats"
+                        onchange="somethingChecked('animal');">
+                    <label for="getcats">Cats</label>
+                    <input type="checkbox" value="dogs" name="animal-dogs" id="getdogs">
+                    <label for="getcats">Dogs</label>
+                    <input type="checkbox" value="pigs" name="animal-pigs" id="getpigs">
+                    <label for="getcats">Pigs</label>
+                    <input type="checkbox" value="newts" name="animal-newts" id="getnewts">
+                    <label for="getcats">Newts</label>
+                    <input type="checkbox" value="cuddly" name="animal-cuddly" id="getcuddly">
+                    <label for="getcats">Anything cuddly</label>
+                    <input type="checkbox" value="edible" name="animal-edible" id="getedible">
+                    <label for="getcats">Anything that goes well on a grill</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Assorted randommess</legend>
+                <div><label for="gettemp">Approximate outside temperature (&deg;F):</label>
+                <input type="range" name="temp" id="gettemp" min="30" max="110"
+                    list="templist"></div>
+                    <datalist id="templist">
+                        <option value="30"></option>
+                        <option value="50"></option>
+                        <option value="70"></option>
+                        <option value="90"></option>
+                        <option value="110"></option>
+                    </datalist>
+                <div><label for="getbday">Date of birth:</label>
+                <input type="date" id="getbday" name="birthdate"></div>
+                <div><label for="getpassword">The super-secret password is:</label>
+                <input type="password" name="password" id="getpassword"></div>
+                <input type="hidden" name="hidden" value="This is most often useful for communicating state between forms">
+                <div><label for="getcomments">Comments:</label>
+                   <textarea name="comments" id="getcomments">Sample text can go here</textarea></div>
+                <input type="checkbox" name="legal_threats" id="legal_threats" checked required>
+                <label>I submit to the legal threats that are probably not enforceable anyway.</label><span class="flag"></span>
+            </fieldset>
+            <input type="submit" value="Submit"><input type="reset" value="Reset">
+        </form>
+
+    </body>
+</html>
