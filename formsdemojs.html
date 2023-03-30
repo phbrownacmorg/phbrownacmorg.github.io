@@ -38,29 +38,34 @@
             </fieldset>
             <fieldset class="choices">
                 <legend>Choices&hellip;</legend>
-                <div id="getclass" class="choice"><p>What is your graduating class?<span class="flag"></span></p>
+                <div id="getclass" class="choice">What is your graduating class?<span class="flag"></span><br>
                     <input type="radio" id="get-2023" name="graduation" value="2023" required> 
                     <label for="get-2023">2023</label>
                     <input type="radio" id="get-2024" name="graduation" value="2024"> 
                     <label for="get-2024">2024</label>
                     <input type="radio" id="get-2025" name="graduation" value="2025"> 
                     <label for="get-2025">2025</label>
-                    <input type="radio" id="get-2026" name="graduation" value="2026" checked> 
+                    <input type="radio" id="get-2026" name="graduation" value="2026"> 
                     <label for="get-2026">2026</label>
                 </div>
-                <div id="animal" class="choice"><p>My favorite animal(s) include (check all that apply):<span class="flag"></span></p>
+                <div id="animal" class="choice">My favorite animal(s) include (check all that apply):<span class="flag"></span><br>
                     <input type="checkbox" value="cats" name="animal-cats" id="getcats"
                         onchange="somethingChecked('animal');">
                     <label for="getcats">Cats</label>
-                    <input type="checkbox" value="dogs" name="animal-dogs" id="getdogs">
+                    <input type="checkbox" value="dogs" name="animal-dogs" id="getdogs"
+                        onchange="somethingChecked('animal');">
                     <label for="getcats">Dogs</label>
-                    <input type="checkbox" value="pigs" name="animal-pigs" id="getpigs">
+                    <input type="checkbox" value="pigs" name="animal-pigs" id="getpigs"
+                        onchange="somethingChecked('animal');">
                     <label for="getcats">Pigs</label>
-                    <input type="checkbox" value="newts" name="animal-newts" id="getnewts">
+                    <input type="checkbox" value="newts" name="animal-newts" id="getnewts"
+                        onchange="somethingChecked('animal');">
                     <label for="getcats">Newts</label>
-                    <input type="checkbox" value="cuddly" name="animal-cuddly" id="getcuddly">
+                    <input type="checkbox" value="cuddly" name="animal-cuddly" id="getcuddly"
+                        onchange="somethingChecked('animal');">
                     <label for="getcats">Anything cuddly</label>
-                    <input type="checkbox" value="edible" name="animal-edible" id="getedible">
+                    <input type="checkbox" value="edible" name="animal-edible" id="getedible"
+                        onchange="somethingChecked('animal');">
                     <label for="getcats">Anything that goes well on a grill</label>
                 </div>
             </fieldset>
@@ -78,9 +83,13 @@
                     </datalist>
                 <div><label for="getbday">Date of birth:</label>
                 <input type="date" id="getbday" name="birthdate"></div>
-                <div><label for="getpassword">The super-secret password is:</label>
-                <input type="password" name="password" id="getpassword"></div>
-                <input type="hidden" name="hidden" value="This is most often useful for communicating state between forms">
+                <div><label for="getpassword">The super-secret password (at least 12 characters) is:</label>
+                <input type="password" name="password" id="getpassword" 
+                    pattern=".{12,}" required title="At least 12 characters"><span class="flag"></span></div>
+                    <!-- Regular expressions:
+                    For details, see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+                    ".{12,}"  match a string containing at least 12 characters -->
+                    <input type="hidden" name="hidden" value="This is most often useful for communicating state between forms">
                 <div><label for="getcomments">Comments:</label>
                    <textarea name="comments" id="getcomments">Sample text can go here</textarea></div>
                 <input type="checkbox" name="legal_threats" id="legal_threats" checked required>

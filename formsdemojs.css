@@ -139,8 +139,11 @@ span.flag::before {
     content: '*';
 }
 
-:valid + span.flag::before, span.flag.valid::before, 
-:valid + label + span.flag::before {
+span.flag.valid::before,
+:valid + span.flag::before,  
+:valid + label + span.flag::before, 
+span.flag:has(~ input:not([type=checkbox]):valid)::before,
+span.flag:has(~ input.valid)::before {
     color: green;
     content: '✓';
 }
