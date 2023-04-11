@@ -48,25 +48,28 @@
                     <input type="radio" id="get-2026" name="graduation" value="2026"> 
                     <label for="get-2026">2026</label>
                 </div>
-                <div id="animal" class="choice">My favorite animal(s) include (check all that apply):<span class="flag"></span><br>
+                <div id="animal" class="choice">My favorite animal(s) include (check at least two):<span class="flag"></span><br>
                     <input type="checkbox" value="cats" name="animal-cats" id="getcats"
-                        onchange="somethingChecked('animal');">
+                        onchange="checkAtLeast('animal', 2);">
                     <label for="getcats">Cats</label>
                     <input type="checkbox" value="dogs" name="animal-dogs" id="getdogs"
-                        onchange="somethingChecked('animal');">
-                    <label for="getcats">Dogs</label>
+                        onchange="checkAtLeast('animal', 2);">
+                    <label for="getdogs">Dogs</label>
                     <input type="checkbox" value="pigs" name="animal-pigs" id="getpigs"
-                        onchange="somethingChecked('animal');">
-                    <label for="getcats">Pigs</label>
+                        onchange="checkAtLeast('animal', 2);">
+                    <label for="getpigs">Pigs</label>
                     <input type="checkbox" value="newts" name="animal-newts" id="getnewts"
-                        onchange="somethingChecked('animal');">
-                    <label for="getcats">Newts</label>
+                        onchange="checkAtLeast('animal', 2);">
+                    <label for="getnewts">Newts</label>
                     <input type="checkbox" value="cuddly" name="animal-cuddly" id="getcuddly"
-                        onchange="somethingChecked('animal');">
-                    <label for="getcats">Anything cuddly</label>
+                        onchange="checkAtLeast('animal', 2);">
+                    <label for="getcuddly">Anything cuddly</label>
                     <input type="checkbox" value="edible" name="animal-edible" id="getedible"
-                        onchange="somethingChecked('animal');">
-                    <label for="getcats">Anything that goes well on a grill</label>
+                        onchange="checkAtLeast('animal', 2);">
+                    <label for="getedible">Anything that goes well on a grill</label>
+                    <input type="checkbox" value="grinch" name="animal-grinch" id="getgrinch"
+                        onchange="checkAtLeast('animal', 2);">
+                    <label for="getgrinch">I'm an animal-hating vegetarian.  Leave me alone.</label>
                 </div>
             </fieldset>
             <fieldset>
@@ -89,7 +92,10 @@
                     <!-- Regular expressions:
                     For details, see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
                     ".{12,}"  match a string containing at least 12 characters -->
-                    <input type="hidden" name="hidden" value="This is most often useful for communicating state between forms">
+                <input type="hidden" name="hidden" value="This is most often useful for communicating state between forms">
+                <div><label for="getphone">Please enter a North American phone number for Tim the Enchanter:</label>
+                    <input type="phone" name="phone" id="getphone" title="Format is NNN-NNN-NNNN"
+                    pattern="\d{3}([-.])\d{3}\1\d{4}" required oninput="validPhone(this);"><span class="flag"></span></div>
                 <div><label for="getcomments">Comments:</label>
                    <textarea name="comments" id="getcomments">Sample text can go here</textarea></div>
                 <input type="checkbox" name="legal_threats" id="legal_threats" checked required>
