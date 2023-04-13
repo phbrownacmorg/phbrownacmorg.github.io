@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Javascript demo, CSC 235, Spring 2023</title>
+        <link rel="stylesheet" href="formsdemojs.css">
         <style>
             div { margin-bottom: 3ex; }
             .output {
@@ -65,6 +66,16 @@
                     onchange="timesTable(parseInt(this.value));">
             </form>
             <div id="timesTableTarget"></div>
-        </div>  
+        </div>
+        <h2>HTML manipulation using DOM</h2>
+        <div>
+            <p>The following form shows the value of an investment as it accrues compound interest. (Interest is compounded periodically, not continuously.) Enter the initial investment in dollars, the interest rate per compounding period, and the number of compounding periods. You can use any compounding period you like (monthly, semi-annually, annually, whatever): just make sure the interest rate is the interest rate for that period. (For example, if you're compounding the interest monthly, make sure you give the monthly interest rate, not the annual interest rate.)</p>
+            <form>
+                <div><label>Initial investment: $</label><input type="number" min="0" name="P" required><span class="flag"></span></div>
+                <div><label>Interest rate: </label><input type="number" min="0" step="0.01" name="interest" required><span class="flag"></span></div>
+                <div><label>Number of periods: </label><input type="number" min="0" name="periods" step="1" required><span class="flag"></span></div>
+                <button>Calculate table</button>
+            </form>
+        </div>
     </body>
 </html>

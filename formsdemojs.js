@@ -3,7 +3,8 @@
  */
 function validForm(formElt) {
     let valid = checkAtLeast('animal', 2);
-    valid = valid && validPhone(formElt.phone);
+    valid = validPhone(formElt.phone) && valid;
+    valid = validBirthdate(formElt.birthdate) && valid;
     return false;
 }
 
@@ -40,6 +41,7 @@ function checkAtLeast(parentID, numRequired=1) {
     let parentElt = document.getElementById(parentID);
     let boxes = parentElt.querySelectorAll('input[type=checkbox]');
     //console.log(flag);
+    boxes[0].setCustomValidity(""); // Clear out any prevoous custom validity
     let numChecked = 0;
     for (box of boxes) {
         //console.log(box);
@@ -56,6 +58,9 @@ function checkAtLeast(parentID, numRequired=1) {
         else {
             box.classList.remove('valid');
         }
+    }
+    if (numChecked < numRequired) { // Invalid
+        boxes[0].setCustomValidity("Please check at least " + numRequired + " of these boxes.");
     }
     //let flag = parentElt.querySelector('.flag');
     console.log('Number checked: ' + numChecked);
@@ -82,5 +87,32 @@ function validPhone(phoneElt) {
     }
     
     console.log("Phone: " + valid);
+    return valid;
+}
+
+function isLeapYear(dateVal) {
+    //console.log('dateVal: '+ dateVal.toString());
+    let year = dateVal.getFullYear();
+    let leap = ((year % 4) === 0);  // Julian rule
+    if (leap) {
+        // Gregorian century rule
+        leap = (((year % 100) !== 0) || ((year % 400) === 0)); 
+    }
+    return leap;
+}
+
+function validBirthdate(dateElt) {
+    // Start by looking at what the HTML already did
+    let valid = dateElt.validity.valid;
+    // Clear any *custom* validity
+    dateElt.setCustomValidity("");
+
+    let value = dateElt.value;
+    //console.log('Value: ' + value);
+
+    if (value && (! isLeapYear(new Date(value)))) {
+        valid = false;
+        dateElt.setCustomValidity(dateElt.title);
+    }
     return valid;
 }

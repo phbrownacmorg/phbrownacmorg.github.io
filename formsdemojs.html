@@ -6,7 +6,10 @@
         <link rel="stylesheet" href="formsdemojs.css">
         <script src="formsdemojs.js"></script>
     </head>
-    <body>
+    <!-- Custom error messages don't display until the *second* time the
+        validation routine gets called.  Therefore, call it the first time
+        when the page loads, so the messages are ready to go if/when needed. -->
+    <body onload="validForm(document.getElementById('getform'));">
         <h1>Forms demo with validation, CSC 235, spring 2023</h1>
 
         <h2 style="text-align: left">GET form</h2>
@@ -15,7 +18,7 @@
             <li class="valid"><span>&check;</span> Valid field</li>
         </ul>
         <form action="https://cs.converse.edu/CSC235/formecho.php" method="get"
-         name="getform" onsubmit="return validForm(this);">
+         name="getform" id="getform" onsubmit="return validForm(this);">
             <fieldset class="monty-python">
                 <legend>Monty Python's Bridge of Death</legend>
                 <div><label for="getname">What is your name?</label> 
@@ -85,17 +88,21 @@
                         <option value="110"></option>
                     </datalist>
                 <div><label for="getbday">Date of birth:</label>
-                <input type="date" id="getbday" name="birthdate"></div>
+                <input type="date" id="getbday" name="birthdate" required
+                 onchange="validBirthdate(this);" 
+                 title="Birthdate (not necessarily yours) must be in a leap year."><span class="flag"></span></div>
                 <div><label for="getpassword">The super-secret password (at least 12 characters) is:</label>
                 <input type="password" name="password" id="getpassword" 
-                    pattern=".{12,}" required title="At least 12 characters"><span class="flag"></span></div>
+                    pattern=".{12,}" required title="At least 12 characters"
+                    value="super-secret"><span class="flag"></span></div>
                     <!-- Regular expressions:
                     For details, see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
                     ".{12,}"  match a string containing at least 12 characters -->
                 <input type="hidden" name="hidden" value="This is most often useful for communicating state between forms">
                 <div><label for="getphone">Please enter a North American phone number for Tim the Enchanter:</label>
                     <input type="phone" name="phone" id="getphone" title="Format is NNN-NNN-NNNN"
-                    pattern="\d{3}([-.])\d{3}\1\d{4}" required oninput="validPhone(this);"><span class="flag"></span></div>
+                    pattern="\d{3}([-.])\d{3}\1\d{4}" required oninput="validPhone(this);"
+                    value="811.596.9000"><span class="flag"></span></div>
                 <div><label for="getcomments">Comments:</label>
                    <textarea name="comments" id="getcomments">Sample text can go here</textarea></div>
                 <input type="checkbox" name="legal_threats" id="legal_threats" checked required>
