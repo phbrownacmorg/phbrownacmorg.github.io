@@ -63,3 +63,52 @@ function timesTable(maxValue) {
     tableString += '</tbody></table>';
     document.getElementById('timesTableTarget').innerHTML = tableString;
 }
+
+/**
+ * Make and return a table cvell of cellType with contents contents.
+ * @param {*} cellType th or tr
+ * @param {*} contents string to include in the cell
+ */
+function makeCell(cellType, contents) {
+    let cell = document.createElement(cellType);
+    cell.innerText = contents;
+    return cell;
+}
+
+function calcFutureval(buttonElt) {
+    let formElt = buttonElt.form;
+    if (formElt.P.checkValidity() && formElt.interest.checkValidity()
+          && formElt.periods.checkValidity()) {
+        let P = parseFloat(formElt.P.value);
+        let rate = parseFloat(formElt.interest.value) / 100;
+        let periods = parseInt(formElt.periods.value);
+        //alert(P + " " + rate + " " + periods);
+
+        targetElt = document.getElementById('futurevalTarget');
+        // Clear out the old...
+        while (targetElt.firstElementChild) {
+            targetElt.firstElementChild.remove();
+        }
+
+        // Add the new
+        let tableElt = document.createElement('table');
+        let thead = document.createElement('thead');
+        let row = document.createElement('tr');
+        row.appendChild(makeCell('th', 'Period'));
+        row.appendChild(makeCell('th', 'Value'));
+        thead.appendChild(row);
+        tableElt.appendChild(thead);
+        let tbody = document.createElement('tbody');
+
+        for (let period = 1; period <= periods; period++) {
+            P += P * rate;
+            row = document.createElement('tr');
+            row.appendChild(makeCell('td', period));
+            row.appendChild(makeCell('td', '$' + (Math.round(P*100) / 100).toString()));
+            tbody.appendChild(row);
+        }
+
+        tableElt.appendChild(tbody);
+        targetElt.appendChild(tableElt);
+    }
+}

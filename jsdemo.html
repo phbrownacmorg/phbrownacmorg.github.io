@@ -20,6 +20,12 @@
                 padding: 0 0.3em;
                 text-align: right;
             }
+            td {
+                font-weight: normal;
+            }
+            fieldset > div {
+                margin: 0;
+            }
         </style>
         <script src="jsdemo.js"></script>
         <script>
@@ -69,13 +75,33 @@
         </div>
         <h2>HTML manipulation using DOM</h2>
         <div>
-            <p>The following form shows the value of an investment as it accrues compound interest. (Interest is compounded periodically, not continuously.) Enter the initial investment in dollars, the interest rate per compounding period, and the number of compounding periods. You can use any compounding period you like (monthly, semi-annually, annually, whatever): just make sure the interest rate is the interest rate for that period. (For example, if you're compounding the interest monthly, make sure you give the monthly interest rate, not the annual interest rate.)</p>
-            <form>
-                <div><label>Initial investment: $</label><input type="number" min="0" name="P" required><span class="flag"></span></div>
-                <div><label>Interest rate: </label><input type="number" min="0" step="0.01" name="interest" required><span class="flag"></span></div>
-                <div><label>Number of periods: </label><input type="number" min="0" name="periods" step="1" required><span class="flag"></span></div>
-                <button>Calculate table</button>
+            <p>The following form shows the value of an investment as it
+                accrues compound interest. (Interest is compounded periodically,
+                not continuously.) Enter the initial investment in dollars,
+                the interest rate per compounding period, and the number of
+                compounding periods. You can use any compounding period you
+                like (monthly, semi-annually, annually, whatever): just make
+                sure the interest rate is the interest rate for that period.
+                (For example, if you're compounding the interest monthly, 
+                make sure you give the monthly interest rate, not the annual
+                interest rate.)</p>
+            <!-- This approach to preventing form submission works even on Runestone -->    
+            <form onsubmit="event.preventDefault();">
+                <fieldset>
+                    <legend>Parameters</legend>
+                    <div><label>Initial investment: $</label><input
+                        type="number" min="0" name="P" required><span 
+                        class="flag"></span></div>
+                    <div><label>Interest rate (in percent): </label><input 
+                        type="number" min="0.01" step="0.01" 
+                        name="interest" required><span class="flag"></span></div>
+                    <div><label>Number of periods: </label><input
+                        type="number" min="1" name="periods" step="1" 
+                        required><span class="flag"></span></div>
+                    <button onclick="calcFutureval(this);">Calculate table</button>
+                    </fieldset>
             </form>
+            <div id="futurevalTarget"></div>
         </div>
     </body>
 </html>
