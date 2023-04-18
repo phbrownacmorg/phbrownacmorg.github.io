@@ -77,8 +77,14 @@ function makeCell(cellType, contents) {
 
 function calcFutureval(buttonElt) {
     let formElt = buttonElt.form;
-    if (formElt.P.checkValidity() && formElt.interest.checkValidity()
-          && formElt.periods.checkValidity()) {
+
+    // If the fields to be checked aren't all the fields in the form,
+    // check them individually by calling checkValidity() on each field
+    // if (formElt.P.checkValidity() && formElt.interest.checkValidity()
+    //       && formElt.periods.checkValidity()) {
+
+    // If we can check the whole form, use formElt.reportValidity()
+    if (formElt.reportValidity()) {
         let P = parseFloat(formElt.P.value);
         let rate = parseFloat(formElt.interest.value) / 100;
         let periods = parseInt(formElt.periods.value);
