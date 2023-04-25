@@ -116,5 +116,40 @@ function calcFutureval(buttonElt) {
 
         tableElt.appendChild(tbody);
         targetElt.appendChild(tableElt);
+
+        let nextButton = buttonElt.nextElementSibling;
+        // Adjust the button's style by changing its class list
+        nextButton.classList.remove('hidden');
+        nextButton.disabled = false; // Enable the button, if it was disabled
     }
+}
+
+function formatFutureval(buttonElt) {
+    buttonElt.disabled = true; // Don't allow multiple reformattings unless the table changes
+
+    let tableElt = document.getElementById('futurevalTarget').querySelector('table');
+
+    // Adjust the padding for all the table cells, using their class lists
+    for (elt of tableElt.querySelectorAll('td,th')) {
+        elt.classList.add('futureval');
+    }
+
+    // Center the "Value" heading by manipulating its style property directly
+    //   (no classes involved)
+    let valueCell = tableElt.querySelector('thead > tr > th:last-child');
+    valueCell.style.setProperty('text-align', 'center');
+
+    // Regularize the text in the value cells, using innerText
+    for (elt of tableElt.querySelectorAll('td:last-child')) {
+        elt.innerText = regularizeMoneyAmt(elt.innerText);
+    }
+}
+
+function regularizeMoneyAmt(amtStr) {
+    //let spaces = 
+    numAmt = "$" + parseFloat(amtStr.substring(1)).toFixed(2);
+    //console.log(numAmt);
+
+    return numAmt;
+
 }
