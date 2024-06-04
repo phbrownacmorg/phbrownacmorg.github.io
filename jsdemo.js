@@ -1,3 +1,15 @@
+function insertList(buttonElt) {
+    let parentElt = document.getElementById('listTarget');
+    let contents = '<h2>The Three Stooges (programmatically!)</h2>';
+    contents += '<ol><li>Larry</li>';
+    contents += '<li>Curly</li>';
+    contents += '<li>Moe</ol>';
+    parentElt.innerHTML = contents + parentElt.innerHTML;
+    console.log(buttonElt);
+    buttonElt.addClass('hidden');
+    console.log(buttonElt);
+}
+
 /**
  * Function to insert a Monty-Python image into the element with id "pythonTarget".
  * The image used is one of three, chosen based on which button was clicked to
@@ -58,7 +70,6 @@ function timesTable(maxValue) {
 
         tableString += '</tr>';
     }
-
 
     tableString += '</tbody></table>';
     document.getElementById('timesTableTarget').innerHTML = tableString;

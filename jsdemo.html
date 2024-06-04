@@ -40,14 +40,6 @@
         </style>
         <script src="jsdemo.js"></script>
         <script>
-            function insertList() {
-                let parentElt = document.getElementById('listTarget');
-                let contents = '<h2>The Three Stooges (programmatically!)</h2>';
-                contents += '<ol><li>Larry</li>';
-                contents += '<li>Curly</li>';
-                contents += '<li>Moe</ol>';
-                parentElt.innerHTML = contents + parentElt.innerHTML;
-            }
         </script>
     </head>
     <body >
@@ -60,7 +52,7 @@
         </form>
         </div>
         <div id="listTarget">
-            <form><button onclick="insertList();">Click for list</button></form>
+            <form><button onclick="insertList(this);">Click for list</button></form>
         </div>
         <!-- Commonly a good idea with <script> tags in the body to put them late,
             so they load after everything else. -->
