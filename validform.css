@@ -1,0 +1,34 @@
+/* ------------------- Indicate required items ------------------------------------------------ */
+span.flag::before {
+    color: firebrick;
+    content: '*';
+}
+
+span.flag.valid::before,
+:valid + span.flag::before,  
+:valid + label + span.flag::before {
+    color: green;
+    content: '✓';
+}
+
+/* Disable buttons if input isn't valid */
+:invalid ~ button[type=button] {
+    /*color: gray;*/
+    /*opacity: 0.5;
+    pointer-events: none;*/
+    visibility: hidden;
+}
+
+/* for the key at the top */
+ul.validity {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.invalid {
+    color: firebrick;
+}
+
+.valid {
+    color: green;
+}

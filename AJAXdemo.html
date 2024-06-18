@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>CSC 335 AJAX demo, summer 2024</title>
+        <link rel="stylesheet" href="validform.css">
         <script src="api_keys.js"></script>
         <script src="AJAXdemo.js"></script>
     </head>
@@ -20,7 +21,8 @@
         <ul>
             <li><a href="https://www.mediawiki.org/wiki/API:Main_page">Wikipedia</a>
                 <form action="."><label for="page_title">Page title:</label>
-                    <input type="text" id="page_title"> <button type="button" onclick="insertWikipediaPage();">Get page</button>
+                    <input type="text" id="page_title" disabled>
+                    <button type="button" onclick="insertWikipediaPage();" disabled>Get page</button>
                 <div id="wikipedia_target"></div></form></li>
         </ul>
 
@@ -28,31 +30,31 @@
 
         <ul>
             <li><a href="https://worldtimeapi.org/">Time data</a>
-                <form action="."><button type="button" onclick="insertTimeJson();">Get time:</button>
+                <form action="." onsubmit="return false;"><button type="button" onclick="insertTimeJson();">Get time:</button>
                     <span id="json_time_target"></span></form></li>
             <li><a href="https://www.adsbdb.com/">Aircraft data</a>
-                <form action="."><label for="callsign">Flight callsign:</label>
-                    <input type="text" id="callsign" value="SWA1082"> 
+                <form action="." onsubmit="return false;"><label for="callsign">Flight callsign:</label>
+                    <input type="text" id="callsign" value="SWA1082" required><span class="flag"></span> 
                     <button type="button" onclick="getFlight();">Get flight</button>
                     <div id="flight_target"></div></form></li>
             <li><a href="https://opencagedata.com/">Geocoding</a>
-                <form action=".">
+                <form action="." onsubmit="return false;">
                     <label for="street">Street address:</label>
-                    <input type="text" id="street" value="580 East Main Street"><br>
+                    <input type="text" id="street" value="580 East Main Street" required><span class="flag"></span><br>
                     <label for="city">City:</label>
-                    <input type="text" id="city" value="Spartanburg"><br>
+                    <input type="text" id="city" value="Spartanburg" required><span class="flag"></span><br>
                     <label for="state">State:</label>
-                    <input type="text" id="state" value="South Carolina"><br>
+                    <input type="text" id="state" value="South Carolina" required><span class="flag"></span><br>
                     <label for="country">Country (not two-letter country code):</label>
-                    <input type="text" id="country" value="United States">
+                    <input type="text" id="country" value="United States" required><span class="flag"></span>
                     <button type="button" onclick="getLatLong();">Get latitude and longitude</button>                
                 </form></li>
-            <li><a href="https://www.weather.gov/documentation/services-web-api?ref=public_apis">NWS weather data</a></li>
-                <form action=".">
+            <li><a href="https://www.weather.gov/documentation/services-web-api?ref=public_apis">NWS weather data</a>
+                <form action="."  onsubmit="return false;">
                     <label for="lat">Latitude:</label>
-                    <input type="text" id="lat"><br>
+                    <input type="number" id="lat" min="-90" max="90" step="any" required><span class="flag"></span><br>
                     <label for="city">Longitude:</label>
-                    <input type="text" id="lng">
+                    <input type="number" id="lng" min="-180" max="180" step="any" required><span class="flag"></span>
                     <button type="button" onclick="getWeather();">Get weather</button>
                     <div id="weather_target"></div>
                 </form></li>
