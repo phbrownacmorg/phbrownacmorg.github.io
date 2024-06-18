@@ -49,6 +49,20 @@ function insertFlightData(flightroute) {
     targetElt.appendChild(tableElt);
 }
 
+function insertWeatherData(periods) {
+    const targetElt = document.getElementById('weather_target');
+    targetElt.innerHTML = '';
+    const tableElt = document.createElement('table');
+    tableElt.appendChild(makeAndFillElt('caption', 
+        `7-day forecast starting ${periods[0].startTime.substring(0, 16).replace('T', ' ')}`));
+    tableElt.appendChild(makeAndFillTableRow('th', ['Period', 'Forecast']));
+    for (const period of periods) {
+        tableElt.appendChild(makeAndFillTableRow('td', [period.name, period.detailedForecast]));
+    }
+
+    targetElt.appendChild(tableElt);
+}
+
 async function getFlight() {
     const callsign = document.getElementById('callsign').value;
     if (callsign == '') {
@@ -62,7 +76,37 @@ async function getFlight() {
 }
 
 async function getLatLong() {
+    const street = document.getElementById('street').value;
+    const city = document.getElementById('city').value;
+    const state = document.getElementById('state').value;
+    const country = document.getElementById('country').value;
+    const query = `${street}, ${city}, ${state}, ${country}`;
+    //console.log(encodeURIComponent(query));
+    const url = 'https://api.opencagedata.com/geocode/v1/json/?'
+            + `key=${OpenCageData_key}&`
+            + `q=${encodeURIComponent(query)}&`
+            + 'pretty=1&no_annotations=1'
+
+    const response = await fetch(url);
+    const json = await response.json();
+    const geom = json.results[0].geometry;
+    //console.log(geom);
+    document.getElementById('lat').value = geom.lat;
+    document.getElementById('lng').value = geom.lng;
 }
 
 async function getWeather() {
+    const lat = document.getElementById('lat').value;
+    const lng = document.getElementById('lng').value;
+    let url = `https://api.weather.gov/points/${lat},${lng}`
+    let response = await fetch(url);
+    let json = await response.json();
+    //console.log(json);
+
+    url = json.properties.forecast;
+    response = await fetch(url);
+    json = await response.json();
+    console.log(json.properties.periods);
+
+    insertWeatherData(json.properties.periods);
 }
