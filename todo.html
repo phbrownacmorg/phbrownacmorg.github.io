@@ -10,22 +10,22 @@
         <h1>To do</h1>
         <form id="addform" action="." onsubmit="return false;">
             <label for="description">Description:</label>
-            <input type="text" id="description" required><span class="flag"></span><br>
+            <input type="text" id="description" required value="Fix windows"><span class="flag"></span><br>
             <label for="priority">Priority:</label>
             <select id="priority" required></select><span class="flag"></span><br>
             <label for="context">Context:</label>
             <select id="context" required></select><span class="flag"></span><br>
             <label for="time">Time estimate:</label>
-            <input type="time" id="time" required><span class="flag"></span><br>
-            <button type="button">Add task</button>
+            <input type="time" id="time" value="01:00" required><span class="flag"></span><br>
+            <button type="button" id="addTaskButton">Add task</button>
         </form>
-        <div id="item_display">
+        <div>
             <table>
                 <caption style="font-weight: bold; font-size: 120%">To-do items:</caption>
                 <thead>
-                    <tr><th>Description</th><th>Priority</th><th>Context</th><th>Time (est.)</th></tr>
+                    <tr><th>Done</th><th>Description</th><th>Priority</th><th>Context</th><th>Time (est.)</th></tr>
                 </thead>
-                <tbody>
+                <tbody id="item_display">
                 </tbody>
             </table>
         </div>
