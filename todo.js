@@ -16,7 +16,17 @@ function fillSelector(selectElt, options, startText) {
 
 function initialize() {
     // make the Model
-    var tasks = new TaskList();
+    var tasks = undefined; // Bind the name "tasks"
+    // localStorage.removeItem('taskList');
+    if (localStorage.getItem('taskList')) {
+        storedList = JSON.parse(localStorage.getItem('taskList'));
+        // PROBLEM!  TaskList is just an object, not a TaskList    
+        tasks = new TaskList(storedList.tasks);
+    }
+    else {
+        tasks = new TaskList();
+    }
+    console.log(tasks);
 
     // make the View
     var listView = new TaskListView(tasks);
@@ -31,22 +41,19 @@ function initialize() {
                       document.getElementById('priority').value,
                       document.getElementById('context').value,
                       document.getElementById('time').value);
-                      // Would convert duration to Date if Date offered useful facilities.  It doesn't.
+                      // Would convert duration to Date if Date offered useful facilities.  It doesn't.        
     }
     document.getElementById('addTaskButton').addEventListener('click', addNewTask);
+    //console.log(localStorage);
+
+    // Initialize the view *before* doing the storage update subscription
+    tasks.publish('initial', tasks);
+
+    // Subscribe to update local storage on any update to tasks
+    tasks.subscribe(() => {
+        localStorage.setItem('taskList', JSON.stringify(tasks));
+    });
 }
-
-
-class Task {
-    constructor(description, priority, context, duration) {
-        this.description = description;
-        this.priority = priority;
-        this.context = context;
-        this.duration = duration;
-        this.done = false;
-    }
-
-};
 
 class Publisher { // Miller calls this Subject, which seems vague to me
     constructor() {
@@ -76,13 +83,20 @@ class Publisher { // Miller calls this Subject, which seems vague to me
 }
 
 class TaskList extends Publisher {
-    constructor() {
+    constructor(initialTasks) {
         super();
         this.tasks = [];
+        if (initialTasks) {
+            this.tasks = initialTasks;
+        }
     }
 
     addTask(description, priority, context, duration) {
-        const task = new Task(description, priority, context, duration);
+        const task = {'description': description,
+                      'priority': priority,
+                      'context': context,
+                      'duration': duration,
+                      'done': false};
         this.tasks.push(task);
         this.publish('newitem', this);
     }
@@ -94,7 +108,7 @@ function makeAndFillElt(tag, contents) {
     return elt;
 }
 
-function displayTask(task) {
+function displayTask(task, taskModel) {
     const tr = document.createElement('tr');
     // A little bit of controller code sneaking into the view...
     const firstCell = document.createElement('td');
@@ -105,6 +119,7 @@ function displayTask(task) {
     checkbox.name = 'done';
     checkbox.addEventListener('change', () => {
         task.done = checkbox.checked;
+        taskModel.publish('done', taskModel);
     });
     form.appendChild(checkbox);
     firstCell.appendChild(form);
@@ -117,14 +132,16 @@ function displayTask(task) {
 }
 
 class TaskListView {
-    constructor(taskModel) {
+    constructor(taskModel, msg) {
         this.targetElt = document.getElementById('item_display');
 
         // Closure to define "this".  Not immediately clear why it's necessary, but...
-        taskModel.subscribe((taskModel) => {
-            this.targetElt.innerHTML = "";
-            for (const task of taskModel.tasks) {
-                this.targetElt.appendChild(displayTask(task));
+        taskModel.subscribe((taskModel, msg) => {
+            if (msg == "newitem" || msg == "initial") {
+                this.targetElt.innerHTML = "";
+                for (const task of taskModel.tasks) {
+                    this.targetElt.appendChild(displayTask(task, taskModel));
+                }
             }
         });
     }

@@ -15,8 +15,9 @@
             <select id="priority" required></select><span class="flag"></span><br>
             <label for="context">Context:</label>
             <select id="context" required></select><span class="flag"></span><br>
-            <label for="time">Time estimate:</label>
-            <input type="time" id="time" value="01:00" required><span class="flag"></span><br>
+            <label for="time">Time estimate (ignore the &ldquo;AM&rdquo;):</label>
+            <input type="time" id="time" min="00:00" max="11:59" value="01:00" 
+                required><span class="flag"></span><br>
             <button type="button" id="addTaskButton">Add task</button>
         </form>
         <div>
