@@ -1,0 +1,4394 @@
+[
+    {
+        "course code": "ACC 211.01",
+        "name": "ACCOUNTING PRINCIPLES I",
+        "faculty": "Greenlee, Tanya",
+        "seats open": "0/31",
+        "schedule": "MWF 1:30 PM-2:20 PM",
+        "credits": "3.00",
+        "prefix": "ACC"
+    },
+    {
+        "course code": "ACC 212.01",
+        "name": "ACCOUNTING PRINCIPLES II",
+        "faculty": "Dingwell, DawnCox, Amy E",
+        "seats open": "14/30",
+        "schedule": "MWF 1:30 PM-2:20 PM",
+        "credits": "3.00",
+        "prefix": "ACC"
+    },
+    {
+        "course code": "ACC 351.01",
+        "name": "INTERMEDIATE FINANCIAL ACCOUNTING",
+        "faculty": "Greenlee, Tanya",
+        "seats open": "14/25",
+        "schedule": "MWF 11:00 AM-12:50 PM",
+        "credits": "4.00",
+        "prefix": "ACC"
+    },
+    {
+        "course code": "ACC 451.01",
+        "name": "COST ACCOUNTING I",
+        "faculty": "Dingwell, DawnCox, Amy E",
+        "seats open": "16/25",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "ACC"
+    },
+    {
+        "course code": "ART 100.01",
+        "name": "ART APPRECIATION",
+        "faculty": "Zeisler, Laura B",
+        "seats open": "0/30",
+        "schedule": "MWF 12:00 PM-12:50 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 111.01",
+        "name": "2-D DESIGN",
+        "faculty": "Murphy, Sarah Henrikson",
+        "seats open": "13/18",
+        "schedule": "MW 2:30 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 112.01",
+        "name": "3-D DESIGN",
+        "faculty": "Carey, Vivianne Lee",
+        "seats open": "6/12",
+        "schedule": "MWF 11:00 AM-12:50 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 112.02",
+        "name": "3-D DESIGN",
+        "faculty": "Carey, Vivianne Lee",
+        "seats open": "5/12",
+        "schedule": "TR 9:00 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 113.01",
+        "name": "DRAWING I",
+        "faculty": "Murphy, Sarah Henrikson",
+        "seats open": "0/12",
+        "schedule": "MW 6:00 PM-8:45 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 120.01",
+        "name": "PRINTMAKING I",
+        "faculty": "Blanchard, Andrew M.",
+        "seats open": "0/10",
+        "schedule": "TR 1:00 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 124.01",
+        "name": "GRAPHIC DESIGN I",
+        "faculty": "Massengale, Michael J",
+        "seats open": "1/12",
+        "schedule": "TR 2:30 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 125A.01",
+        "name": "FYS: 2D DESIGN",
+        "faculty": "Thomas, Jena Alicia",
+        "seats open": "9/18",
+        "schedule": "MWF 11:00 AM-12:50 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 125B.01",
+        "name": "FYS: Drawing",
+        "faculty": "Massengale, Michael J",
+        "seats open": "0/12",
+        "schedule": "MW 2:30 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 126.01",
+        "name": "DIGITAL MEDIA I",
+        "faculty": "Massengale, Michael J",
+        "seats open": "7/12",
+        "schedule": "MW 6:00 PM-8:45 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 130.01",
+        "name": "CERAMICS I",
+        "faculty": "Carlisle, Mary E.",
+        "seats open": "0/11",
+        "schedule": "MWF 9:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 140.01",
+        "name": "PHOTOGRAPHY I",
+        "faculty": "Blanchard, Andrew M.",
+        "seats open": "0/8",
+        "schedule": "TR 9:00 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 150.01",
+        "name": "SCULPTURE I",
+        "faculty": "Carey, Vivianne Lee",
+        "seats open": "0/12",
+        "schedule": "TR 1:00 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 170.01",
+        "name": "PAINTING I",
+        "faculty": "Thomas, Jena Alicia",
+        "seats open": "4/15",
+        "schedule": "MWF 9:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 200.01",
+        "name": "ART BEYOND THE WEST",
+        "faculty": "Staff",
+        "seats open": "0/30",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 201.01",
+        "name": "INTRO WESTERN ART",
+        "faculty": "Brendle, Ross",
+        "seats open": "0/25",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 201.02",
+        "name": "INTRO WESTERN ART",
+        "faculty": "Brendle, Ross",
+        "seats open": "10/25",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 213.01",
+        "name": "DRAWING II",
+        "faculty": "Thomas, Jena Alicia",
+        "seats open": "7/15",
+        "schedule": "TR 2:30 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 230.01",
+        "name": "CERAMICS II",
+        "faculty": "Carlisle, Mary E.",
+        "seats open": "0/6",
+        "schedule": "MWF 11:00 AM-12:50 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 290.01",
+        "name": "SP:GREEK AND ROMAN ART",
+        "faculty": "Brendle, Ross",
+        "seats open": "5/25",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 290.02",
+        "name": "SP:ISLAMIC ART",
+        "faculty": "Brendle, Ross",
+        "seats open": "22/25",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 306.01",
+        "name": "20TH CENTURY ART BEFORE 1945",
+        "faculty": "Staff",
+        "seats open": "15/25",
+        "schedule": "TR 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 311.01",
+        "name": "ART FOR CHILD",
+        "faculty": "Elliott, Andrea Ezell",
+        "seats open": "4/15",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 313.01",
+        "name": "DRAWING III",
+        "faculty": "Thomas, Jena Alicia",
+        "seats open": "0/5",
+        "schedule": "TR 2:30 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 314.95",
+        "name": "SCHOOL ART CURRICULUM & METHODS",
+        "faculty": "Elliott, Andrea Ezell",
+        "seats open": "10/15",
+        "schedule": "M 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 316.01",
+        "name": "ART FOR THE SECONDARY SCHOOL",
+        "faculty": "Elliott, Andrea Ezell",
+        "seats open": "7/15",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 316L.01",
+        "name": "ART FOR THE SECONDARY SCHOOL CLINIC",
+        "faculty": "Gunter, Susanne Floyd",
+        "seats open": "7/15",
+        "schedule": "M 4:00 PM-5:15 PM",
+        "credits": "2.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 326.01",
+        "name": "DIGITAL MEDIA III",
+        "faculty": "Massengale, Michael J",
+        "seats open": "9/12",
+        "schedule": "TR 6:00 PM-8:45 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 330.01",
+        "name": "CERAMICS III",
+        "faculty": "Carlisle, Mary E.",
+        "seats open": "0/3",
+        "schedule": "MWF 11:00 AM-12:50 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 355.01",
+        "name": "SURVEY OF ART THERAPY",
+        "faculty": "Zeisler, Laura B",
+        "seats open": "5/12",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 405.01",
+        "name": "ART & CRITICAL THEORY",
+        "faculty": "Staff",
+        "seats open": "9/10",
+        "schedule": "T 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 413.01",
+        "name": "DRAWING IV",
+        "faculty": "Thomas, Jena Alicia",
+        "seats open": "3/4",
+        "schedule": "TR 2:30 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 414.01",
+        "name": "SENIOR SEMINAR",
+        "faculty": "Thomas, Jena Alicia",
+        "seats open": "18/30",
+        "schedule": "T 6:00 PM-7:00 PM",
+        "credits": "1.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 430.01",
+        "name": "CERAMICS IV",
+        "faculty": "Carlisle, Mary E.",
+        "seats open": "0/2",
+        "schedule": "MWF 11:00 AM-12:50 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 453.01",
+        "name": "ART THERAPY FIELD EXPERIENCE",
+        "faculty": "Zeisler, Laura B",
+        "seats open": "10/10",
+        "schedule": "MW 2:30 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 455.01",
+        "name": "ART THERAPY SENIOR SEMINAR",
+        "faculty": "Zeisler, Laura B",
+        "seats open": "10/10",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "ART 495.01",
+        "name": "SENIOR PROJECT",
+        "faculty": "Blanchard, Andrew M.",
+        "seats open": "2/10",
+        "schedule": "MWF 9:00 AM-10:45 AM",
+        "credits": "3.00",
+        "prefix": "ART"
+    },
+    {
+        "course code": "AST 100.01",
+        "name": "ASTRONOMY",
+        "faculty": "Yarborough, William W",
+        "seats open": "0/20",
+        "schedule": "MWF 1:30 PM-3:20 PM",
+        "credits": "4.00",
+        "prefix": "AST"
+    },
+    {
+        "course code": "ATA 265.01",
+        "name": "ARTS ADMIN & ORGAN STRUCTRURE",
+        "faculty": "Staff",
+        "seats open": "19/24",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "3.00",
+        "prefix": "ATA"
+    },
+    {
+        "course code": "ATM 125.01",
+        "name": "FYS: Creating Your Brand",
+        "faculty": "Jeter, John R III",
+        "seats open": "0/18",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "ATM"
+    },
+    {
+        "course code": "ATM 214.01",
+        "name": "LAB FOR MEANING & VALUE IN ART",
+        "faculty": "Scott, Donald M.",
+        "seats open": "20/20",
+        "schedule": "Converse University, Blackman Music Hall, Art & Cognition La",
+        "credits": "3.00",
+        "prefix": "ATM"
+    },
+    {
+        "course code": "BAD 328.01",
+        "name": "SPORTS MANAGEMENT PRINCIPLES",
+        "faculty": "Stephens, Wynton",
+        "seats open": "18/30",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "BAD"
+    },
+    {
+        "course code": "BAD 330.01",
+        "name": "MANAGEMENT",
+        "faculty": "Stephens, Wynton",
+        "seats open": "1/30",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "BAD"
+    },
+    {
+        "course code": "BAD 340.01",
+        "name": "MARKETING PRINCIPLES",
+        "faculty": "Cox, Amy E",
+        "seats open": "0/30",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "BAD"
+    },
+    {
+        "course code": "BAD 345.01",
+        "name": "INTEGRATED MARKETING COMMUNICATIONS",
+        "faculty": "Cox, Amy E",
+        "seats open": "1/26",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "3.00",
+        "prefix": "BAD"
+    },
+    {
+        "course code": "BAD 352.01",
+        "name": "BUS ORG, PROPERTY & COM LAW",
+        "faculty": "Rikard, ChelseaCox, Amy E",
+        "seats open": "0/33",
+        "schedule": "TR 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "BAD"
+    },
+    {
+        "course code": "BAD 442.01",
+        "name": "MARKETING RESEARCH",
+        "faculty": "Cox, Amy E",
+        "seats open": "11/25",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "4.00",
+        "prefix": "BAD"
+    },
+    {
+        "course code": "BIO 125.01",
+        "name": "FYS:MICROBIOLOGY OF FOOD",
+        "faculty": "Griffin, Edward",
+        "seats open": "5/16",
+        "schedule": "TR 9:00 AM-10:15 AM",
+        "credits": "4.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 125L.01",
+        "name": "FYS:MICROBIOLOGY OF FOOD LAB",
+        "faculty": "Griffin, Edward",
+        "seats open": "5/16",
+        "schedule": "R 2:30 PM-5:30 PM",
+        "credits": "0.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 190.01",
+        "name": "INTRO TO BIOLOGICAL SCIENCE1",
+        "faculty": "Staff",
+        "seats open": "0/24",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "4.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 190.02",
+        "name": "INTRO TO BIOLOGICAL SCIENCE1",
+        "faculty": "Bohler, Mark",
+        "seats open": "0/36",
+        "schedule": "MWF 12:00 PM-12:50 PM",
+        "credits": "4.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 190.04",
+        "name": "INTRO TO BIOLOGICAL SCIENCE1",
+        "faculty": "Staff",
+        "seats open": "22/24",
+        "schedule": "MWF 9:00 AM-9:50 AM",
+        "credits": "4.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 190L.01",
+        "name": "LAB",
+        "faculty": "Staff",
+        "seats open": "0/24",
+        "schedule": "T 6:00 PM-9:00 PM",
+        "credits": "0.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 190L.02",
+        "name": "LAB",
+        "faculty": "Bohler, Mark",
+        "seats open": "0/18",
+        "schedule": "M 2:30 PM-5:30 PM",
+        "credits": "0.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 190L.03",
+        "name": "LAB",
+        "faculty": "Bohler, Mark",
+        "seats open": "0/18",
+        "schedule": "T 2:30 PM-5:30 PM",
+        "credits": "0.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 190L.04",
+        "name": "LAB",
+        "faculty": "Staff",
+        "seats open": "22/24",
+        "schedule": "R 2:30 PM-5:30 PM",
+        "credits": "0.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 191.01",
+        "name": "INTRO TO BIOLOGICAL SCIENCE 2",
+        "faculty": "Bohler, Mark",
+        "seats open": "13/24",
+        "schedule": "MWF 9:00 AM-9:50 AM",
+        "credits": "4.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 191L.01",
+        "name": "LAB - INTRO BIOLOGICAL SCIENCES II",
+        "faculty": "Bohler, Mark",
+        "seats open": "13/24",
+        "schedule": "R 2:30 PM-5:30 PM",
+        "credits": "0.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 202.01",
+        "name": "GENERAL ZOOLOGY",
+        "faculty": "Staff",
+        "seats open": "5/24",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "4.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 202L.01",
+        "name": "LAB",
+        "faculty": "Staff",
+        "seats open": "5/24",
+        "schedule": "W 2:30 PM-5:30 PM",
+        "credits": "0.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 310.01",
+        "name": "CELL BIOLOGY",
+        "faculty": "Griffin, Edward",
+        "seats open": "4/24",
+        "schedule": "MWF 1:30 PM-2:20 PM",
+        "credits": "4.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 310L.01",
+        "name": "LAB",
+        "faculty": "Griffin, Edward",
+        "seats open": "4/24",
+        "schedule": "T 2:30 PM-5:30 PM",
+        "credits": "0.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 411.01",
+        "name": "ECOLOGY",
+        "faculty": "Jensen, Douglas Paige",
+        "seats open": "1/16",
+        "schedule": "MWF 12:00 PM-12:50 PM",
+        "credits": "4.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 411L.01",
+        "name": "LAB",
+        "faculty": "Jensen, Douglas Paige",
+        "seats open": "1/16",
+        "schedule": "W 2:30 PM-5:30 PM",
+        "credits": "0.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BIO 491.01",
+        "name": "SENIOR SEMINAR",
+        "faculty": "Jensen, Douglas Paige",
+        "seats open": "5/24",
+        "schedule": "F 2:30 PM-5:30 PM",
+        "credits": "3.00",
+        "prefix": "BIO"
+    },
+    {
+        "course code": "BSN 111.01",
+        "name": "BASSOON LESSON",
+        "faculty": "Watson, A. Frank",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "1.00",
+        "prefix": "BSN"
+    },
+    {
+        "course code": "BSN 121.01",
+        "name": "BASSOON LESSON",
+        "faculty": "Watson, A. Frank",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "BSN"
+    },
+    {
+        "course code": "BSN 220.01",
+        "name": "BASSOON LESSON",
+        "faculty": "Watson, A. Frank",
+        "seats open": "14/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "BSN"
+    },
+    {
+        "course code": "BSN 320.01",
+        "name": "BASSOON LESSON",
+        "faculty": "Watson, A. Frank",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "BSN"
+    },
+    {
+        "course code": "BSN 440.01",
+        "name": "BASSOON LESSON",
+        "faculty": "Watson, A. Frank",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "4.00",
+        "prefix": "BSN"
+    },
+    {
+        "course code": "CBS 111.01",
+        "name": "CONTRABASS LESSON",
+        "faculty": "Yackley, Aaron",
+        "seats open": "13/15",
+        "schedule": "Converse Universit",
+        "credits": "1.00",
+        "prefix": "CBS"
+    },
+    {
+        "course code": "CBS 121.01",
+        "name": "CONTRABASS LESSON CON",
+        "faculty": "Yackley, Aaron",
+        "seats open": "15/15",
+        "schedule": "Converse Universit",
+        "credits": "2.00",
+        "prefix": "CBS"
+    },
+    {
+        "course code": "CBS 220.01",
+        "name": "CONTRABASS LESSON",
+        "faculty": "Yackley, Aaron",
+        "seats open": "13/15",
+        "schedule": "Converse Universit",
+        "credits": "2.00",
+        "prefix": "CBS"
+    },
+    {
+        "course code": "CBS 320.01",
+        "name": "CONTRABASS LESSON",
+        "faculty": "Yackley, Aaron",
+        "seats open": "15/15",
+        "schedule": "Converse Universit",
+        "credits": "2.00",
+        "prefix": "CBS"
+    },
+    {
+        "course code": "CBS 440.01",
+        "name": "CONTRABASS LESSON",
+        "faculty": "Yackley, Aaron",
+        "seats open": "15/15",
+        "schedule": "Converse Universit",
+        "credits": "4.00",
+        "prefix": "CBS"
+    },
+    {
+        "course code": "CFS 200.01",
+        "name": "INTO TO CHILD & FAMILY STUDIES",
+        "faculty": "Jones, Julie Padgett",
+        "seats open": "12/20",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "CFS"
+    },
+    {
+        "course code": "CFS 201.01",
+        "name": "FAMILY SYSTEMS",
+        "faculty": "Chewning, Reed Martin",
+        "seats open": "3/20",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "CFS"
+    },
+    {
+        "course code": "CFS 302.95",
+        "name": "CHILD, YOUTH, AND FAMILY POLICY",
+        "faculty": "Jones, Julie Padgett",
+        "seats open": "0/26",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "CFS"
+    },
+    {
+        "course code": "CFS 401.01",
+        "name": "SENIOR SEMINAR",
+        "faculty": "Jones, Julie Padgett",
+        "seats open": "6/15",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "3.00",
+        "prefix": "CFS"
+    },
+    {
+        "course code": "CFS 403.01",
+        "name": "CHILD AND FAMILY STUDIES INTERN",
+        "faculty": "Jones, Julie Padgett",
+        "seats open": "16/20",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "CFS"
+    },
+    {
+        "course code": "CHM 125.01",
+        "name": "FYS:GENERAL CHEMISTRY",
+        "faculty": "Case, William Sterling",
+        "seats open": "11/30",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "4.00",
+        "prefix": "CHM"
+    },
+    {
+        "course code": "CHM 190.01",
+        "name": "GENERAL CHEMISTRY",
+        "faculty": "Hawk, Jennifer Lee",
+        "seats open": "0/30",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "4.00",
+        "prefix": "CHM"
+    },
+    {
+        "course code": "CHM 190L.01",
+        "name": "GENERAL CHEMISTRY LAB",
+        "faculty": "Staff",
+        "seats open": "0/20",
+        "schedule": "M 2:30 PM-5:30 PM",
+        "credits": "0.00",
+        "prefix": "CHM"
+    },
+    {
+        "course code": "CHM 190L.02",
+        "name": "GENERAL CHEMISTRY LAB",
+        "faculty": "Lawson, Alison PhD",
+        "seats open": "3/20",
+        "schedule": "T 9:00 AM-12:00 PM",
+        "credits": "0.00",
+        "prefix": "CHM"
+    },
+    {
+        "course code": "CHM 190L.03",
+        "name": "GENERAL CHEMISTRY LAB",
+        "faculty": "Staff",
+        "seats open": "8/20",
+        "schedule": "T 2:30 PM-5:30 PM",
+        "credits": "0.00",
+        "prefix": "CHM"
+    },
+    {
+        "course code": "CHM 204.01",
+        "name": "ORGANIC CHEMISTRY II",
+        "faculty": "Strickland, Sharon M. Smith",
+        "seats open": "11/32",
+        "schedule": "MWF 9:00 AM-9:50 AM",
+        "credits": "4.00",
+        "prefix": "CHM"
+    },
+    {
+        "course code": "CHM 204L.01",
+        "name": "LAB",
+        "faculty": "Strickland, Sharon M. Smith",
+        "seats open": "7/16",
+        "schedule": "R 9:00 AM-12:00 PM",
+        "credits": "0.00",
+        "prefix": "CHM"
+    },
+    {
+        "course code": "CHM 204L.02",
+        "name": "LAB",
+        "faculty": "Strickland, Sharon M. Smith",
+        "seats open": "4/16",
+        "schedule": "R 2:30 PM-5:30 PM",
+        "credits": "0.00",
+        "prefix": "CHM"
+    },
+    {
+        "course code": "CHM 390.01",
+        "name": "ANALYTICAL CHEMISTRY",
+        "faculty": "Strickland, Sharon M. SmithHawk, Jennifer Lee",
+        "seats open": "6/20",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "4.00",
+        "prefix": "CHM"
+    },
+    {
+        "course code": "CHM 390L.01",
+        "name": "LAB",
+        "faculty": "Strickland, Morgan LeighHawk, Jennifer Lee",
+        "seats open": "6/20",
+        "schedule": "W 2:30 PM-5:30 PM",
+        "credits": "0.00",
+        "prefix": "CHM"
+    },
+    {
+        "course code": "CHM 415.01",
+        "name": "BIOCHEMISTRY I",
+        "faculty": "Staff",
+        "seats open": "10/20",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "4.00",
+        "prefix": "CHM"
+    },
+    {
+        "course code": "CHM 415L.01",
+        "name": "LAB",
+        "faculty": "Staff",
+        "seats open": "10/20",
+        "schedule": "R 2:30 PM-5:30 PM",
+        "credits": "0.00",
+        "prefix": "CHM"
+    },
+    {
+        "course code": "CLP 100.01",
+        "name": "LEADERSHIP",
+        "faculty": "Glenn, Daphnie Meshaelae",
+        "seats open": "14/20",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "CLP"
+    },
+    {
+        "course code": "CLT 111.01",
+        "name": "CLARINET LESSON",
+        "faculty": "Hill, Karen",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "1.00",
+        "prefix": "CLT"
+    },
+    {
+        "course code": "CLT 121.01",
+        "name": "CLARINET LESSON",
+        "faculty": "Hill, Karen",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "CLT"
+    },
+    {
+        "course code": "CLT 220.01",
+        "name": "CLARINET LESSON",
+        "faculty": "Hill, Karen",
+        "seats open": "9/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "CLT"
+    },
+    {
+        "course code": "CLT 320.01",
+        "name": "CLARINET LESSON",
+        "faculty": "Hill, Karen",
+        "seats open": "14/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "CLT"
+    },
+    {
+        "course code": "CLT 440.01",
+        "name": "CLARINET LESSON",
+        "faculty": "Hill, Karen",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "4.00",
+        "prefix": "CLT"
+    },
+    {
+        "course code": "CON 101.01",
+        "name": "CAREER EXPLORATION & PLANNING",
+        "faculty": "Devine, Tana",
+        "seats open": "13/20",
+        "schedule": "W 2:30 PM-3:20 PM",
+        "credits": "1.00",
+        "prefix": "CON"
+    },
+    {
+        "course code": "CON 102.01",
+        "name": "FROM STUDENT TO PROFESSIONAL",
+        "faculty": "Gowan, Cathy M",
+        "seats open": "7/20",
+        "schedule": "W 12:00 PM-12:50 PM",
+        "credits": "1.00",
+        "prefix": "CON"
+    },
+    {
+        "course code": "CRW 200.01",
+        "name": "INTRO TO CREATIVE WRITING",
+        "faculty": "Mulkey, Richard D",
+        "seats open": "2/12",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "CRW"
+    },
+    {
+        "course code": "CRW 201.01",
+        "name": "INTRO TO PROFESSIONAL WRITING",
+        "faculty": "Tekulve, Susan",
+        "seats open": "0/14",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "CRW"
+    },
+    {
+        "course code": "CRW 301.01",
+        "name": "CREATIVE WRITING: POETRY",
+        "faculty": "Mulkey, Richard D",
+        "seats open": "4/12",
+        "schedule": "W 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "CRW"
+    },
+    {
+        "course code": "CRW 305.01",
+        "name": "CRAFT STUDIES IN PROSE",
+        "faculty": "Tekulve, Susan",
+        "seats open": "4/12",
+        "schedule": "T 2:30 PM-5:00 PM",
+        "credits": "3.00",
+        "prefix": "CRW"
+    },
+    {
+        "course code": "CRW 312.01",
+        "name": "NOVELLA WRITING",
+        "faculty": "",
+        "seats open": "0/12",
+        "schedule": "MW 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "CRW"
+    },
+    {
+        "course code": "CSC 126.01",
+        "name": "INTRO TO DIGITAL STUDIES",
+        "faculty": "Brown, Peter H",
+        "seats open": "13/18",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "CSC"
+    },
+    {
+        "course code": "CSC 201.01",
+        "name": "INTRO TO COMPUTER PROGRAMMING",
+        "faculty": "Brown, Peter H",
+        "seats open": "7/18",
+        "schedule": "TR 9:00 AM-11:45 AM",
+        "credits": "4.00",
+        "prefix": "CSC"
+    },
+    {
+        "course code": "CSC 235.01",
+        "name": "WEB APPLICATIONS I",
+        "faculty": "Brown, Peter H",
+        "seats open": "9/18",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "CSC"
+    },
+    {
+        "course code": "CSC 305.01",
+        "name": "DATABASE DESIGN",
+        "faculty": "Brown, Peter H",
+        "seats open": "10/18",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "3.00",
+        "prefix": "CSC"
+    },
+    {
+        "course code": "DAN 114.01",
+        "name": "BEGINNING JAZZ",
+        "faculty": "Roux, Allison Kay",
+        "seats open": "7/25",
+        "schedule": "TR 4:00 PM-5:15 PM",
+        "credits": "2.00",
+        "prefix": "DAN"
+    },
+    {
+        "course code": "DAN 190.95",
+        "name": "HST OF DANCE",
+        "faculty": "Roux, Allison Kay",
+        "seats open": "0/43",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "DAN"
+    },
+    {
+        "course code": "DAN 206.01",
+        "name": "COMPOSITION STRUCTURE II",
+        "faculty": "Roux, Allison KayTominaga, Margaret Eleanor",
+        "seats open": "5/16",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "DAN"
+    },
+    {
+        "course code": "DAN 214.01",
+        "name": "INTERMEDIATE JAZZ TECH",
+        "faculty": "Roux, Allison Kay",
+        "seats open": "7/10",
+        "schedule": "TR 4:00 PM-5:15 PM",
+        "credits": "2.00",
+        "prefix": "DAN"
+    },
+    {
+        "course code": "DES 283.01",
+        "name": "SPACE PLANNING",
+        "faculty": "Staff",
+        "seats open": "1/13",
+        "schedule": "TR 9:00 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "DES"
+    },
+    {
+        "course code": "DES 285.01",
+        "name": "CAD I",
+        "faculty": "Flynn, Christopher Adam",
+        "seats open": "1/13",
+        "schedule": "TR 2:30 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "DES"
+    },
+    {
+        "course code": "DES 288.01",
+        "name": "INTERIOR CONSTR",
+        "faculty": "Gomez, Jerome",
+        "seats open": "1/12",
+        "schedule": "MW 2:30 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "DES"
+    },
+    {
+        "course code": "DES 289.01",
+        "name": "PRESENTATION SK",
+        "faculty": "Barrick, William R",
+        "seats open": "0/12",
+        "schedule": "MW 2:30 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "DES"
+    },
+    {
+        "course code": "DES 381.95",
+        "name": "HISTORY OF INTERIORS I",
+        "faculty": "Hergenrather, Susan Hoffman",
+        "seats open": "0/18",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "DES"
+    },
+    {
+        "course code": "DES 383.01",
+        "name": "CODES AND MATERIALS",
+        "faculty": "Staff",
+        "seats open": "1/12",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "DES"
+    },
+    {
+        "course code": "DES 387.01",
+        "name": "KITCHEN & BATH DESIGN",
+        "faculty": "Gomez, Jerome",
+        "seats open": "1/12",
+        "schedule": "TR 9:00 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "DES"
+    },
+    {
+        "course code": "DES 480.01",
+        "name": "SENIOR SEMINAR",
+        "faculty": "Gomez, Jerome",
+        "seats open": "0/10",
+        "schedule": "MWF 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "DES"
+    },
+    {
+        "course code": "DES 481.01",
+        "name": "ADVANCED INTERIOR DESIGN I",
+        "faculty": "Staff",
+        "seats open": "0/10",
+        "schedule": "MW 2:30 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "DES"
+    },
+    {
+        "course code": "DES 483.01",
+        "name": "BUS & PROF PRAC",
+        "faculty": "Gomez, Jerome",
+        "seats open": "0/10",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "DES"
+    },
+    {
+        "course code": "DSC 217.01",
+        "name": "DATA SCIENCE I",
+        "faculty": "Mangum, Amanda Jean",
+        "seats open": "14/20",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "3.00",
+        "prefix": "DSC"
+    },
+    {
+        "course code": "ECN 201.01",
+        "name": "MICROECONOMIC PRINCIPLES",
+        "faculty": "Young, Madelyn V",
+        "seats open": "0/30",
+        "schedule": "MWF 12:00 PM-12:50 PM",
+        "credits": "3.00",
+        "prefix": "ECN"
+    },
+    {
+        "course code": "ECN 202.95",
+        "name": "MACROECONOMIC PRINCIPLES",
+        "faculty": "Partapurwala, Mohammed",
+        "seats open": "0/30",
+        "schedule": "MWF 12:00 PM-12:50 PM",
+        "credits": "3.00",
+        "prefix": "ECN"
+    },
+    {
+        "course code": "ECN 321.AC",
+        "name": "MONEY& FINANCIAL INSTITUTIONS",
+        "faculty": "Staff",
+        "seats open": "0/1",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "ECN"
+    },
+    {
+        "course code": "ECN 324.01",
+        "name": "BUSINESS & THE PUBLIC SECTOR",
+        "faculty": "Young, Madelyn V",
+        "seats open": "8/15",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "ECN"
+    },
+    {
+        "course code": "ECN 326.01",
+        "name": "`LABOR ECONOMICS",
+        "faculty": "Young, Madelyn V",
+        "seats open": "11/25",
+        "schedule": "MW 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "ECN"
+    },
+    {
+        "course code": "ECN 327.95",
+        "name": "INTERNATIONAL ECONOMICS",
+        "faculty": "Partapurwala, Mohammed",
+        "seats open": "10/25",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "ECN"
+    },
+    {
+        "course code": "EDU 101.01",
+        "name": "CLINICAL I: READING ELEM/SPED",
+        "faculty": "McCraw, Rebecca H",
+        "seats open": "16/20",
+        "schedule": "Converse University, Carmichael Hall, Carmichael Hall, 10",
+        "credits": "1.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 101.02",
+        "name": "CLINICAL I: READING -ECE",
+        "faculty": "McCraw, Rebecca H",
+        "seats open": "18/20",
+        "schedule": "Converse University, Carmichael Hall, Carmichael Hall, 11",
+        "credits": "1.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 102.01",
+        "name": "CLINICAL II: EARLY CHILDHOOD",
+        "faculty": "Lies, James Edward III",
+        "seats open": "19/20",
+        "schedule": "M 6:00 PM-7:00 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 103.01",
+        "name": "CLINICAL II: ELEMENTARY",
+        "faculty": "Lies, James Edward III",
+        "seats open": "13/20",
+        "schedule": "M 6:00 PM-7:00 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 125.01",
+        "name": "FYS: How Can I Help?",
+        "faculty": "Jones, Julie Padgett",
+        "seats open": "1/18",
+        "schedule": "TR 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 125.02",
+        "name": "FYS: Beyonce in the Classroom",
+        "faculty": "Watson, Adelaide Rochell",
+        "seats open": "8/18",
+        "schedule": "TR 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 202.01",
+        "name": "CLINICAL II: CONTENT READING",
+        "faculty": "Mooneyham, Sam",
+        "seats open": "8/10",
+        "schedule": "Converse Universit",
+        "credits": "0.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 301.01",
+        "name": "READING LANGUAGE ARTS IN THE ELEMEN",
+        "faculty": "McCraw, Rebecca H",
+        "seats open": "11/15",
+        "schedule": "T 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 303.01",
+        "name": "MATHEMATICS FOR THE ELEM CHILD",
+        "faculty": "Cheser, David Wayne",
+        "seats open": "19/20",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 304.01",
+        "name": "INTRO TO CHILD & FAMILY STUDIES",
+        "faculty": "Jones, Julie Padgett",
+        "seats open": "2/5",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 305.01",
+        "name": "BEHAVIOR & DEVELOP OF YOUNG CHILD",
+        "faculty": "Park, Margaret Elizabeth",
+        "seats open": "12/20",
+        "schedule": "T 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 307.01",
+        "name": "READING&LANGUAGE ARTS IN THE EC CLA",
+        "faculty": "McCraw, Rebecca H",
+        "seats open": "17/20",
+        "schedule": "TR 9:00 AM-10:15 AM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 309.01",
+        "name": "LITERATURE FOR THE CHILD",
+        "faculty": "McCraw, Rebecca H",
+        "seats open": "21/25",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 314.01",
+        "name": "SCIENCE FOR THE CHILD",
+        "faculty": "Lovelace, Justin J",
+        "seats open": "19/20",
+        "schedule": "MW 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 315.01",
+        "name": "SOCIAL STUDIES FOR THE CHILD",
+        "faculty": "Barksdale, Tawio James",
+        "seats open": "18/20",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 336.01",
+        "name": "LANGUAGE ARTS:INTEGRATING INTERM RD",
+        "faculty": "Staff",
+        "seats open": "13/20",
+        "schedule": "R 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 350.95",
+        "name": "R2S READING FOUNDATIONS",
+        "faculty": "Maguire, Kelly Harrison",
+        "seats open": "7/10",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 351.01",
+        "name": "MIDDLE LEVEL PEDAGOGY & ASSESSMENT",
+        "faculty": "Mooneyham, Sam",
+        "seats open": "20/20",
+        "schedule": "MW 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 353.95",
+        "name": "MIDDLE LEVEL ADOLESCENT DEVELOPMENT",
+        "faculty": "Mooneyham, Sam",
+        "seats open": "19/20",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 360.02",
+        "name": "INTRODUCTION TO EDUCATION",
+        "faculty": "Barksdale, Tawio James",
+        "seats open": "16/25",
+        "schedule": "R 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 360.95",
+        "name": "INTRODUCTION TO EDUCATION",
+        "faculty": "Barksdale, Tawio James",
+        "seats open": "6/25",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 361.95",
+        "name": "CURRICULUM DESIGN AND ASSESSMENT",
+        "faculty": "Barksdale, Tawio James",
+        "seats open": "18/20",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 372.01",
+        "name": "DIAGNOSTICS & METHODS ELEM CLASSRM",
+        "faculty": "McCraw, Rebecca H",
+        "seats open": "18/20",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 378.01",
+        "name": "READING & LEARNING STRATEGIES",
+        "faculty": "Maguire, Kelly Harrison",
+        "seats open": "10/20",
+        "schedule": "R 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 403.01",
+        "name": "METHODS & MATERIALS EARLY CHILDHOOD",
+        "faculty": "Park, Margaret Elizabeth",
+        "seats open": "18/20",
+        "schedule": "R 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 405.95",
+        "name": "CURRIC FOR EARLY CHILDHOOD EDUC",
+        "faculty": "Vaughn, Marilyn Brett DeLoach",
+        "seats open": "23/25",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 412A.01",
+        "name": "DIRECTED STUDENT TEACHING :ELEM",
+        "faculty": "Mooneyham, Sam",
+        "seats open": "15/15",
+        "schedule": "MTWRF 7:00 AM-3:30 PM",
+        "credits": "12.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 412B.01",
+        "name": "DIRECTED STUDENT TEACHING : ECE",
+        "faculty": "Mooneyham, Sam",
+        "seats open": "14/15",
+        "schedule": "MTWRF 7:00 AM-3:30 PM",
+        "credits": "12.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 412C.01",
+        "name": "DIRECTED STUDENT TEACHING - SEC",
+        "faculty": "Mooneyham, Sam",
+        "seats open": "15/15",
+        "schedule": "MTWRF 7:00 AM-3:30 PM",
+        "credits": "12.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 412H.01",
+        "name": "DIRECTED ST TEACH: ART ELEM & SEC",
+        "faculty": "Mooneyham, Sam",
+        "seats open": "15/15",
+        "schedule": "MTWRF 7:00 AM-3:30 PM",
+        "credits": "12.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 425.01",
+        "name": "ML/SEC TEACH OF READ: CONT AREAS",
+        "faculty": "Mooneyham, Sam",
+        "seats open": "18/20",
+        "schedule": "M 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 425.95",
+        "name": "TEACHING OF READING: CONTENT AREAS",
+        "faculty": "Gunter, Susanne Floyd",
+        "seats open": "3/15",
+        "schedule": "T 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EDU 450.01",
+        "name": "INTERSHIP CHILD & FAMILY STUDIES",
+        "faculty": "Jones, Julie PadgettMaguire, Kelly Harrison",
+        "seats open": "8/10",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "EDU"
+    },
+    {
+        "course code": "EGR 101.01",
+        "name": "ENGINEERING FUNDAMENTALS",
+        "faculty": "Lawson, Alison PhD",
+        "seats open": "5/20",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "EGR"
+    },
+    {
+        "course code": "ENG 101.01",
+        "name": "COMPOSITION",
+        "faculty": "Barrios, Nina",
+        "seats open": "0/18",
+        "schedule": "TR 9:00 AM-10:15 AM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENG 101.03",
+        "name": "COMPOSITION",
+        "faculty": "Billington, Jaycee",
+        "seats open": "0/18",
+        "schedule": "MWF 9:00 AM-9:50 AM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENG 101.04",
+        "name": "COMPOSITION",
+        "faculty": "Harbin, Persephone Emily",
+        "seats open": "0/18",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENG 101.05",
+        "name": "COMPOSITION",
+        "faculty": "Barrios, Nina",
+        "seats open": "0/18",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENG 101.06",
+        "name": "COMPOSITION",
+        "faculty": "Butts, Melissa Clark",
+        "seats open": "0/18",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENG 102.01",
+        "name": "INTRO LIT GENRES",
+        "faculty": "Harbin, Persephone Emily",
+        "seats open": "4/25",
+        "schedule": "TR 9:00 AM-10:15 AM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENG 102.02",
+        "name": "INTRO LIT GENRES",
+        "faculty": "Butts, Melissa Clark",
+        "seats open": "16/22",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENG 125.01",
+        "name": "FYS: THE WEST",
+        "faculty": "Howard, Jeff",
+        "seats open": "5/18",
+        "schedule": "MWF 9:00 AM-9:50 AM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENG 201.01",
+        "name": "SURVEY OF BRITISH LITERATURE I",
+        "faculty": "Brown, Laura Feitzinger",
+        "seats open": "10/22",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENG 203.01",
+        "name": "SURVEY AM LIT I",
+        "faculty": "Templeton, Erin E.",
+        "seats open": "9/22",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENG 206.01",
+        "name": "WORLD LITERATURE",
+        "faculty": "Harbin, Persephone Emily",
+        "seats open": "0/11",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENG 290.01",
+        "name": "MULTIMODAL COMPOSITION",
+        "faculty": "Howard, Jeff",
+        "seats open": "0/15",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENG 305.01",
+        "name": "WORLD LITERATURE",
+        "faculty": "Harbin, Persephone Emily",
+        "seats open": "1/7",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENG 315.01",
+        "name": "ADOLESCENT LITERATURE",
+        "faculty": "Brown, Laura Feitzinger",
+        "seats open": "16/18",
+        "schedule": "R 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENG 496.01",
+        "name": "SENIOR SEMINAR-BA IN ENGLISH",
+        "faculty": "Templeton, Erin E.",
+        "seats open": "8/12",
+        "schedule": "W 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "ENG"
+    },
+    {
+        "course code": "ENV 101.01",
+        "name": "INTRO TO ENVIRONMENTAL SCIENCE",
+        "faculty": "Jensen, Douglas Paige",
+        "seats open": "0/16",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "4.00",
+        "prefix": "ENV"
+    },
+    {
+        "course code": "ENV 101L.01",
+        "name": "INTRO TO ENVIR SCIENCE LAB",
+        "faculty": "Jensen, Douglas Paige",
+        "seats open": "0/16",
+        "schedule": "R 2:30 PM-5:30 PM",
+        "credits": "0.00",
+        "prefix": "ENV"
+    },
+    {
+        "course code": "ENV 102.01",
+        "name": "SP:INTRO TO ENVIRONMENTAL SCIENCE",
+        "faculty": "Ratterree, John Eric",
+        "seats open": "0/28",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "ENV"
+    },
+    {
+        "course code": "EUP 111.01",
+        "name": "EUPHONIUM LESSON",
+        "faculty": "Haecker, Arthur",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "1.00",
+        "prefix": "EUP"
+    },
+    {
+        "course code": "EUP 121.01",
+        "name": "EUPHONIUM LESSON",
+        "faculty": "Haecker, Arthur",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "EUP"
+    },
+    {
+        "course code": "EUP 220.01",
+        "name": "EUPHONIUM LESSON",
+        "faculty": "Haecker, Arthur",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "EUP"
+    },
+    {
+        "course code": "EUP 320.01",
+        "name": "EUPHONIUM LESSON",
+        "faculty": "Haecker, Arthur",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "EUP"
+    },
+    {
+        "course code": "EUP 440.01",
+        "name": "EUPHONIUM LESSON",
+        "faculty": "Haecker, Arthur",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "4.00",
+        "prefix": "EUP"
+    },
+    {
+        "course code": "FIN 200.01",
+        "name": "PERSONAL FINANCE",
+        "faculty": "Stephens, Wynton",
+        "seats open": "0/25",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "FIN"
+    },
+    {
+        "course code": "FIN 370.01",
+        "name": "BUSINESS FINANCE",
+        "faculty": "Dingwell, DawnCox, Amy E",
+        "seats open": "0/25",
+        "schedule": "TR 9:00 AM-11:45 AM",
+        "credits": "4.00",
+        "prefix": "FIN"
+    },
+    {
+        "course code": "FLT 111.01",
+        "name": "FLUTE LESSON",
+        "faculty": "Vaneman, Christopher",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "1.00",
+        "prefix": "FLT"
+    },
+    {
+        "course code": "FLT 121.01",
+        "name": "FLUTE LESSON",
+        "faculty": "Vaneman, Christopher",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "FLT"
+    },
+    {
+        "course code": "FLT 220.01",
+        "name": "FLUTE LESSON",
+        "faculty": "Vaneman, Christopher",
+        "seats open": "9/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "FLT"
+    },
+    {
+        "course code": "FLT 320.01",
+        "name": "FLUTE LESSON",
+        "faculty": "Vaneman, Christopher",
+        "seats open": "13/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "FLT"
+    },
+    {
+        "course code": "FLT 440.01",
+        "name": "FLUTE LESSON",
+        "faculty": "Vaneman, Christopher",
+        "seats open": "14/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "4.00",
+        "prefix": "FLT"
+    },
+    {
+        "course code": "GER 101.01",
+        "name": "ELEMENTARY GERMAN I",
+        "faculty": "Hall, Mirko M",
+        "seats open": "8/30",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "GER"
+    },
+    {
+        "course code": "GER 201.01",
+        "name": "INTERM GERMAN I",
+        "faculty": "Hall, Mirko M",
+        "seats open": "9/30",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "GER"
+    },
+    {
+        "course code": "GER 303.01",
+        "name": "GERMAN LITERARY STUDIES",
+        "faculty": "Hall, Mirko M",
+        "seats open": "9/15",
+        "schedule": "M 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "GER"
+    },
+    {
+        "course code": "GER 314A.01",
+        "name": "SP: GER, NATIVE AMER (Humanities)",
+        "faculty": "Hall, Mirko M",
+        "seats open": "0/30",
+        "schedule": "TR 9:00 AM-10:15 AM",
+        "credits": "3.00",
+        "prefix": "GER"
+    },
+    {
+        "course code": "GER 499.95",
+        "name": "SENIOR SEMINAR",
+        "faculty": "Hall, Mirko M",
+        "seats open": "0/2",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "GER"
+    },
+    {
+        "course code": "GTR 111.01",
+        "name": "GUITAR",
+        "faculty": "Miller, Michael Moss",
+        "seats open": "14/15",
+        "schedule": "Converse Universit",
+        "credits": "1.00",
+        "prefix": "GTR"
+    },
+    {
+        "course code": "GTR 121.01",
+        "name": "GUITAR LESSON",
+        "faculty": "Miller, Michael Moss",
+        "seats open": "14/15",
+        "schedule": "Converse Universit",
+        "credits": "2.00",
+        "prefix": "GTR"
+    },
+    {
+        "course code": "GTR 220.01",
+        "name": "GUITAR LESSON",
+        "faculty": "Miller, Michael Moss",
+        "seats open": "15/15",
+        "schedule": "Converse Universit",
+        "credits": "2.00",
+        "prefix": "GTR"
+    },
+    {
+        "course code": "GTR 320.01",
+        "name": "GUITAR LESSON",
+        "faculty": "Miller, Michael Moss",
+        "seats open": "15/15",
+        "schedule": "Converse Universit",
+        "credits": "2.00",
+        "prefix": "GTR"
+    },
+    {
+        "course code": "GTR 440.01",
+        "name": "GUITAR LESSON",
+        "faculty": "Miller, Michael Moss",
+        "seats open": "15/15",
+        "schedule": "Converse Universit",
+        "credits": "4.00",
+        "prefix": "GTR"
+    },
+    {
+        "course code": "HCA 230.01",
+        "name": "INTRO TO HEALTHCARE MANAGEMENT",
+        "faculty": "Williams, Dorothy LeslieCox, Amy E",
+        "seats open": "17/25",
+        "schedule": "MW 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "HCA"
+    },
+    {
+        "course code": "HCA 360.95",
+        "name": "HEALTH INFORMATICS AND TECHNOLOGY",
+        "faculty": "Wilkins, AdamCox, Amy E",
+        "seats open": "17/25",
+        "schedule": "TR 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "HCA"
+    },
+    {
+        "course code": "HCA 470.01",
+        "name": "HEALTHCARE FINANCE & ACCOUNTING",
+        "faculty": "Greenlee, Tanya",
+        "seats open": "11/25",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "4.00",
+        "prefix": "HCA"
+    },
+    {
+        "course code": "HON 399H.01",
+        "name": "JUNIOR HON SEM",
+        "faculty": "Brown, Laura Feitzinger",
+        "seats open": "11/20",
+        "schedule": "W 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "HON"
+    },
+    {
+        "course code": "HPE 125.01",
+        "name": "FYS:WOMEN IN SPORT:STRUGGLE TO",
+        "faculty": "Moore, Margaret S.",
+        "seats open": "2/20",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "HPE"
+    },
+    {
+        "course code": "HPE 140.01",
+        "name": "BEGINNING SWINNING",
+        "faculty": "Moore, Margaret S.",
+        "seats open": "11/18",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "1.00",
+        "prefix": "HPE"
+    },
+    {
+        "course code": "HPE 153.01",
+        "name": "INTRO TO YOGA",
+        "faculty": "LeFrancois, Janet Reames",
+        "seats open": "3/18",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "1.00",
+        "prefix": "HPE"
+    },
+    {
+        "course code": "HPE 250.01",
+        "name": "PERSONAL TRAINING",
+        "faculty": "Staff",
+        "seats open": "0/21",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "HPE"
+    },
+    {
+        "course code": "HPE 255.01",
+        "name": "INTRO TO FITNESS & WELLNESS",
+        "faculty": "Moore, Margaret S.",
+        "seats open": "1/30",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "HPE"
+    },
+    {
+        "course code": "HPE 255.95",
+        "name": "INTRO TO FITNESS & WELLNESS",
+        "faculty": "Moore, Margaret S.",
+        "seats open": "0/26",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "HPE"
+    },
+    {
+        "course code": "HPE 255.96",
+        "name": "INTRO TO FITNESS & WELLNESS",
+        "faculty": "Moore, Margaret S.",
+        "seats open": "0/30",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "HPE"
+    },
+    {
+        "course code": "HPE 255.97",
+        "name": "INTRO TO FITNESS & WELLNESS",
+        "faculty": "Moore, Margaret S.",
+        "seats open": "6/30",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "HPE"
+    },
+    {
+        "course code": "HPE 393.01",
+        "name": "HEALTH & PHYS ED FOR ELEM TEACHERS",
+        "faculty": "Crowe, Nancy M",
+        "seats open": "2/10",
+        "schedule": "TR 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "HPE"
+    },
+    {
+        "course code": "HRN 111.01",
+        "name": "HORN LESSON",
+        "faculty": "Grodrian, Ericka Tyner",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "1.00",
+        "prefix": "HRN"
+    },
+    {
+        "course code": "HRN 121.01",
+        "name": "HORN LESSON",
+        "faculty": "Grodrian, Ericka Tyner",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "HRN"
+    },
+    {
+        "course code": "HRN 220.01",
+        "name": "HORN LESSON",
+        "faculty": "Grodrian, Ericka Tyner",
+        "seats open": "14/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "HRN"
+    },
+    {
+        "course code": "HRN 320.01",
+        "name": "HORN LESSON",
+        "faculty": "Grodrian, Ericka Tyner",
+        "seats open": "13/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "HRN"
+    },
+    {
+        "course code": "HRN 440.01",
+        "name": "HORN LESSON",
+        "faculty": "Grodrian, Ericka Tyner",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "4.00",
+        "prefix": "HRN"
+    },
+    {
+        "course code": "HRP 111.01",
+        "name": "HARP LESSON",
+        "faculty": "Wickey, John Alan",
+        "seats open": "15/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "1.00",
+        "prefix": "HRP"
+    },
+    {
+        "course code": "HRP 121.01",
+        "name": "HARP LESSON",
+        "faculty": "Wickey, John Alan",
+        "seats open": "15/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "2.00",
+        "prefix": "HRP"
+    },
+    {
+        "course code": "HRP 220.01",
+        "name": "HARP LESSON",
+        "faculty": "Wickey, John Alan",
+        "seats open": "15/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "2.00",
+        "prefix": "HRP"
+    },
+    {
+        "course code": "HRP 320.01",
+        "name": "HARP LESSON",
+        "faculty": "Wickey, John Alan",
+        "seats open": "15/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "2.00",
+        "prefix": "HRP"
+    },
+    {
+        "course code": "HRP 440.01",
+        "name": "HARP LESSON",
+        "faculty": "Wickey, John Alan",
+        "seats open": "15/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "4.00",
+        "prefix": "HRP"
+    },
+    {
+        "course code": "HST 199H.01",
+        "name": "HONORS: FOUNDATIONS WESTERN WORLD",
+        "faculty": "Woodfin, Edward C.",
+        "seats open": "5/18",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "HST"
+    },
+    {
+        "course code": "HST 201.01",
+        "name": "AM HST TO 1877",
+        "faculty": "Elder, Angela Esco",
+        "seats open": "0/25",
+        "schedule": "MWF 9:00 AM-9:50 AM",
+        "credits": "3.00",
+        "prefix": "HST"
+    },
+    {
+        "course code": "HST 201.02",
+        "name": "AM HST TO 1877",
+        "faculty": "Elder, Angela Esco",
+        "seats open": "0/25",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "HST"
+    },
+    {
+        "course code": "HST 291H.01",
+        "name": "SP:WOMEN IN WWI AND WWII",
+        "faculty": "Dunn, Joe P.",
+        "seats open": "0/7",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "HST"
+    },
+    {
+        "course code": "HST 318.01",
+        "name": "ENG HIST1450- 1714",
+        "faculty": "Theilmann, John M",
+        "seats open": "14/20",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "HST"
+    },
+    {
+        "course code": "HST 420.01",
+        "name": "MODERN RUSSIA HISTORY AND POLITICS",
+        "faculty": "Dunn, Joe P.",
+        "seats open": "0/10",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "HST"
+    },
+    {
+        "course code": "HST 425.01",
+        "name": "AMERICAN WEST",
+        "faculty": "Woodfin, Edward C.",
+        "seats open": "3/20",
+        "schedule": "TR 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "HST"
+    },
+    {
+        "course code": "HST 480.01",
+        "name": "SENIOR SEMINAR",
+        "faculty": "Elder, Angela Esco",
+        "seats open": "13/25",
+        "schedule": "M 2:30 PM-5:20 PM",
+        "credits": "3.00",
+        "prefix": "HST"
+    },
+    {
+        "course code": "MEN 110.01",
+        "name": "CHAMBER ENSEMBLE",
+        "faculty": "LeBauer, Courtney Elise",
+        "seats open": "21/25",
+        "schedule": "Converse Universit",
+        "credits": "1.00",
+        "prefix": "MEN"
+    },
+    {
+        "course code": "MEN 110.02",
+        "name": "CHAMBER ENSEMBLE (FLUTE)",
+        "faculty": "Vaneman, Christopher",
+        "seats open": "16/25",
+        "schedule": "M 4:30 PM-5:30 PM",
+        "credits": "1.00",
+        "prefix": "MEN"
+    },
+    {
+        "course code": "MEN 110.03",
+        "name": "CHAMBER ENSEMBLE (CLARINET)",
+        "faculty": "Hill, Karen",
+        "seats open": "21/25",
+        "schedule": "T 5:30 PM-6:30 PM",
+        "credits": "1.00",
+        "prefix": "MEN"
+    },
+    {
+        "course code": "MEN 110.04",
+        "name": "CHAMBER ENSEMBLE (SAXOPHONE)",
+        "faculty": "Hill, Karen",
+        "seats open": "24/25",
+        "schedule": "M 5:30 PM-6:30 PM",
+        "credits": "1.00",
+        "prefix": "MEN"
+    },
+    {
+        "course code": "MEN 115.01",
+        "name": "CREATIVE MUSIC ENSEMBLE",
+        "faculty": "Berry, S. David",
+        "seats open": "13/25",
+        "schedule": "T 5:20 PM-6:20 PM",
+        "credits": "1.00",
+        "prefix": "MEN"
+    },
+    {
+        "course code": "MEN 120.01",
+        "name": "CONVERSE WIND ENSEMBLE",
+        "faculty": "Haecker, Arthur",
+        "seats open": "19/50",
+        "schedule": "M 7:00 PM-9:30 PM",
+        "credits": "1.00",
+        "prefix": "MEN"
+    },
+    {
+        "course code": "MEN 130.01",
+        "name": "CONVERSE SYMPHONY ORCHESTRA",
+        "faculty": "StaffLeBauer, Courtney Elise",
+        "seats open": "32/50",
+        "schedule": "T 4:00 PM-5:35 PM",
+        "credits": "1.00",
+        "prefix": "MEN"
+    },
+    {
+        "course code": "MEN 150.01",
+        "name": "CONVERSE CHORALE",
+        "faculty": "Jones, Keith",
+        "seats open": "31/50",
+        "schedule": "MWF 2:30 PM-3:20 PM",
+        "credits": "1.00",
+        "prefix": "MEN"
+    },
+    {
+        "course code": "MEN 160.01",
+        "name": "FESTIVAL CHORUS",
+        "faculty": "Jones, Keith",
+        "seats open": "43/50",
+        "schedule": "T 7:00 PM-9:30 PM",
+        "credits": "1.00",
+        "prefix": "MEN"
+    },
+    {
+        "course code": "MEN 170.01",
+        "name": "ACCOMPANYING",
+        "faculty": "Roche, Mildred Ragis",
+        "seats open": "25/25",
+        "schedule": "Converse University, Blackman Music Hall, Adminitrative Offic",
+        "credits": "1.00",
+        "prefix": "MEN"
+    },
+    {
+        "course code": "MMD 311.01",
+        "name": "RECORDING AND SOUND REINFORCEMENT",
+        "faculty": "Berry, S. David",
+        "seats open": "17/25",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "3.00",
+        "prefix": "MMD"
+    },
+    {
+        "course code": "MTH 108.01",
+        "name": "FINITE MATH",
+        "faculty": "Reynolds, Sandra S",
+        "seats open": "0/25",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "MTH"
+    },
+    {
+        "course code": "MTH 108.95",
+        "name": "FINITE MATH",
+        "faculty": "Reynolds, Sandra S",
+        "seats open": "2/25",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "MTH"
+    },
+    {
+        "course code": "MTH 108.96",
+        "name": "FINITE MATH",
+        "faculty": "Reynolds, Sandra S",
+        "seats open": "16/25",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "MTH"
+    },
+    {
+        "course code": "MTH 113.95",
+        "name": "INTRODUCTION TO STATISTICS",
+        "faculty": "Kimbrell, Terri Cash",
+        "seats open": "0/20",
+        "schedule": "Onlin",
+        "credits": "4.00",
+        "prefix": "MTH"
+    },
+    {
+        "course code": "MTH 120.01",
+        "name": "CALCULUS I",
+        "faculty": "Mangum, Amanda Jean",
+        "seats open": "0/20",
+        "schedule": "MW 2:30 PM-4:30 PM",
+        "credits": "4.00",
+        "prefix": "MTH"
+    },
+    {
+        "course code": "MTH 220.01",
+        "name": "CALCULUS III",
+        "faculty": "Sorrells, Jessica Lynn",
+        "seats open": "5/15",
+        "schedule": "TR 9:00 AM-10:15 AM",
+        "credits": "3.00",
+        "prefix": "MTH"
+    },
+    {
+        "course code": "MTH 413.01",
+        "name": "ABSTRACT ALGEBRA",
+        "faculty": "Sorrells, Jessica Lynn",
+        "seats open": "6/15",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "MTH"
+    },
+    {
+        "course code": "MTH 480.01",
+        "name": "SP:MATH MODELING",
+        "faculty": "Mangum, Amanda Jean",
+        "seats open": "8/15",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "MTH"
+    },
+    {
+        "course code": "MTH 499.01",
+        "name": "SENIOR SEMINAR",
+        "faculty": "Mangum, Amanda JeanSorrells, Jessica Lynn",
+        "seats open": "3/10",
+        "schedule": "TR 4:00 PM-5:15 PM",
+        "credits": "1.00",
+        "prefix": "MTH"
+    },
+    {
+        "course code": "MTY 151.01",
+        "name": "INTRO TO MUSIC THERAPY",
+        "faculty": "Eggerding, Elizabeth",
+        "seats open": "3/15",
+        "schedule": "MW 10:00 AM-10:50 AM",
+        "credits": "2.00",
+        "prefix": "MTY"
+    },
+    {
+        "course code": "MTY 152.01",
+        "name": "GUITAR I",
+        "faculty": "Eggerding, Elizabeth",
+        "seats open": "7/15",
+        "schedule": "F 10:00 AM-10:50 AM",
+        "credits": "1.00",
+        "prefix": "MTY"
+    },
+    {
+        "course code": "MTY 250.01",
+        "name": "CLINICAL PROCESS I",
+        "faculty": "Shultis, Carol L.",
+        "seats open": "4/10",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "2.00",
+        "prefix": "MTY"
+    },
+    {
+        "course code": "MTY 261.01",
+        "name": "PIANO APPLICATIONS IN MUSIC THERAPY",
+        "faculty": "Eggerding, Elizabeth",
+        "seats open": "4/5",
+        "schedule": "Converse University, Blackman Music Hall, Blackman, 210",
+        "credits": "1.00",
+        "prefix": "MTY"
+    },
+    {
+        "course code": "MTY 361.01",
+        "name": "MUSIC THERAPY IN EDUCATIONAL SETTIN",
+        "faculty": "Eggerding, Elizabeth",
+        "seats open": "6/10",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "2.00",
+        "prefix": "MTY"
+    },
+    {
+        "course code": "MTY 381.01",
+        "name": "MUSIC THERAPY PRACTICUM I",
+        "faculty": "Shultis, Carol L.Eggerding, Elizabeth",
+        "seats open": "11/15",
+        "schedule": "MWF 1:30 PM-2:20 PM",
+        "credits": "2.00",
+        "prefix": "MTY"
+    },
+    {
+        "course code": "MTY 451.01",
+        "name": "MUSIC THRPY W/ADULT POP",
+        "faculty": "Shultis, Carol L.",
+        "seats open": "8/10",
+        "schedule": "W 6:00 PM-8:30 PM",
+        "credits": "3.00",
+        "prefix": "MTY"
+    },
+    {
+        "course code": "MTY 481.01",
+        "name": "MUSIC PRACTICUM III",
+        "faculty": "Shultis, Carol L.Eggerding, Elizabeth",
+        "seats open": "8/10",
+        "schedule": "MWF 1:30 PM-2:30 PM",
+        "credits": "2.00",
+        "prefix": "MTY"
+    },
+    {
+        "course code": "MTY 485.01",
+        "name": "MUSIC THERAPY CLINICAL TRAINING",
+        "faculty": "Shultis, Carol L.",
+        "seats open": "5/5",
+        "schedule": "Converse University, Blackman Music Hall, Blackman, 210",
+        "credits": "3.00",
+        "prefix": "MTY"
+    },
+    {
+        "course code": "MUA 101.01",
+        "name": "PIANO CLASS I",
+        "faculty": "Graff, Steven L.",
+        "seats open": "3/12",
+        "schedule": "MW 11:00 AM-11:50 AM",
+        "credits": "1.00",
+        "prefix": "MUA"
+    },
+    {
+        "course code": "MUA 101.02",
+        "name": "PIANO CLASS I",
+        "faculty": "Graff, Steven L.",
+        "seats open": "0/12",
+        "schedule": "TR 2:30 PM-3:20 PM",
+        "credits": "1.00",
+        "prefix": "MUA"
+    },
+    {
+        "course code": "MUA 111.01",
+        "name": "VOICE CLASS I",
+        "faculty": "Lyle, Susan L.",
+        "seats open": "7/15",
+        "schedule": "TR 10:30 AM-11:20 AM",
+        "credits": "1.00",
+        "prefix": "MUA"
+    },
+    {
+        "course code": "MUA 201.01",
+        "name": "PIANO CLASS IV",
+        "faculty": "Graff, Steven L.",
+        "seats open": "6/12",
+        "schedule": "MW 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "MUA"
+    },
+    {
+        "course code": "MUA 201.02",
+        "name": "PIANO CLASS IV",
+        "faculty": "Graff, Steven L.",
+        "seats open": "6/12",
+        "schedule": "TR 10:30 AM-11:20 AM",
+        "credits": "1.00",
+        "prefix": "MUA"
+    },
+    {
+        "course code": "MUA 221.01",
+        "name": "ITAL & ENG DICTION",
+        "faculty": "Roche, Mildred Ragis",
+        "seats open": "21/25",
+        "schedule": "MW 1:30 PM-2:20 PM",
+        "credits": "2.00",
+        "prefix": "MUA"
+    },
+    {
+        "course code": "MUA 375.01",
+        "name": "ADV REPERTOIRE COACHING FOR SINGERS",
+        "faculty": "Roche, Mildred Ragis",
+        "seats open": "15/15",
+        "schedule": "Converse University, Blackman Music Hall, Adminitrative Offic",
+        "credits": "1.00",
+        "prefix": "MUA"
+    },
+    {
+        "course code": "MUA 390.01",
+        "name": "JUNIOR RECITAL",
+        "faculty": "Roche, Mildred Ragis",
+        "seats open": "24/24",
+        "schedule": "Converse University, Blackman Music Hall, Adminitrative Offic",
+        "credits": "0.00",
+        "prefix": "MUA"
+    },
+    {
+        "course code": "MUA 476.01",
+        "name": "PETRIE 360 II",
+        "faculty": "Kay, Peter B",
+        "seats open": "14/15",
+        "schedule": "MW 12:00 PM-12:50 PM",
+        "credits": "1.00",
+        "prefix": "MUA"
+    },
+    {
+        "course code": "MUA 485.01",
+        "name": "SENIOR PROJECT",
+        "faculty": "Vaneman, Kelly McElrath",
+        "seats open": "10/10",
+        "schedule": "Converse University, Blackman Music Hall, Adminitrative Offic",
+        "credits": "0.00",
+        "prefix": "MUA"
+    },
+    {
+        "course code": "MUA 490.01",
+        "name": "SENIOR RECITAL",
+        "faculty": "Roche, Mildred Ragis",
+        "seats open": "16/20",
+        "schedule": "Converse University, Blackman Music Hall, Adminitrative Offic",
+        "credits": "0.00",
+        "prefix": "MUA"
+    },
+    {
+        "course code": "MUB 101.01",
+        "name": "INTRODUCTION TO MUSIC BUSINESS",
+        "faculty": "Jeter, John R III",
+        "seats open": "29/30",
+        "schedule": "MWF 12:00 PM-12:50 PM",
+        "credits": "3.00",
+        "prefix": "MUB"
+    },
+    {
+        "course code": "MUE 203.01",
+        "name": "PRIVATE APPLIED TEACHING",
+        "faculty": "LeBauer, Courtney Elise",
+        "seats open": "3/5",
+        "schedule": "Converse Universit",
+        "credits": "1.00",
+        "prefix": "MUE"
+    },
+    {
+        "course code": "MUE 203.02",
+        "name": "PRIVATE APPLIED TEACHING",
+        "faculty": "Foster, Kathleen E.",
+        "seats open": "5/5",
+        "schedule": "Converse Universit",
+        "credits": "1.00",
+        "prefix": "MUE"
+    },
+    {
+        "course code": "MUE 203.03",
+        "name": "PRIVATE APPLIED TEACHING",
+        "faculty": "Hill, Karen",
+        "seats open": "4/5",
+        "schedule": "Converse Universit",
+        "credits": "1.00",
+        "prefix": "MUE"
+    },
+    {
+        "course code": "MUE 203.04",
+        "name": "PRIVATE APPLIED TEACHING",
+        "faculty": "Vaneman, Christopher",
+        "seats open": "4/5",
+        "schedule": "Converse Universit",
+        "credits": "1.00",
+        "prefix": "MUE"
+    },
+    {
+        "course code": "MUE 203.05",
+        "name": "PRIVATE APPLIED TEACHING (COMPOSIT)",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "5/5",
+        "schedule": "Converse Universit",
+        "credits": "1.00",
+        "prefix": "MUE"
+    },
+    {
+        "course code": "MUE 211.01",
+        "name": "PIANO TEACHING PREP",
+        "faculty": "Pauly, Erica Broadnax",
+        "seats open": "5/5",
+        "schedule": "To be announced",
+        "credits": "2.00",
+        "prefix": "MUE"
+    },
+    {
+        "course code": "MUE 220.01",
+        "name": "MUSIC EDUCATION FORUM",
+        "faculty": "Lalama, Susana",
+        "seats open": "8/25",
+        "schedule": "F 1:30 PM-2:20 PM",
+        "credits": "0.00",
+        "prefix": "MUE"
+    },
+    {
+        "course code": "MUE 311.01",
+        "name": "GENERAL MUSIC IN THE ELEMENTARY SCH",
+        "faculty": "Lalama, Susana",
+        "seats open": "22/25",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "MUE"
+    },
+    {
+        "course code": "MUE 321.01",
+        "name": "BRASS TECHNIQUES",
+        "faculty": "Staff",
+        "seats open": "17/25",
+        "schedule": "MW 9:00 AM-9:50 AM",
+        "credits": "1.00",
+        "prefix": "MUE"
+    },
+    {
+        "course code": "MUE 341.01",
+        "name": "VOICE PEDAGOGY I",
+        "faculty": "MacPhail, Valerie Kaye",
+        "seats open": "18/20",
+        "schedule": "TR 2:30 PM-3:20 PM",
+        "credits": "2.00",
+        "prefix": "MUE"
+    },
+    {
+        "course code": "MUE 351.01",
+        "name": "FUNDAMENTALS OF CONDUCTING",
+        "faculty": "Lalama, Susana",
+        "seats open": "7/20",
+        "schedule": "MW 11:00 AM-11:50 AM",
+        "credits": "2.00",
+        "prefix": "MUE"
+    },
+    {
+        "course code": "MUE 460.01",
+        "name": "D STUDENT TEACHING I MUSIC",
+        "faculty": "Lalama, Susana",
+        "seats open": "9/10",
+        "schedule": "Converse Universit",
+        "credits": "12.00",
+        "prefix": "MUE"
+    },
+    {
+        "course code": "MUE 460.02",
+        "name": "D STUDENT TEACHING I MUSIC",
+        "faculty": "Staff",
+        "seats open": "9/10",
+        "schedule": "Converse Universit",
+        "credits": "12.00",
+        "prefix": "MUE"
+    },
+    {
+        "course code": "MUH 100.01",
+        "name": "RECITAL ATTEND",
+        "faculty": "Vaneman, Kelly McElrath",
+        "seats open": "35/100",
+        "schedule": "Converse Universit",
+        "credits": "0.00",
+        "prefix": "MUH"
+    },
+    {
+        "course code": "MUH 111.01",
+        "name": "AMER POPULAR MUSIC",
+        "faculty": "Jones, Keith",
+        "seats open": "23/30",
+        "schedule": "TR 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "MUH"
+    },
+    {
+        "course code": "MUH 115.95",
+        "name": "THE BEATLES",
+        "faculty": "Berry, S. David",
+        "seats open": "6/50",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "MUH"
+    },
+    {
+        "course code": "MUH 125.01",
+        "name": "FYS: MUSIC HISTORY I",
+        "faculty": "Vaneman, Kelly McElrath",
+        "seats open": "2/30",
+        "schedule": "MWF 12:00 PM-12:50 PM",
+        "credits": "3.00",
+        "prefix": "MUH"
+    },
+    {
+        "course code": "MUH 199H.01",
+        "name": "FYS: HONORS",
+        "faculty": "Bani, Rachel Michele",
+        "seats open": "3/18",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "MUH"
+    },
+    {
+        "course code": "MUH 201.01",
+        "name": "MUSIC HISTORY III",
+        "faculty": "Bani, Rachel Michele",
+        "seats open": "12/30",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "MUH"
+    },
+    {
+        "course code": "MUH 332.01",
+        "name": "MUSIC OF DIVERSE CULTURES",
+        "faculty": "Vaneman, Kelly McElrath",
+        "seats open": "12/30",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "MUH"
+    },
+    {
+        "course code": "MUH 451.01",
+        "name": "SONG LITERATURE",
+        "faculty": "Roche, Mildred Ragis",
+        "seats open": "27/30",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "3.00",
+        "prefix": "MUH"
+    },
+    {
+        "course code": "MUH 463.01",
+        "name": "ORCHESTRAL LITERATURE",
+        "faculty": "LeBauer, Courtney Elise",
+        "seats open": "19/20",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "3.00",
+        "prefix": "MUH"
+    },
+    {
+        "course code": "MUH 475.01",
+        "name": "SEMINAR IN MUSICOLOGY",
+        "faculty": "Bani, Rachel Michele",
+        "seats open": "26/30",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "MUH"
+    },
+    {
+        "course code": "MUT 101.01",
+        "name": "BASIC ELEMENTS OF MUSIC THEORY",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "4/30",
+        "schedule": "MWF 9:00 AM-9:50 AM",
+        "credits": "3.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 111.01",
+        "name": "MUSICIANSHIP I",
+        "faculty": "Roche, Mildred Ragis",
+        "seats open": "2/30",
+        "schedule": "TR 9:00 AM-10:15 AM",
+        "credits": "1.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 179.01",
+        "name": "COMPOSITION",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "14/15",
+        "schedule": "Converse University, Blackman Music Hall, Administrative Offic",
+        "credits": "1.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 179.02",
+        "name": "COMPOSITION",
+        "faculty": "Berry, S. David",
+        "seats open": "15/15",
+        "schedule": "Converse Universit",
+        "credits": "1.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 181.01",
+        "name": "COMPOSITION",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "12/15",
+        "schedule": "Converse University, Blackman Music Hall, Administrative Offic",
+        "credits": "1.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 183.01",
+        "name": "COMPOSITION",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "14/15",
+        "schedule": "Converse University, Blackman Music Hall, Administrative Offic",
+        "credits": "1.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 201.01",
+        "name": "CHROMATIC HARMONY",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "14/30",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 211.01",
+        "name": "MUSICIANSHIP III",
+        "faculty": "McEntire, Madeleine Xiyuan",
+        "seats open": "14/30",
+        "schedule": "TR 9:00 AM-10:15 AM",
+        "credits": "1.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 281.01",
+        "name": "COMPOSITION",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "15/15",
+        "schedule": "Converse University, Blackman Music Hall, Administrative Offic",
+        "credits": "1.50",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 283.01",
+        "name": "COMPOSITION",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "15/15",
+        "schedule": "Converse University, Blackman Music Hall, Administrative Offic",
+        "credits": "1.50",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 291.01",
+        "name": "COMPOSING WITH ELECTRONIC MEDIA",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "15/15",
+        "schedule": "Converse University, Blackman Music Hall, Administrative Offic",
+        "credits": "2.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 293.01",
+        "name": "COMPOSITION FOR FILM & VIDEO GAMES",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "13/15",
+        "schedule": "Converse University, Blackman Music Hall, Administrative Offic",
+        "credits": "2.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 381.01",
+        "name": "COMPOSITION",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "25/25",
+        "schedule": "Converse Universit",
+        "credits": "2.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 383.01",
+        "name": "COMPOSITION",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "15/15",
+        "schedule": "Converse University, Blackman Music Hall, Administrative Offic",
+        "credits": "2.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 410.01",
+        "name": "SENIOR RECITAL",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "10/10",
+        "schedule": "Converse Universit",
+        "credits": "0.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 470.01",
+        "name": "DIS:ORCHESTRATION",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "4/5",
+        "schedule": "Converse Universit",
+        "credits": "3.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 481.01",
+        "name": "COMPOSITION",
+        "faculty": "Robbins, Malcolm Scott",
+        "seats open": "22/25",
+        "schedule": "Converse University, Blackman Music Hall, Administrative Offic",
+        "credits": "3.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "MUT 483.01",
+        "name": "COMPOSITION",
+        "faculty": "Berry, S. David",
+        "seats open": "9/10",
+        "schedule": "Converse University, Blackman Music Hall, Administrative Offic",
+        "credits": "3.00",
+        "prefix": "MUT"
+    },
+    {
+        "course code": "OBO 111.01",
+        "name": "OBOE LESSESON",
+        "faculty": "Vaneman, Kelly McElrath",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "1.00",
+        "prefix": "OBO"
+    },
+    {
+        "course code": "OBO 121.01",
+        "name": "OBOE LESSON",
+        "faculty": "Vaneman, Kelly McElrath",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "OBO"
+    },
+    {
+        "course code": "OBO 220.01",
+        "name": "OBOE LESSON",
+        "faculty": "Vaneman, Kelly McElrath",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "OBO"
+    },
+    {
+        "course code": "OBO 320.01",
+        "name": "OBOE LESSON",
+        "faculty": "Vaneman, Kelly McElrath",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "OBO"
+    },
+    {
+        "course code": "OBO 440.01",
+        "name": "OBOE LESSON",
+        "faculty": "Vaneman, Kelly McElrath",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "4.00",
+        "prefix": "OBO"
+    },
+    {
+        "course code": "ORG 111.01",
+        "name": "ORGAN LESSON",
+        "faculty": "Szafron, Brennan",
+        "seats open": "15/15",
+        "schedule": "Converse Universit",
+        "credits": "1.00",
+        "prefix": "ORG"
+    },
+    {
+        "course code": "ORG 121.01",
+        "name": "ORGAN LESSONS",
+        "faculty": "Szafron, Brennan",
+        "seats open": "15/15",
+        "schedule": "Converse Universit",
+        "credits": "2.00",
+        "prefix": "ORG"
+    },
+    {
+        "course code": "ORG 220.01",
+        "name": "ORGAN LESSON",
+        "faculty": "Szafron, Brennan",
+        "seats open": "15/15",
+        "schedule": "Converse Universit",
+        "credits": "2.00",
+        "prefix": "ORG"
+    },
+    {
+        "course code": "ORG 320.01",
+        "name": "ORGAN LESSON",
+        "faculty": "Szafron, Brennan",
+        "seats open": "15/15",
+        "schedule": "Converse Universit",
+        "credits": "2.00",
+        "prefix": "ORG"
+    },
+    {
+        "course code": "ORG 440.01",
+        "name": "ORGAN LESSON",
+        "faculty": "Szafron, Brennan",
+        "seats open": "15/15",
+        "schedule": "Converse Universit",
+        "credits": "4.00",
+        "prefix": "ORG"
+    },
+    {
+        "course code": "PHI 100.01",
+        "name": "INTRO TO LOGIC",
+        "faculty": "DeLapp, Kevin M.",
+        "seats open": "0/22",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "PHI"
+    },
+    {
+        "course code": "PHI 201.01",
+        "name": "CONTEMPORARY MORAL ISSUES",
+        "faculty": "DeLapp, Kevin M.",
+        "seats open": "0/22",
+        "schedule": "TR 9:00 AM-10:15 AM",
+        "credits": "3.00",
+        "prefix": "PHI"
+    },
+    {
+        "course code": "PHI 341.01",
+        "name": "ADVANCED ETHICS",
+        "faculty": "DeLapp, Kevin M.",
+        "seats open": "15/22",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "PHI"
+    },
+    {
+        "course code": "PHI 400.01",
+        "name": "SENIOR CAPSTONE",
+        "faculty": "DeLapp, Kevin M.",
+        "seats open": "2/5",
+        "schedule": "To be announced",
+        "credits": "3.00",
+        "prefix": "PHI"
+    },
+    {
+        "course code": "PHY 241.01",
+        "name": "ELEMENTS PHY I",
+        "faculty": "Lonon, Jason",
+        "seats open": "12/36",
+        "schedule": "M 6:00 PM-9:00 PM",
+        "credits": "4.00",
+        "prefix": "PHY"
+    },
+    {
+        "course code": "PHY 241L.01",
+        "name": "LAB",
+        "faculty": "Lonon, Jason",
+        "seats open": "2/20",
+        "schedule": "R 6:00 PM-9:00 PM",
+        "credits": "0.00",
+        "prefix": "PHY"
+    },
+    {
+        "course code": "PHY 241L.02",
+        "name": "LAB",
+        "faculty": "Lonon, Jason",
+        "seats open": "12/16",
+        "schedule": "T 6:00 PM-9:00 PM",
+        "credits": "0.00",
+        "prefix": "PHY"
+    },
+    {
+        "course code": "PNO 111.01",
+        "name": "PIANO LESSON",
+        "faculty": "Graff, Steven L.",
+        "seats open": "10/15",
+        "schedule": "T 4:30 PM-5:30 PM",
+        "credits": "1.00",
+        "prefix": "PNO"
+    },
+    {
+        "course code": "PNO 121.01",
+        "name": "PIANO LESSON",
+        "faculty": "Graff, Steven L.",
+        "seats open": "14/15",
+        "schedule": "T 4:30 PM-5:30 PM",
+        "credits": "2.00",
+        "prefix": "PNO"
+    },
+    {
+        "course code": "PNO 220.01",
+        "name": "PIANO LESSON",
+        "faculty": "Graff, Steven L.",
+        "seats open": "13/15",
+        "schedule": "T 4:30 PM-5:30 PM",
+        "credits": "2.00",
+        "prefix": "PNO"
+    },
+    {
+        "course code": "PNO 320.01",
+        "name": "PIANO LESSON",
+        "faculty": "Graff, Steven L.",
+        "seats open": "14/15",
+        "schedule": "T 4:30 PM-5:30 PM",
+        "credits": "2.00",
+        "prefix": "PNO"
+    },
+    {
+        "course code": "PNO 440.01",
+        "name": "PIANO LESSON",
+        "faculty": "Graff, Steven L.",
+        "seats open": "15/15",
+        "schedule": "T 4:30 PM-5:30 PM",
+        "credits": "4.00",
+        "prefix": "PNO"
+    },
+    {
+        "course code": "POL 101.01",
+        "name": "AMER GOVERNMENT",
+        "faculty": "Vick, Allison",
+        "seats open": "3/25",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "POL"
+    },
+    {
+        "course code": "POL 101.02",
+        "name": "AMER GOVERNMENT",
+        "faculty": "Vick, Allison",
+        "seats open": "15/26",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "3.00",
+        "prefix": "POL"
+    },
+    {
+        "course code": "POL 102.01",
+        "name": "INTRO INTL RELA",
+        "faculty": "Dunn, Joe P.",
+        "seats open": "6/25",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "POL"
+    },
+    {
+        "course code": "POL 220H.01",
+        "name": "HNRS:WOMEN IN WWI AND WWII",
+        "faculty": "Dunn, Joe P.",
+        "seats open": "18/25",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "POL"
+    },
+    {
+        "course code": "POL 301.01",
+        "name": "THE AMERICAN CONGRESS",
+        "faculty": "Vick, Allison",
+        "seats open": "4/25",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "POL"
+    },
+    {
+        "course code": "POL 350.01",
+        "name": "ELEC & POL PARTIES",
+        "faculty": "Theilmann, John M",
+        "seats open": "13/25",
+        "schedule": "MWF 12:00 PM-12:50 PM",
+        "credits": "3.00",
+        "prefix": "POL"
+    },
+    {
+        "course code": "POL 420.01",
+        "name": "MODERN RUSSIA HISTORY AND POLITICS",
+        "faculty": "Dunn, Joe P.",
+        "seats open": "0/13",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "POL"
+    },
+    {
+        "course code": "POL 480.01",
+        "name": "SENIOR SEMINAR",
+        "faculty": "Theilmann, John M",
+        "seats open": "10/15",
+        "schedule": "M 2:30 PM-5:30 PM",
+        "credits": "3.00",
+        "prefix": "POL"
+    },
+    {
+        "course code": "PRC 111.01",
+        "name": "PERCUSSION LESSON",
+        "faculty": "McDaniel, Adena Shoemake",
+        "seats open": "13/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "1.00",
+        "prefix": "PRC"
+    },
+    {
+        "course code": "PRC 121.01",
+        "name": "PERCUSSION LESSON",
+        "faculty": "McDaniel, Adena Shoemake",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "PRC"
+    },
+    {
+        "course code": "PRC 220.01",
+        "name": "PERCUSSION LESSON",
+        "faculty": "McDaniel, Adena Shoemake",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "PRC"
+    },
+    {
+        "course code": "PRC 320.01",
+        "name": "PERCUSSION LESSON",
+        "faculty": "McDaniel, Adena Shoemake",
+        "seats open": "14/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "PRC"
+    },
+    {
+        "course code": "PRC 440.01",
+        "name": "PERCUSSION LESSON",
+        "faculty": "McDaniel, Adena Shoemake",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "4.00",
+        "prefix": "PRC"
+    },
+    {
+        "course code": "PSY 100.01",
+        "name": "GENERAL PSY",
+        "faculty": "Keen, Richard G.",
+        "seats open": "10/30",
+        "schedule": "MWF 9:00 AM-9:50 AM",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "PSY 100.02",
+        "name": "GENERAL PSY",
+        "faculty": "McCoy, Monica L.",
+        "seats open": "1/30",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "PSY 100.03",
+        "name": "GENERAL PSY",
+        "faculty": "Staff",
+        "seats open": "13/30",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "PSY 233.01",
+        "name": "PSYCHOLOGY OF LEARNING",
+        "faculty": "Keen, Richard G.",
+        "seats open": "7/20",
+        "schedule": "TR 9:00 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "PSY 280.01",
+        "name": "HEALTH PSY",
+        "faculty": "Staff",
+        "seats open": "17/30",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "PSY 310.01",
+        "name": "STATS & EXPERIMENTAL DESIGN I",
+        "faculty": "Keen, Richard G.",
+        "seats open": "11/20",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "PSY 310.02",
+        "name": "STATS & EXPERIMENTAL DESIGN I",
+        "faculty": "Staff",
+        "seats open": "5/20",
+        "schedule": "TR 9:00 AM-10:15 AM",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "PSY 311.01",
+        "name": "STATS & EXPERIMNETAL DESIGN II",
+        "faculty": "McCoy, Monica L.",
+        "seats open": "0/22",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "PSY 340.01",
+        "name": "COGNITIVE BEHAVIOR THERAPY",
+        "faculty": "LePage, Marie Louise",
+        "seats open": "1/20",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "PSY 374.01",
+        "name": "ABNORMAL PSYCHOLOGY",
+        "faculty": "LePage, Marie Louise",
+        "seats open": "16/30",
+        "schedule": "TR 9:00 AM-10:15 AM",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "PSY 380.01",
+        "name": "HUMAN GROWTH & DEVELOPMENT",
+        "faculty": "McCoy, Monica L.",
+        "seats open": "5/30",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "PSY 380.02",
+        "name": "HUMAN GROWTH & DEVELOPMENT",
+        "faculty": "Chewning, Reed Martin",
+        "seats open": "5/30",
+        "schedule": "MW 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "PSY 380.95",
+        "name": "HUMAN GROWTH & DEVELOPMENT",
+        "faculty": "Jones, Julie Padgett",
+        "seats open": "0/23",
+        "schedule": "Online, Onlin",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "PSY 405.01",
+        "name": "HST & PHIL/PSY",
+        "faculty": "LeFrancois, Janet Reames",
+        "seats open": "7/30",
+        "schedule": "MWF 12:00 PM-12:50 PM",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "PSY 480.01",
+        "name": "SENIOR SEMINAR",
+        "faculty": "LePage, Marie Louise",
+        "seats open": "1/12",
+        "schedule": "TR 1:00 PM-2:15 PM",
+        "credits": "3.00",
+        "prefix": "PSY"
+    },
+    {
+        "course code": "REL 308.95",
+        "name": "RELIGION IN AMERICA",
+        "faculty": "DeBevoise, Eliza Smith",
+        "seats open": "0/28",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "REL"
+    },
+    {
+        "course code": "REL 308.96",
+        "name": "RELIGION IN AMERICA",
+        "faculty": "DeBevoise, Eliza Smith",
+        "seats open": "0/25",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "REL"
+    },
+    {
+        "course code": "SAX 111.01",
+        "name": "SAXOPHONE LESSON",
+        "faculty": "Hill, Karen",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "1.00",
+        "prefix": "SAX"
+    },
+    {
+        "course code": "SAX 121.01",
+        "name": "SAXOPHONE LESSON",
+        "faculty": "Hill, Karen",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "SAX"
+    },
+    {
+        "course code": "SAX 220.01",
+        "name": "SAXOPHONE LESSON",
+        "faculty": "Hill, Karen",
+        "seats open": "14/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "SAX"
+    },
+    {
+        "course code": "SAX 320.01",
+        "name": "SAXOPHONE LESSON",
+        "faculty": "Hill, Karen",
+        "seats open": "13/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "SAX"
+    },
+    {
+        "course code": "SAX 440.01",
+        "name": "SAXOPHONE LESSON",
+        "faculty": "Hill, Karen",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "4.00",
+        "prefix": "SAX"
+    },
+    {
+        "course code": "SED 125.01",
+        "name": "FYS: Deaf Culture in Film",
+        "faculty": "Park, Margaret Elizabeth",
+        "seats open": "9/18",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 300.01",
+        "name": "INTRO TO EXCEPTIONAL LEARNERS",
+        "faculty": "Corder, William Owens Jr.",
+        "seats open": "15/30",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 300.02",
+        "name": "INTRO TO EXCEPTIONAL LEARNERS",
+        "faculty": "Corder, William Owens Jr.",
+        "seats open": "26/30",
+        "schedule": "TR 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 300.95",
+        "name": "INTRO TO EXCEPTIONAL LEARNERS",
+        "faculty": "Corder, William Owens Jr.",
+        "seats open": "10/25",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 330.95",
+        "name": "SP:FOUNDATIONS OF ASD",
+        "faculty": "Ghionis, Elena Victoria",
+        "seats open": "13/20",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 350.01",
+        "name": "FOUNDATIONS: DEAF & HARD OF HEARING",
+        "faculty": "Watson, Adelaide Rochell",
+        "seats open": "17/20",
+        "schedule": "MW 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 353.01",
+        "name": "AUDIOLOGY & SPOKEN LANG DEV",
+        "faculty": "Cappelmann, Sarah Kathryn",
+        "seats open": "14/20",
+        "schedule": "TR 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 357.01",
+        "name": "READING ASSESSMENT & INSTRUCTION:",
+        "faculty": "Park, Margaret Elizabeth",
+        "seats open": "16/20",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 376.01",
+        "name": "ASSESSMENT FOR EXCEPTIONAL LEARNERS",
+        "faculty": "Ghionis, Elena Victoria",
+        "seats open": "18/20",
+        "schedule": "W 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 382A.95",
+        "name": "CLINICAL II: INTELL DISABILITIES",
+        "faculty": "Smith, Sherrie Staggs",
+        "seats open": "20/20",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 382B.95",
+        "name": "CLINICAL II: IN LEARNING DISABILIT",
+        "faculty": "Smith, Sherrie Staggs",
+        "seats open": "19/20",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 382C.95",
+        "name": "CLINICAL II: IN EMOTIONAL DISABIL",
+        "faculty": "Smith, Sherrie Staggs",
+        "seats open": "19/20",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 382M.95",
+        "name": "CLINICAL II: MULTICATEGORICAL DISAB",
+        "faculty": "Ghionis, Elena Victoria",
+        "seats open": "19/20",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 385.01",
+        "name": "AM SIGN LANGUAGE I",
+        "faculty": "Park, Margaret Elizabeth",
+        "seats open": "0/20",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 385.02",
+        "name": "AM SIGN LANGUAGE I",
+        "faculty": "Park, Margaret Elizabeth",
+        "seats open": "3/20",
+        "schedule": "TR 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 386.01",
+        "name": "EDUCATIONAL PROCEDURES ID",
+        "faculty": "Ghionis, Elena Victoria",
+        "seats open": "18/20",
+        "schedule": "M 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 390.01",
+        "name": "AM SIGN LANGUAGE II",
+        "faculty": "Park, Margaret Elizabeth",
+        "seats open": "0/20",
+        "schedule": "MW 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 390.02",
+        "name": "AM SIGN LANGUAGE II",
+        "faculty": "Watson, Adelaide Rochell",
+        "seats open": "1/15",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 391.01",
+        "name": "AM SIGN LANGUAGE III",
+        "faculty": "Watson, Adelaide Rochell",
+        "seats open": "11/20",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 391.02",
+        "name": "AM SIGN LANGUAGE III",
+        "faculty": "Watson, Adelaide Rochell",
+        "seats open": "4/20",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 392.01",
+        "name": "AM SIGN LANGUAGE IV",
+        "faculty": "Kincheloe, Christine Lyn",
+        "seats open": "13/20",
+        "schedule": "MW 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 394.01",
+        "name": "AM SIGN LANGUAGE V",
+        "faculty": "Gribble, Steven Russell",
+        "seats open": "12/20",
+        "schedule": "M 5:45 PM-8:15 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 395.95",
+        "name": "INTRO TO LEARNING DISABILITIES",
+        "faculty": "Corder, William Owens Jr.",
+        "seats open": "19/30",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 397.95",
+        "name": "INTRODUCTION TO EMOTIONAL DISABILIT",
+        "faculty": "Corder, William Owens Jr.",
+        "seats open": "11/25",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 405.01",
+        "name": "BEHAVIOR & CLASSROOM MANAGEMENT",
+        "faculty": "Smith, Sherrie Staggs",
+        "seats open": "16/20",
+        "schedule": "MW 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 412D.01",
+        "name": "DIRECTED STUDENT TEACHING - D/HH",
+        "faculty": "Mooneyham, Sam",
+        "seats open": "15/15",
+        "schedule": "MTWRF 7:00 AM-3:30 PM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 412F.01",
+        "name": "DIRECTED STUDENT TEACHING - LD",
+        "faculty": "Mooneyham, Sam",
+        "seats open": "15/15",
+        "schedule": "MTWRF 7:00 AM-3:30 PM",
+        "credits": "12.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 412G.01",
+        "name": "DIRECTED STDENT TCH: ID",
+        "faculty": "Mooneyham, Sam",
+        "seats open": "14/15",
+        "schedule": "MTWRF 7:00 AM-3:30 PM",
+        "credits": "12.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SED 458.01",
+        "name": "METHODS & PROCEDURES: DEAF & HARD",
+        "faculty": "Watson, Adelaide Rochell",
+        "seats open": "16/20",
+        "schedule": "TR 9:00 AM-10:15 AM",
+        "credits": "3.00",
+        "prefix": "SED"
+    },
+    {
+        "course code": "SOC 100.95",
+        "name": "PRIN OF SOCIOL",
+        "faculty": "Reid, Matt",
+        "seats open": "0/31",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "SOC"
+    },
+    {
+        "course code": "SPN 101.01",
+        "name": "ELEM SPANISH I",
+        "faculty": "Licata, Stefania",
+        "seats open": "0/25",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "SPN"
+    },
+    {
+        "course code": "SPN 101.95",
+        "name": "ELEM SPANISH I",
+        "faculty": "Licata, Stefania",
+        "seats open": "0/25",
+        "schedule": "Onlin",
+        "credits": "3.00",
+        "prefix": "SPN"
+    },
+    {
+        "course code": "SPN 102.01",
+        "name": "ELEM SPANISH II",
+        "faculty": "Brookie, Parker",
+        "seats open": "0/25",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "SPN"
+    },
+    {
+        "course code": "SPN 102.02",
+        "name": "ELEM SPANISH II",
+        "faculty": "Brookie, Parker",
+        "seats open": "0/25",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "SPN"
+    },
+    {
+        "course code": "SPN 102.03",
+        "name": "ELEM SPANISH II",
+        "faculty": "Hernandez, Rafael E",
+        "seats open": "25/25",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "SPN"
+    },
+    {
+        "course code": "SPN 201.01",
+        "name": "INTERM SPANISH I",
+        "faculty": "Hernandez, Rafael E",
+        "seats open": "4/25",
+        "schedule": "MWF 9:00 AM-9:50 AM",
+        "credits": "3.00",
+        "prefix": "SPN"
+    },
+    {
+        "course code": "SPN 201.02",
+        "name": "INTERM SPANISH I",
+        "faculty": "Hernandez, Rafael E",
+        "seats open": "9/25",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "SPN"
+    },
+    {
+        "course code": "SPN 205.01",
+        "name": "CONVERSATION & COMPOSITION",
+        "faculty": "Licata, Stefania",
+        "seats open": "20/25",
+        "schedule": "MWF 12:00 PM-12:50 PM",
+        "credits": "3.00",
+        "prefix": "SPN"
+    },
+    {
+        "course code": "SPN 300.01",
+        "name": "SPANISH PENINSULAR CULTURE",
+        "faculty": "Licata, Stefania",
+        "seats open": "14/25",
+        "schedule": "MWF 10:00 AM-10:50 AM",
+        "credits": "3.00",
+        "prefix": "SPN"
+    },
+    {
+        "course code": "SPN 315.01",
+        "name": "INTRO TO LATINX STUDIES",
+        "faculty": "Brookie, Parker",
+        "seats open": "19/25",
+        "schedule": "MW 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "SPN"
+    },
+    {
+        "course code": "SSS 101.01",
+        "name": "STUDENT SUCCESS SEMINAR",
+        "faculty": "Stoneburner, Alexis Summer",
+        "seats open": "0/20",
+        "schedule": "MW 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "SSS"
+    },
+    {
+        "course code": "SSS 101.02",
+        "name": "STUDENT SUCCESS SEMINAR",
+        "faculty": "Good, Victoria McLean",
+        "seats open": "1/24",
+        "schedule": "MW 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "SSS"
+    },
+    {
+        "course code": "SSS 101.03",
+        "name": "STUDENT SUCCESS SEMINAR",
+        "faculty": "Glenn, Daphnie Meshaelae",
+        "seats open": "8/20",
+        "schedule": "MW 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "SSS"
+    },
+    {
+        "course code": "SSS 101.04",
+        "name": "STUDENT SUCCESS SEMINAR",
+        "faculty": "Witt, Dallas",
+        "seats open": "8/20",
+        "schedule": "MW 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "SSS"
+    },
+    {
+        "course code": "SSS 101.05",
+        "name": "STUDENT SUCCESS SEMINAR",
+        "faculty": "Chewning, Reed Martin",
+        "seats open": "8/20",
+        "schedule": "MW 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "SSS"
+    },
+    {
+        "course code": "SSS 101.06",
+        "name": "STUDENT SUCCESS SEMINAR",
+        "faculty": "Mingo, Rhonda L",
+        "seats open": "10/20",
+        "schedule": "MW 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "SSS"
+    },
+    {
+        "course code": "SSS 101.07",
+        "name": "STUDENT SUCCESS SEMINAR",
+        "faculty": "Hudson, Kala Marie",
+        "seats open": "10/20",
+        "schedule": "MW 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "SSS"
+    },
+    {
+        "course code": "SSS 101.08",
+        "name": "STUDENT SUCCESS SEMINAR",
+        "faculty": "Kellam, James W",
+        "seats open": "8/20",
+        "schedule": "MW 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "SSS"
+    },
+    {
+        "course code": "SSS 101.09",
+        "name": "STUDENT SUCCESS SEMINAR",
+        "faculty": "Wright, Maxwell",
+        "seats open": "8/20",
+        "schedule": "MW 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "SSS"
+    },
+    {
+        "course code": "SSS 101.10",
+        "name": "STUDENT SUCCESS SEMINAR",
+        "faculty": "Stowe, Adrian L",
+        "seats open": "9/20",
+        "schedule": "MW 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "SSS"
+    },
+    {
+        "course code": "SSS 101.11",
+        "name": "STUDENT SUCCESS SEMINAR",
+        "faculty": "Elliott, Andrea Ezell",
+        "seats open": "10/30",
+        "schedule": "MW 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "SSS"
+    },
+    {
+        "course code": "SSS 101.12",
+        "name": "STUDENT SUCCESS SEMINAR",
+        "faculty": "Vaneman, Kelly McElrath",
+        "seats open": "5/30",
+        "schedule": "MW 1:30 PM-2:20 PM",
+        "credits": "1.00",
+        "prefix": "SSS"
+    },
+    {
+        "course code": "SSS 102.01",
+        "name": "TRANSFER STUDENT SUCCESS SEMINAR",
+        "faculty": "Stokes, Tammy Weaver",
+        "seats open": "18/40",
+        "schedule": "M 12:00 PM-12:50 PM",
+        "credits": "1.00",
+        "prefix": "SSS"
+    },
+    {
+        "course code": "TBN 111.01",
+        "name": "TROMBONE LESSON",
+        "faculty": "Haecker, Arthur",
+        "seats open": "14/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "1.00",
+        "prefix": "TBN"
+    },
+    {
+        "course code": "TBN 121.01",
+        "name": "TROMBONE LESSON",
+        "faculty": "Haecker, Arthur",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "TBN"
+    },
+    {
+        "course code": "TBN 220.01",
+        "name": "TROMBONE LESSON",
+        "faculty": "Haecker, Arthur",
+        "seats open": "14/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "TBN"
+    },
+    {
+        "course code": "TBN 320.01",
+        "name": "TROMBONE LESSON",
+        "faculty": "Haecker, Arthur",
+        "seats open": "14/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "TBN"
+    },
+    {
+        "course code": "TBN 440.01",
+        "name": "TROMBONE LESSON",
+        "faculty": "Haecker, Arthur",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "4.00",
+        "prefix": "TBN"
+    },
+    {
+        "course code": "THR 100.01",
+        "name": "INTRODUCTION TO THEATRE",
+        "faculty": "Elser, Jenna TamisieaTominaga, Margaret Eleanor",
+        "seats open": "1/25",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "THR"
+    },
+    {
+        "course code": "THR 115.01",
+        "name": "ACTING: FUNDAMENTALS",
+        "faculty": "Kaley, Melissa Owens",
+        "seats open": "6/16",
+        "schedule": "TR 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "THR"
+    },
+    {
+        "course code": "THR 118.01",
+        "name": "VOICE: FUNDAMENTALS OF SINGING",
+        "faculty": "Arms, Wendi White",
+        "seats open": "13/20",
+        "schedule": "TR 9:00 AM-10:15 AM",
+        "credits": "3.00",
+        "prefix": "THR"
+    },
+    {
+        "course code": "THR 201.01",
+        "name": "STAGECRAFT",
+        "faculty": "Tominaga, Margaret Eleanor",
+        "seats open": "1/12",
+        "schedule": "MW 2:30 PM-3:45 PM",
+        "credits": "3.00",
+        "prefix": "THR"
+    },
+    {
+        "course code": "THR 203.01",
+        "name": "SURVEY THEATRE HST 500BCE TO 1600",
+        "faculty": "Elser, Jenna Tamisiea",
+        "seats open": "15/18",
+        "schedule": "MW 4:00 PM-5:15 PM",
+        "credits": "3.00",
+        "prefix": "THR"
+    },
+    {
+        "course code": "THR 215.01",
+        "name": "ACTING: MICHAEL CHEKHOV",
+        "faculty": "Kaley, Melissa Owens",
+        "seats open": "6/14",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "THR"
+    },
+    {
+        "course code": "THR 221.01",
+        "name": "PRACTICUM",
+        "faculty": "Elser, Jenna Tamisiea",
+        "seats open": "31/50",
+        "schedule": "F 2:00 PM-4:00 PM",
+        "credits": "1.00",
+        "prefix": "THR"
+    },
+    {
+        "course code": "THR 221.02",
+        "name": "PRACTICUM",
+        "faculty": "Kaley, Melissa Owens",
+        "seats open": "6/10",
+        "schedule": "Converse University, Wilson Hall, Hazel B. Abbott Theate",
+        "credits": "1.00",
+        "prefix": "THR"
+    },
+    {
+        "course code": "THR 229.01",
+        "name": "FUNDAMENTALS OF THEATRICAL DESIGN",
+        "faculty": "Tominaga, Margaret Eleanor",
+        "seats open": "7/12",
+        "schedule": "MWF 11:00 AM-11:50 AM",
+        "credits": "3.00",
+        "prefix": "THR"
+    },
+    {
+        "course code": "THR 240.01",
+        "name": "STAGE MANAGEMENT",
+        "faculty": "Tominaga, Margaret Eleanor",
+        "seats open": "0/12",
+        "schedule": "MWF 9:00 AM-9:50 AM",
+        "credits": "3.00",
+        "prefix": "THR"
+    },
+    {
+        "course code": "THR 315.01",
+        "name": "ACTING: ADVANCED MICHAEL CHEKHOV",
+        "faculty": "Kaley, Melissa Owens",
+        "seats open": "6/6",
+        "schedule": "TR 10:30 AM-11:45 AM",
+        "credits": "3.00",
+        "prefix": "THR"
+    },
+    {
+        "course code": "THR 499.01",
+        "name": "SENIOR PROJECT",
+        "faculty": "Elser, Jenna Tamisiea",
+        "seats open": "2/7",
+        "schedule": "MWF 12:00 PM-12:50 PM",
+        "credits": "2.00",
+        "prefix": "THR"
+    },
+    {
+        "course code": "TPT 111.01",
+        "name": "TRUMPET LESSON",
+        "faculty": "King, Craig",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "1.00",
+        "prefix": "TPT"
+    },
+    {
+        "course code": "TPT 121.01",
+        "name": "TRUMPET LESSON",
+        "faculty": "King, Craig",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "TPT"
+    },
+    {
+        "course code": "TPT 220.01",
+        "name": "TRUMPET LESSON",
+        "faculty": "King, Craig",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "TPT"
+    },
+    {
+        "course code": "TPT 320.01",
+        "name": "TRUMPET LESSON",
+        "faculty": "King, Craig",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "TPT"
+    },
+    {
+        "course code": "TPT 440.01",
+        "name": "TRUMPET LESSON",
+        "faculty": "King, Craig",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "4.00",
+        "prefix": "TPT"
+    },
+    {
+        "course code": "TUB 111.01",
+        "name": "TUBA LESSON",
+        "faculty": "Holloway, John Robert",
+        "seats open": "14/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "1.00",
+        "prefix": "TUB"
+    },
+    {
+        "course code": "TUB 121.01",
+        "name": "TUBA LESSON",
+        "faculty": "Holloway, John Robert",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "TUB"
+    },
+    {
+        "course code": "TUB 220.01",
+        "name": "TUBA LESSON",
+        "faculty": "Holloway, John Robert",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "TUB"
+    },
+    {
+        "course code": "TUB 320.01",
+        "name": "TUBA LESSON",
+        "faculty": "Holloway, John Robert",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "TUB"
+    },
+    {
+        "course code": "TUB 440.01",
+        "name": "TUBA LESSON",
+        "faculty": "Holloway, John Robert",
+        "seats open": "15/15",
+        "schedule": "M 3:30 PM-4:30 PM",
+        "credits": "4.00",
+        "prefix": "TUB"
+    },
+    {
+        "course code": "VLA 111.01",
+        "name": "VIOLA LESSON",
+        "faculty": "LeBauer, Courtney Elise",
+        "seats open": "14/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "1.00",
+        "prefix": "VLA"
+    },
+    {
+        "course code": "VLA 121.01",
+        "name": "VIOLA LESSON",
+        "faculty": "LeBauer, Courtney Elise",
+        "seats open": "15/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "2.00",
+        "prefix": "VLA"
+    },
+    {
+        "course code": "VLA 220.01",
+        "name": "VIOLA LESSON",
+        "faculty": "LeBauer, Courtney Elise",
+        "seats open": "14/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "2.00",
+        "prefix": "VLA"
+    },
+    {
+        "course code": "VLA 320.01",
+        "name": "VIOLA LESSON",
+        "faculty": "LeBauer, Courtney Elise",
+        "seats open": "15/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "2.00",
+        "prefix": "VLA"
+    },
+    {
+        "course code": "VLA 440.01",
+        "name": "VIOLA LESSON",
+        "faculty": "LeBauer, Courtney Elise",
+        "seats open": "15/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "4.00",
+        "prefix": "VLA"
+    },
+    {
+        "course code": "VLC 111.01",
+        "name": "VIOLINCELLO LESSON",
+        "faculty": "Foster, Kathleen E.",
+        "seats open": "15/15",
+        "schedule": "W 2:30 PM-3:30 PM",
+        "credits": "1.00",
+        "prefix": "VLC"
+    },
+    {
+        "course code": "VLC 121.01",
+        "name": "VIOLINCELLO LESSON",
+        "faculty": "Foster, Kathleen E.",
+        "seats open": "13/15",
+        "schedule": "W 2:30 PM-3:30 PM",
+        "credits": "2.00",
+        "prefix": "VLC"
+    },
+    {
+        "course code": "VLC 220.01",
+        "name": "VIOLINCELLO LESSON",
+        "faculty": "Foster, Kathleen E.",
+        "seats open": "13/15",
+        "schedule": "W 2:30 PM-3:30 PM",
+        "credits": "2.00",
+        "prefix": "VLC"
+    },
+    {
+        "course code": "VLC 320.01",
+        "name": "VIOLINCELLO LESSON",
+        "faculty": "Foster, Kathleen E.",
+        "seats open": "14/15",
+        "schedule": "W 2:30 PM-3:30 PM",
+        "credits": "2.00",
+        "prefix": "VLC"
+    },
+    {
+        "course code": "VLC 440.01",
+        "name": "VIOLINCELLO LESSON",
+        "faculty": "Foster, Kathleen E.",
+        "seats open": "14/15",
+        "schedule": "W 2:30 PM-3:30 PM",
+        "credits": "4.00",
+        "prefix": "VLC"
+    },
+    {
+        "course code": "VLN 111.01",
+        "name": "VIOLIN LESSON",
+        "faculty": "LeBauer, Courtney Elise",
+        "seats open": "14/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "1.00",
+        "prefix": "VLN"
+    },
+    {
+        "course code": "VLN 121.01",
+        "name": "VIOLIN LESSON",
+        "faculty": "LeBauer, Courtney Elise",
+        "seats open": "14/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "2.00",
+        "prefix": "VLN"
+    },
+    {
+        "course code": "VLN 220.01",
+        "name": "VIOLIN LESSON",
+        "faculty": "LeBauer, Courtney Elise",
+        "seats open": "12/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "2.00",
+        "prefix": "VLN"
+    },
+    {
+        "course code": "VLN 320.01",
+        "name": "VIOLIN LESSON",
+        "faculty": "LeBauer, Courtney Elise",
+        "seats open": "15/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "2.00",
+        "prefix": "VLN"
+    },
+    {
+        "course code": "VLN 440.01",
+        "name": "VIOLIN LESSON",
+        "faculty": "LeBauer, Courtney Elise",
+        "seats open": "15/15",
+        "schedule": "W 4:30 PM-5:30 PM",
+        "credits": "4.00",
+        "prefix": "VLN"
+    },
+    {
+        "course code": "VOI 111.01",
+        "name": "VOICE LESSON",
+        "faculty": "Lyle, Susan L.",
+        "seats open": "13/15",
+        "schedule": "R 3:30 PM-4:30 PM",
+        "credits": "1.00",
+        "prefix": "VOI"
+    },
+    {
+        "course code": "VOI 111.02",
+        "name": "VOICE LESSON",
+        "faculty": "MacPhail, Valerie Kaye",
+        "seats open": "12/15",
+        "schedule": "T 3:30 PM-4:30 PM",
+        "credits": "1.00",
+        "prefix": "VOI"
+    },
+    {
+        "course code": "VOI 111.04",
+        "name": "VOICE LESSON",
+        "faculty": "Savoy, Emalie",
+        "seats open": "15/15",
+        "schedule": "M 12:00 PM-1:00 PM",
+        "credits": "1.00",
+        "prefix": "VOI"
+    },
+    {
+        "course code": "VOI 121.01",
+        "name": "VOICE LESSON",
+        "faculty": "Lyle, Susan L.",
+        "seats open": "14/15",
+        "schedule": "R 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "VOI"
+    },
+    {
+        "course code": "VOI 121.02",
+        "name": "VOICE LESSON",
+        "faculty": "MacPhail, Valerie Kaye",
+        "seats open": "13/15",
+        "schedule": "T 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "VOI"
+    },
+    {
+        "course code": "VOI 121.04",
+        "name": "VOICE LESSON",
+        "faculty": "Savoy, Emalie",
+        "seats open": "15/15",
+        "schedule": "M 12:00 PM-1:00 PM",
+        "credits": "2.00",
+        "prefix": "VOI"
+    },
+    {
+        "course code": "VOI 220.01",
+        "name": "VOICE LESSON",
+        "faculty": "Lyle, Susan L.",
+        "seats open": "7/15",
+        "schedule": "R 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "VOI"
+    },
+    {
+        "course code": "VOI 220.02",
+        "name": "VOICE LESSON",
+        "faculty": "MacPhail, Valerie Kaye",
+        "seats open": "12/15",
+        "schedule": "T 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "VOI"
+    },
+    {
+        "course code": "VOI 220.04",
+        "name": "VOICE LESSON",
+        "faculty": "Savoy, Emalie",
+        "seats open": "13/15",
+        "schedule": "M 12:00 PM-1:00 PM",
+        "credits": "2.00",
+        "prefix": "VOI"
+    },
+    {
+        "course code": "VOI 320.01",
+        "name": "VOICE LESSON",
+        "faculty": "Lyle, Susan L.",
+        "seats open": "14/15",
+        "schedule": "R 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "VOI"
+    },
+    {
+        "course code": "VOI 320.02",
+        "name": "VOICE LESSON",
+        "faculty": "MacPhail, Valerie Kaye",
+        "seats open": "15/15",
+        "schedule": "T 3:30 PM-4:30 PM",
+        "credits": "2.00",
+        "prefix": "VOI"
+    },
+    {
+        "course code": "VOI 320.04",
+        "name": "VOICE LESSON",
+        "faculty": "Savoy, Emalie",
+        "seats open": "15/15",
+        "schedule": "M 12:00 PM-1:00 PM",
+        "credits": "2.00",
+        "prefix": "VOI"
+    },
+    {
+        "course code": "VOI 440.01",
+        "name": "VOICE LESSON",
+        "faculty": "Lyle, Susan L.",
+        "seats open": "15/15",
+        "schedule": "R 3:30 PM-4:30 PM",
+        "credits": "4.00",
+        "prefix": "VOI"
+    },
+    {
+        "course code": "VOI 440.02",
+        "name": "VOICE LESSON",
+        "faculty": "MacPhail, Valerie Kaye",
+        "seats open": "13/15",
+        "schedule": "T 3:30 PM-4:30 PM",
+        "credits": "4.00",
+        "prefix": "VOI"
+    },
+    {
+        "course code": "VOI 440.04",
+        "name": "VOICE LESSON",
+        "faculty": "Savoy, Emalie",
+        "seats open": "15/15",
+        "schedule": "M 12:00 PM-1:00 PM",
+        "credits": "4.00",
+        "prefix": "VOI"
+    }
+]
