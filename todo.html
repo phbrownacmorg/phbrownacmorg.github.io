@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>To-do list</title>
         <link rel="stylesheet" href="validform.css">
+        <script src="utilities.js"></script>
         <script src="todo.js"></script>
     </head>
     <body onload="initialize();">
@@ -18,7 +19,7 @@
             <label for="time">Time estimate (ignore the &ldquo;AM&rdquo;):</label>
             <input type="time" id="time" min="00:00" max="11:59" value="01:00" 
                 required><span class="flag"></span><br>
-            <button type="button" id="addTaskButton">Add task</button>
+            <button type="button" id="addTaskButton" disabled>Add task</button>
         </form>
         <div>
             <table>

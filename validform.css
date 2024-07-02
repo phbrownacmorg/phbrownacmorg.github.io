@@ -12,12 +12,12 @@ span.flag.valid::before,
 }
 
 /* Disable buttons if input isn't valid */
-:invalid ~ button[type=button] {
+/* :invalid ~ button[type=button] { */
     /*color: gray;*/
     /*opacity: 0.5;
     pointer-events: none;*/
-    visibility: hidden;
-}
+    /* visibility: hidden;
+} */
 
 /* for the key at the top */
 ul.validity {
