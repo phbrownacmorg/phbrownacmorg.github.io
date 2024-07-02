@@ -19,6 +19,7 @@ function initialize() {
 
     // make the View
     var listView = new TaskListView(model);
+    fillDropdowns();
 
     // make the controller 
     initializeController(model);
