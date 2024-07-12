@@ -10,7 +10,7 @@ function initialize() {
     // Reload any saved tasks from localStorage
     //localStorage.removeItem('taskList');
     if (localStorage.getItem('taskList')) {
-        storedList = JSON.parse(localStorage.getItem('taskList'));
+        const storedList = JSON.parse(localStorage.getItem('taskList'));
         // Note that localStorage can only store built-in objects, so it can't
         // store a TaskList *as* a TaskList.  Therefore, just store (and load)
         // the Array of task objects.    
