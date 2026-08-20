@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- This is an HTML comment. -->
+<head> <!-- The HEAD holds data about the document (metadata). -->
+<meta charset="utf-8">    
+<title>HTML tags demo</title>
+</head>
+<body> <!-- The BODY holds the body of the document itself. -->
+<h1>HTML tags</h1>
+<div id="headers">
+<h2>Headers</h2>
+<p>Headers break the document into sections.</p>
+<h3>Third-level header</h3>
+<h4>Fourth-level header</h4>
+<h5><span>Fifth</span>-level header</h5>
+<h6>Sixth-level header</h6>
+</div>
+<h2 id="Links">Links</h2>
+  <p>Hyperlinks provide a way to go to <a href="https://converse.instructure.com/courses/12623/pages/8-slash-13-introduction?module_item_id=374212">another page</a> with a single click.</p>
+  <p>Links can also go to within a page to any tag with an <var>id</var> attribute, like this: go to the <a href="#Links">links</a>.
+    <h2>Text tags</h2>
+    <h3>Common</h3>
+  <p>The paragraph tag has been one of the most commonly used tags in HTML right from the beginning of the Web.  There are also common tags for <em>emphasized</em> and <strong>strongly emphasized</strong> text.  Note that the presentation of the <code>&lt;em&gt;</code> and <code>&lt;strong&gt;</code> tags, while <em>usually</em> reliable, is <strong>not</strong> guaranteed!</p>
+  <h3>Less common</h3>
+<p><code>&lt;blockquote&gt;</code>:</p>
+  <blockquote>Some famous thing that some famous person said, with <strong>great</strong> and <em>entirely</em> unnecessary prolixity, showing off all the three-dollar words in his (or her) bloated vocabulary and boring everyone listening (or reading).</blockquote>
+<p><code>&lt;sub&gt;</code> and <code>&lt;sup&gt;</code>:<br>
+  2<sup>10</sup>, <var>a<sub>i</sub></var><p>
+<p><code>&lt;br&gt;</code> and <code>&lt;pre&gt;</code>:<br>
+  <pre>HTML generally collapses white space.  Use &lt;pre&gt;
+    if you
+           must have
+                     control.</pre>
+<h3>Geeks only</h3>
+<code>&lt;code&gt;</code> encloses computer code.  <code>&lt;var&gt;</code> encloses variables, like this: <code><var>count</var> = <var>count</var> + 1</code>
+<h2>Lists</h2>
+<h3>Unordered</h3>
+<ul>
+<li>Items</li>
+<li>with</li>
+<li>no</li>
+<li>natural</li>
+<li>ordering</li>
+</ul>
+<h3>Ordered</h3>
+<ol>
+<li>One
+<ul>
+<li>These items have a natural ordering.</li>
+</ul>
+</li>
+<li>Two
+<ol>
+<li>&Sqrt;5 &ap; 2.23607</li>
+  <li><var>e</var> &ap; 2.71828</li>
+<li>&Sqrt;8 &ap; 2.82843</li>
+</ol>
+</li>
+<li>Three</li>
+<li>Four</li>
+</ol>
+
+<p>An outline is an example of a set of ordered lists, nested inside higher-level ordered lists.  Outlines up to four levels deep can be produced in HTML using the <code>type</code> attribute on an <code>&lt;ol&gt;</code> tag.</p>
+<ol type="I">
+<li>First top-level item<ol type="A">
+<li>First second-level item, inside item I<ol type="a">
+<li>First third-level item, inside item I.A<ol type="i">
+<li>First fourth-level item, inside item I.A.a.</li>
+<li>Second fourth-level item, inside item I.A.a.</li>
+</ol></li>
+<li>Second third-level item, inside item I.A</li>
+</ol></li>
+<li>Second second-level item, inside item I</li>
+<li>Third second-level item, inside item I</li>
+</ol></li>
+<li>Second top-level item<ol type="A">
+<li>First second-level item, inside item II</li>
+<li>Second second-level item, inside item II</li>
+<li>Third second-level item, inside item II<ol type="a">
+<li>First third-level item, inside item II.C<ol type="i">
+<li>First fourth-level item, inside item II.C.a.</li>
+<li>Second fourth-level item, inside item II.C.a.</li>
+</ol></li>
+<li>Second third-level item, inside item II.C</li>
+</ol></li>
+</ol></li>
+<li>Third top-level item<ol type="A">
+<li>First second-level item, inside item III</li>
+<li>Second second-level item, inside item III<ol type="a">
+<li>First third-level item, inside item III.B</li>
+<li>Second third-level item, inside item III.B<ol type="i">
+<li>First fourth-level item, inside item III.B.b.</li>
+<li>Second fourth-level item, inside item III.B.b.</li>
+</ol></li>
+</ol></li>
+<li>Third second-level item, inside item III</li>
+</ol></li>
+</ol>
+
+<h3>Definition (not common)</h3>
+<dl>
+  <dt>Term</dt><dd>A term is in item in a definition list.</dd>
+  <dt>Definition</dt><dd>A definition is the writer's hopeful attempt to make
+    sense of the term.</dd>
+</dl>
+<h2>Table</h2>
+
+<table>
+<tr><th colspan="4">Converse classrooms</th></tr>
+<tr><th rowspan="2">Building</th><th rowspan="2">Room</th><th colspan="2">Features</th>
+<tr><th>Seats</th><th>Notes</th></tr>
+<tr><td rowspan="3">Kuhn</td><td>212</td><td>22</td><td>Computer lab</td></tr>
+<tr><td>217</td><td>30</td><td>Data-science classroom</td></tr>
+<tr><td>203</td><td>70</td><td>Lever Auditorium</td></tr>
+<tr><td rowspan="2">Phifer</td><td>201</td><td>15</td><td></td></tr>
+<tr><td>211</td><td>30</td><td>Lab</td></tr>
+</table>
+
+<h2>Image</h2>
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/PRR_4465_Brick.JPG" width="50%"
+alt="4400-HP electric locomotive, built 1963.  This was the last mainline electric freight locomotive built in the U.S. for a common-carrier American railroad." />
+<p>4400-HP electric locomotive, built 1963.  This was the last mainline electric freight locomotive built in the U.S. for a common-carrier American railroad.</p>
+
+<h2>Video</h2>
+
+<video src="https://cs.converse.edu/media/HPE/Wilma.mp4" controls="controls">
+
+</video>
+
+<!--code>&lt;&gt;</code-->
+
+</body>
+</html>
