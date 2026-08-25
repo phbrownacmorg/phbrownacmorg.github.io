@@ -1,5 +1,5 @@
 h2, h3 { color: firebrick; }
 
 /* More specific than just the tag */
-h2#link { color: slateblue; }
+h2#Links { color: slateblue; }
 div > h2 { color: rgb(96,96,96); }
