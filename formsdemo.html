@@ -25,7 +25,11 @@
                 </optgroup>
             </select><br>
             <label for="get-airspeed">What is the airspeed velocity of a swallow carrying a coconut? (m/s)</label>
-            <input type="number" name="airspeed" id="get-airspeed" min="0" max="10" step="0.1">
+            <input type="number" name="airspeed" id="get-airspeed" min="0" max="10" step="0.1"><br>
+            <label for="get-dob">Date of birth:</label>
+            <input type="date" id="get-dob" name="DOB" value="2006-08-29"><br>
+            <label for="get-pswd">Password</label>
+            <input type="password" id="get-pswd" name="password"><br>
             <p>I plan to graduate in:<br>
             <input type="radio" id="get26" name="grad-year"><label for="get26">2026</label><br> 
             <input type="radio" id="get27" name="grad-year"><label for="get27">2027</label><br> 
@@ -39,8 +43,8 @@
                 <input type="checkbox" id="get-bacon" name="bacon"><label for="get-bacon">Bacon</label><br>
             </p>
             <input type="hidden" name="not-really-bacon" value="Just kidding, I like bacon but not in ice cream">
-            <label for="get-pswd">Password</label>
-            <input type="password" id="get-pswd" name="password"><br>
+            <label for="get-comments">General comments:</label><br>
+            <textarea name="comments" id="get-comments"></textarea><br>
             <input type="submit"><input type="reset">
         </form>
 
@@ -62,7 +66,24 @@
                 </optgroup>
             </select><br>
             <label for="post-airspeed">What is the airspeed velocity of a swallow carrying a coconut? (m/s)</label>
-            <input type="range" name="airspeed" id="post-airspeed" min="0" max="10" step="0.1">
+            <input type="range" name="airspeed" id="post-airspeed" min="0" max="10" step="0.1" list="tickmarks"><br>
+            <datalist id="tickmarks">
+                <option value="0" label="0"></option>
+                <option value="1" label="1"></option>
+                <option value="2" label="2"></option>
+                <option value="3" label="3"></option>
+                <option value="4" label="4"></option>
+                <option value="5" label="5"></option>
+                <option value="6" label="6"></option>
+                <option value="7" label="7"></option>
+                <option value="8" label="8"></option>
+                <option value="9" label="9"></option>
+                <option value="10" label="10"></option>
+            </datalist>
+            <label for="post-dob">Date of birth:</label>
+            <input type="date" id="post-dob" name="DOB" value="2006-08-29"><br>
+            <label for="post-pswd">Password</label>
+            <input type="password" id="post-pswd" name="password"><br>
             <p>I plan to graduate in:<br>
             <input type="radio" id="post26" name="grad-year"><label for="post26">2026</label><br> 
             <input type="radio" id="post27" name="grad-year"><label for="post27">2027</label><br> 
@@ -76,11 +97,8 @@
                 <input type="checkbox" id="post-bacon" name="bacon"><label for="post-bacon">Bacon</label><br>
             </p>
             <input type="hidden" name="not-really-bacon" value="Just kidding, I like bacon but not in ice cream">
-
-
-            <label for="post-pswd">Password</label>
-            <input type="password" id="post-pswd" name="password"><br>
-
+            <label for="post-comments">General comments:</label><br>
+            <textarea name="comments" id="post-comments"></textarea><br>
             <input type="submit"><input type="reset">
         </form>
     </body>
