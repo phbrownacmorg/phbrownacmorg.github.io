@@ -9,6 +9,38 @@ h2#Links { color: slateblue; }
 /* Class selector */
 .numeric { list-style-type: lower-roman; }
 
-/* Ancestor (parent) selector */
+/* Pseudoclass selector (structural) */
+li:first-child { color: darkgreen; }
+
+/* Pseudoclass selector (behavioral) */
+li:hover { background-color: whitesmoke; }
+
+/* Parent combinator */
 div > h2 { color: rgb(96,96,96); }
 
+/* Ancestor combinator (space) */
+/* Highlight the second-level items */
+ol.outline ol > li:hover { background-color: linen; }
+
+/* Ancestor combinators (spaces) */
+/* Highlight the third-level items */
+ol.outline ol ol > li:hover { background-color: mintcream; }
+
+span.flag::before {
+    color: firebrick;
+    content: '*';
+}
+
+:valid + span.flag::before, span.flag.valid::before, 
+:valid + label + span.flag::before {
+    color: green;
+    content: '✓';
+}
+
+.invalid {
+    color: firebrick;
+}
+
+.valid {
+    color: green;
+}

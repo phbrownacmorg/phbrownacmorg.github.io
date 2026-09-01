@@ -9,96 +9,114 @@
         <h1>Forms demo</h1>
         <h2>GET form</h2>
         <form method="get" action="https://cs.converse.edu/CSC235/formecho.php">
-            <label for="get-name">What is your name?</label>
-            <input type="text" id="get-name" name="name"><br>
-            <label for="get-quest">What is your quest?</label>
-            <input type="text" id="get-quest" name="quest"><br>
-            <label for="get-color">What is your favorite color?</label>
-            <select id="get-color" name="color">
-                <option value="Throw him into the Pit of Despair">&mdash;Please select an answer&mdash;</option>
-                <optgroup label="Colors">
-                    <option>Blue</option>
-                    <option>Green</option>
-                </optgroup>
-                <optgroup label="Bad answers">
-                    <option>I don't know.  AAAAAUUUUUGGGH!</option>
-                </optgroup>
-            </select><br>
-            <label for="get-airspeed">What is the airspeed velocity of a swallow carrying a coconut? (m/s)</label>
-            <input type="number" name="airspeed" id="get-airspeed" min="0" max="10" step="0.1"><br>
-            <label for="get-dob">Date of birth:</label>
-            <input type="date" id="get-dob" name="DOB" value="2006-08-29"><br>
-            <label for="get-pswd">Password</label>
-            <input type="password" id="get-pswd" name="password"><br>
-            <p>I plan to graduate in:<br>
-            <input type="radio" id="get26" name="grad-year"><label for="get26">2026</label><br> 
-            <input type="radio" id="get27" name="grad-year"><label for="get27">2027</label><br> 
-            <input type="radio" id="get28" name="grad-year"><label for="get28">2028</label><br> 
-            <input type="radio" id="get29" name="grad-year"><label for="get29">2029</label><br> 
-            </p>
-            <p>I like the following flavors of ice cream (check all that apply):<br>
-                <input type="checkbox" id="get-vanilla" name="vanilla"><label for="get-vanilla">Vanilla</label><br>
-                <input type="checkbox" id="get-chocolate" name="chocolate"><label for="get-chocolate">Chocolate</label><br>
-                <input type="checkbox" id="get-coffee" name="coffee"><label for="get-coffee">Coffee</label><br>
-                <input type="checkbox" id="get-bacon" name="bacon"><label for="get-bacon">Bacon</label><br>
-            </p>
-            <input type="hidden" name="not-really-bacon" value="Just kidding, I like bacon but not in ice cream">
-            <label for="get-comments">General comments:</label><br>
-            <textarea name="comments" id="get-comments"></textarea><br>
+            <fieldset>
+                <legend>Monty Python ripoffs</legend>
+                <label for="get-name">What is your name?</label>
+                <input type="text" id="get-name" name="name" required><span class="flag"></span><br>
+                <label for="get-quest">What is your quest?</label>
+                <input type="text" id="get-quest" name="quest" required><span class="flag"></span><br>
+                <label for="get-color">What is your favorite color?</label>
+                <select id="get-color" name="color" required><span class="flag"></span>
+                    <option value="Throw him into the Pit of Despair">&mdash;Please select an answer&mdash;</option>
+                    <optgroup label="Colors">
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </optgroup>
+                    <optgroup label="Bad answers">
+                        <option>I don't know.  AAAAAUUUUUGGGH!</option>
+                    </optgroup>
+                </select><br>
+                <label for="get-airspeed">What is the airspeed velocity of a swallow carrying a coconut? (m/s)</label>
+                <input type="number" name="airspeed" id="get-airspeed" min="0" max="10" step="0.1" required><span class="flag"></span><br>
+            </fieldset>
+            <fieldset>
+                <legend>Standard biographical stuff</legend>
+                <label for="get-dob">Date of birth:</label>
+                <input type="date" id="get-dob" name="DOB" value="2006-08-29"><br>
+                <label for="get-pswd">Password</label>
+                <input type="password" id="get-pswd" name="password"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Nosy personal questions</legend>
+                <p>I plan to graduate in:<br>
+                <input type="radio" id="get26" name="grad-year"><label for="get26">2026</label><br>
+                <input type="radio" id="get27" name="grad-year"><label for="get27">2027</label><br>
+                <input type="radio" id="get28" name="grad-year"><label for="get28">2028</label><br>
+                <input type="radio" id="get29" name="grad-year"><label for="get29">2029</label><br>
+                </p>
+                <p>I like the following flavors of ice cream (check all that apply):<br>
+                    <input type="checkbox" id="get-vanilla" name="vanilla"><label for="get-vanilla">Vanilla</label><br>
+                    <input type="checkbox" id="get-chocolate" name="chocolate"><label for="get-chocolate">Chocolate</label><br>
+                    <input type="checkbox" id="get-coffee" name="coffee"><label for="get-coffee">Coffee</label><br>
+                    <input type="checkbox" id="get-bacon" name="bacon"><label for="get-bacon">Bacon</label><br>
+                </p>
+                <input type="hidden" name="not-really-bacon" value="Just kidding, I like bacon but not in ice cream">
+                <label for="get-comments">General comments:</label><br>
+                <textarea name="comments" id="get-comments"></textarea><br>
+            </fieldset>
             <input type="submit"><input type="reset">
         </form>
 
         <h2>POST form</h2>
         <form method="post" action="https://cs.converse.edu/CSC235/formecho.php">
-            <label for="post-name">What is your name?</label>
-            <input type="text" id="post-name" name="name"><br>
-            <label for="post-quest">What is your quest?</label>
-            <input type="text" id="post-quest" name="quest"><br>
-            <label for="post-color">What is your favorite color?</label>
-            <select id="post-color" name="color">
-                <option value="Throw him into the Pit of Despair">&mdash;Please select an answer&mdash;</option>
-                <optgroup label="Colors">
-                    <option>Blue</option>
-                    <option>Green</option>
-                </optgroup>
-                <optgroup label="Bad answers">
-                    <option>I don't know.  AAAAAUUUUUGGGH!</option>
-                </optgroup>
-            </select><br>
-            <label for="post-airspeed">What is the airspeed velocity of a swallow carrying a coconut? (m/s)</label>
-            <input type="range" name="airspeed" id="post-airspeed" min="0" max="10" step="0.1" list="tickmarks"><br>
-            <datalist id="tickmarks">
-                <option value="0" label="0"></option>
-                <option value="1" label="1"></option>
-                <option value="2" label="2"></option>
-                <option value="3" label="3"></option>
-                <option value="4" label="4"></option>
-                <option value="5" label="5"></option>
-                <option value="6" label="6"></option>
-                <option value="7" label="7"></option>
-                <option value="8" label="8"></option>
-                <option value="9" label="9"></option>
-                <option value="10" label="10"></option>
-            </datalist>
-            <label for="post-dob">Date of birth:</label>
-            <input type="date" id="post-dob" name="DOB" value="2006-08-29"><br>
-            <label for="post-pswd">Password</label>
-            <input type="password" id="post-pswd" name="password"><br>
-            <p>I plan to graduate in:<br>
-            <input type="radio" id="post26" name="grad-year"><label for="post26">2026</label><br> 
-            <input type="radio" id="post27" name="grad-year"><label for="post27">2027</label><br> 
-            <input type="radio" id="post28" name="grad-year"><label for="post28">2028</label><br> 
-            <input type="radio" id="post29" name="grad-year"><label for="post29">2029</label><br> 
-            </p>
-            <p>I like the following flavors of ice cream (check all that apply):<br>
-                <input type="checkbox" id="post-vanilla" name="vanilla"><label for="post-vanilla">Vanilla</label><br>
-                <input type="checkbox" id="post-chocolate" name="chocolate"><label for="post-chocolate">Chocolate</label><br>
-                <input type="checkbox" id="post-coffee" name="coffee"><label for="post-coffee">Coffee</label><br>
-                <input type="checkbox" id="post-bacon" name="bacon"><label for="post-bacon">Bacon</label><br>
-            </p>
-            <input type="hidden" name="not-really-bacon" value="Just kidding, I like bacon but not in ice cream">
-            <label for="post-comments">General comments:</label><br>
-            <textarea name="comments" id="post-comments"></textarea><br>
+            <fieldset>
+                <legend>Monty Python ripoffs</legend>
+                <label for="post-name">What is your name?</label>
+                <input type="text" id="post-name" name="name"><br>
+                <label for="post-quest">What is your quest?</label>
+                <input type="text" id="post-quest" name="quest"><br>
+                <label for="post-color">What is your favorite color?</label>
+                <select id="post-color" name="color">
+                    <option value="Throw him into the Pit of Despair">&mdash;Please select an answer&mdash;</option>
+                    <optgroup label="Colors">
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </optgroup>
+                    <optgroup label="Bad answers">
+                        <option>I don't know.  AAAAAUUUUUGGGH!</option>
+                    </optgroup>
+                </select><br>
+                <label for="post-airspeed">What is the airspeed velocity of a swallow carrying a coconut? (m/s)</label>
+                <input type="range" name="airspeed" id="post-airspeed" min="0" max="10" step="0.1" list="tickmarks"><br>
+                <datalist id="tickmarks">
+                    <option value="0" label="0"></option>
+                    <option value="1" label="1"></option>
+                    <option value="2" label="2"></option>
+                    <option value="3" label="3"></option>
+                    <option value="4" label="4"></option>
+                    <option value="5" label="5"></option>
+                    <option value="6" label="6"></option>
+                    <option value="7" label="7"></option>
+                    <option value="8" label="8"></option>
+                    <option value="9" label="9"></option>
+                    <option value="10" label="10"></option>
+                </datalist>
+            </fieldset>
+            <fieldset>
+                <legend>Standard biographical stuff</legend>
+                <label for="post-dob">Date of birth:</label>
+                <input type="date" id="post-dob" name="DOB" value="2006-08-29"><br>
+                <label for="post-pswd">Password</label>
+                <input type="password" id="post-pswd" name="password"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Nosy personal questions</legend>
+                <p>I plan to graduate in:<br>
+                <input type="radio" id="post26" name="grad-year"><label for="post26">2026</label><br>
+                <input type="radio" id="post27" name="grad-year"><label for="post27">2027</label><br>
+                <input type="radio" id="post28" name="grad-year"><label for="post28">2028</label><br>
+                <input type="radio" id="post29" name="grad-year"><label for="post29">2029</label><br>
+                </p>
+                <p>I like the following flavors of ice cream (check all that apply):<br>
+                    <input type="checkbox" id="post-vanilla" name="vanilla"><label for="post-vanilla">Vanilla</label><br>
+                    <input type="checkbox" id="post-chocolate" name="chocolate"><label for="post-chocolate">Chocolate</label><br>
+                    <input type="checkbox" id="post-coffee" name="coffee"><label for="post-coffee">Coffee</label><br>
+                    <input type="checkbox" id="post-bacon" name="bacon"><label for="post-bacon">Bacon</label><br>
+                </p>
+                <input type="hidden" name="not-really-bacon" value="Just kidding, I like bacon but not in ice cream">
+                <label for="post-comments">General comments:</label><br>
+                <textarea name="comments" id="post-comments"></textarea><br>
+            </fieldset>
             <input type="submit"><input type="reset">
         </form>
     </body>
