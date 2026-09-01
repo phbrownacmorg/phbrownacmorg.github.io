@@ -62,11 +62,11 @@
             <fieldset>
                 <legend>Monty Python ripoffs</legend>
                 <label for="post-name">What is your name?</label>
-                <input type="text" id="post-name" name="name"><br>
+                <input type="text" id="post-name" name="name" required><span class="flag"></span><br>
                 <label for="post-quest">What is your quest?</label>
-                <input type="text" id="post-quest" name="quest"><br>
+                <input type="text" id="post-quest" name="quest" required><span class="flag"></span><br>
                 <label for="post-color">What is your favorite color?</label>
-                <select id="post-color" name="color">
+                <select id="post-color" name="color" required><span class="flag"></span>
                     <option value="Throw him into the Pit of Despair">&mdash;Please select an answer&mdash;</option>
                     <optgroup label="Colors">
                         <option>Blue</option>
@@ -77,7 +77,7 @@
                     </optgroup>
                 </select><br>
                 <label for="post-airspeed">What is the airspeed velocity of a swallow carrying a coconut? (m/s)</label>
-                <input type="range" name="airspeed" id="post-airspeed" min="0" max="10" step="0.1" list="tickmarks"><br>
+                <input type="range" name="airspeed" id="post-airspeed" min="0" max="10" step="0.1" list="tickmarks" required><span class="flag"></span><br>
                 <datalist id="tickmarks">
                     <option value="0" label="0"></option>
                     <option value="1" label="1"></option>
