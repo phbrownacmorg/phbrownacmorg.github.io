@@ -15,6 +15,15 @@ li:first-child { color: darkgreen; }
 /* Pseudoclass selector (behavioral) */
 li:hover { background-color: whitesmoke; }
 
+/* Attribute selector */
+input[type="password"] { background-color: magenta; }
+
+/* Use attribute selectors to confuse the ordered lists!  Mwahahaha! */
+ol[type="I"] > li > ol[type="A"] { list-style-type: lower-roman; }
+ol[type="I"] > li > ol[type="A"] > li > ol[type="a"] { list-style-type: upper-roman; }
+ol[type="I"] { list-style-type: lower-alpha; }
+ol[type="I"] > li > ol[type="A"] > li > ol[type="a"] > li > ol[type="i"] { list-style-type: upper-alpha; }
+
 /* Parent combinator */
 div > h2 { color: rgb(96,96,96); }
 
@@ -26,6 +35,8 @@ ol.outline ol > li:hover { background-color: linen; }
 /* Highlight the third-level items */
 ol.outline ol ol > li:hover { background-color: mintcream; }
 
+
+/* Mark required, valid, and invalid form elements */
 span.flag::before {
     color: firebrick;
     content: '*';
@@ -44,3 +55,21 @@ span.flag::before {
 .valid {
     color: green;
 }
+
+/* Font properties */
+/* Font families */
+input[type="radio"] + label { font-family: "Gill Sans", Arial, Helvetica, sans-serif }
+input[type="checkbox"] + label { font-family: Gabriola, "Apple Chancery", cursive }
+fieldset:first-child { font-family: "Old English Text MT", fantasy; }
+fieldset:nth-of-type(2) > legend { font-family: 'Courier New', monospace }
+
+/* Boldness */
+fieldset:first-child > label:last-of-type { font-weight: bolder; } /* Relative */
+fieldset:first-child > label:first-of-type { font-weight: bold; } /* Absolute */
+/* Style (normal or italic) */
+fieldset:nth-of-type(2) > label:first-of-type { font-style: italic; }
+/* Size */
+input[type="radio"]:first-of-type + label { font-size: 150%; }
+input[type="radio"]:nth-of-type(2) + label { font-size: 125%; }
+input[type="radio"]:nth-of-type(3) + label { font-size: 100%; }
+input[type="radio"]:nth-of-type(4) + label { font-size: 75%; }
