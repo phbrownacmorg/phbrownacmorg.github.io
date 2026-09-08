@@ -23,7 +23,7 @@
   <p>Links can also go to within a page to any tag with an <var>id</var> attribute, like this: go to the <a href="#Links">links</a>.
   <h2>Text tags</h2>
   <h3>Common</h3>
-  <p>The paragraph tag has been one of the most commonly used tags in HTML right from the beginning of the Web.  There are also common tags for <em>emphasized</em> and <strong>strongly emphasized</strong> text.  Note that the presentation of the <code>&lt;em&gt;</code> and <code>&lt;strong&gt;</code> tags, while <em>usually</em> reliable, is <strong>not</strong> guaranteed!</p>
+  <p class="doublespace">The paragraph tag has been one of the most commonly used tags in HTML right from the beginning of the Web.  There are also common tags for <em>emphasized</em> and <strong>strongly emphasized</strong> text.  Note that the presentation of the <code>&lt;em&gt;</code> and <code>&lt;strong&gt;</code> tags, while <em>usually</em> reliable, is <strong>not</strong> guaranteed!</p>
   <h3>Less common</h3>
   <p><code>&lt;blockquote&gt;</code>:</p>
   <blockquote>Some famous thing that some famous person said, with <strong>great</strong> and <em>entirely</em> unnecessary prolixity, showing off all the three-dollar words in his (or her) bloated vocabulary and boring everyone listening (or reading).</blockquote>
@@ -46,7 +46,7 @@
     <li>ordering</li>
   </ul>
   <h3>Ordered</h3>
-  <ol>
+  <ol class="margined bordered">
     <li>One
       <ul>
         <li>These items have a natural ordering.</li>
@@ -64,7 +64,7 @@
   </ol>
 
   <p>An outline is an example of a set of ordered lists, nested inside higher-level ordered lists.  Outlines up to four levels deep can be produced in HTML using the <code>type</code> attribute on an <code>&lt;ol&gt;</code> tag.</p>
-  <ol type="I" class="outline">
+  <ol type="I" class="outline doublespace">
     <li>First top-level item<ol type="A">
       <li>First second-level item, inside item I<ol type="a">
         <li>First third-level item, inside item I.A<ol type="i">
@@ -109,13 +109,13 @@
   <h2 style="color: darkviolet">Table</h2>
 
   <table>
-    <tr><th colspan="4">Converse classrooms</th></tr>
-    <tr><th rowspan="2">Building</th><th rowspan="2">Room</th><th colspan="2">Features</th>
-    <tr><th>Seats</th><th>Notes</th></tr>
-    <tr><td rowspan="3">Kuhn</td><td>212</td><td>22</td><td>Computer lab</td></tr>
+    <tr><th colspan="5">Converse classrooms</th></tr>
+    <tr><th colspan="2">Building</th><th rowspan="2">Room</th><th colspan="2">Features</th>
+    <tr><th>Picture</th><th>Name</th><th>Seats</th><th>Notes</th></tr>
+    <tr><td rowspan="3"><img class="building" src="ddd7e279cc9e63f36235414eac9bd116.original.webp"></td><td rowspan="3">Kuhn</td><td>212</td><td>22</td><td>Computer lab</td></tr>
     <tr><td>217</td><td>30</td><td>Data-science classroom</td></tr>
     <tr><td>203</td><td>70</td><td>Lever Auditorium</td></tr>
-    <tr><td rowspan="2">Phifer</td><td>201</td><td>15</td><td></td></tr>
+    <tr><td rowspan="2"><img class="building" src="phifer.jpg"></td><td rowspan="2">Phifer</td><td>201</td><td>15</td><td></td></tr>
     <tr><td>211</td><td>30</td><td>Lab</td></tr>
   </table>
 
