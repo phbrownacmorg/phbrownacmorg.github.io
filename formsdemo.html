@@ -16,8 +16,8 @@
                 <label for="get-quest">What is your quest?</label>
                 <input type="text" id="get-quest" name="quest" required><span class="flag"></span><br>
                 <label for="get-color">What is your favorite color?</label>
-                <select id="get-color" name="color" required><span class="flag"></span>
-                    <option value="Throw him into the Pit of Despair">&mdash;Please select an answer&mdash;</option>
+                <select id="get-color" name="color" required>
+                    <option value="">&mdash;Please select an answer&mdash;</option>
                     <optgroup label="Colors">
                         <option>Blue</option>
                         <option>Green</option>
@@ -25,7 +25,7 @@
                     <optgroup label="Bad answers">
                         <option>I don't know.  AAAAAUUUUUGGGH!</option>
                     </optgroup>
-                </select><br>
+                </select><span class="flag"></span><br>
                 <label for="get-airspeed">What is the airspeed velocity of a swallow carrying a coconut? (m/s)</label>
                 <input type="number" name="airspeed" id="get-airspeed" min="0" max="10" step="0.1" required><span class="flag"></span><br>
             </fieldset>
@@ -66,8 +66,8 @@
                 <label for="post-quest">What is your quest?</label>
                 <input type="text" id="post-quest" name="quest" required><span class="flag"></span><br>
                 <label for="post-color">What is your favorite color?</label>
-                <select id="post-color" name="color" required><span class="flag"></span>
-                    <option value="Throw him into the Pit of Despair">&mdash;Please select an answer&mdash;</option>
+                <select id="post-color" name="color" required>
+                    <option value="">&mdash;Please select an answer&mdash;</option>
                     <optgroup label="Colors">
                         <option>Blue</option>
                         <option>Green</option>
@@ -75,9 +75,9 @@
                     <optgroup label="Bad answers">
                         <option>I don't know.  AAAAAUUUUUGGGH!</option>
                     </optgroup>
-                </select><br>
+                </select><span class="flag"></span><br>
                 <label for="post-airspeed">What is the airspeed velocity of a swallow carrying a coconut? (m/s)</label>
-                <input type="range" name="airspeed" id="post-airspeed" min="0" max="10" step="0.1" list="tickmarks" required><span class="flag"></span><br>
+                <input type="range" name="airspeed" id="post-airspeed" min="0" max="10" step="0.1" list="tickmarks"><span class="flag"></span><br>
                 <datalist id="tickmarks">
                     <option value="0" label="0"></option>
                     <option value="1" label="1"></option>
