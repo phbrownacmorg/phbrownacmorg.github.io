@@ -87,9 +87,9 @@ tr:nth-of-type(4) > td:nth-of-type(4) { vertical-align: top; }
 .pix_table th { border-width: thin medium thick 2px; 
      border-style: dashed dotted double solid; 
      border-color: green blue black red; 
-     border-radius: 30%; }
+     border-radius: 5% / 30%; }
 /* Slash allows specifying horizontal and vertical radii separately */
-.pix_table tr:first-of-type > th { border-radius: 1% / 30%;  }
+.pix_table tr:first-of-type > th { border-radius: 7px;  }
 
 /* Padding */
 tr:nth-of-type(3) > th:nth-of-type(2) { padding: 0.5em; }
@@ -115,10 +115,26 @@ caption {
 }
 
 .plain_table th, .plain_table td {
-  border: thin solid;
+  /*border: thin solid;*/
+  padding: 0.2ex 0.5em;
 }
 
+.plain_table > tbody > tr > td:nth-last-of-type(2) {
+  text-align: center;
+}
 
+.plain_table > tbody > tr:nth-of-type(even) > td {
+  background-color: lightgray;
+}
+
+.plain_table > thead {
+  border-bottom: medium double; 
+}
+
+.left_header {
+  border-right: 2px solid;
+  background-color: white;
+}
 
 body {
   font-family: sans-serif;
@@ -169,18 +185,20 @@ body {
 .grid { 
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
+
 /* Fixed, 4 equal columns */
 .fixed_grid {
   grid-template-columns: repeat(4, 25%);
 }
 
-#earth {  /* Grows 2x in both directions */
-  min-width: 400px; /* Force growth beyond original size */
-  min-height: 400px;
-  grid-column: 1 / 3;
-  grid-row: 1 / 3;
+@media(450px <= width) {
+  #earth {  /* Grows 2x in both directions */
+    min-width: 400px; /* Force growth beyond original size */
+    min-height: 400px;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
 }
-
 #Hitchcock { /* triple-high */
   max-height: 600px; 
   min-width: 200px; /* Force growth beyond original size */
@@ -202,5 +220,27 @@ body {
   grid-column-end: 5
 }
 
+/* media-type query: don't bother even trying to print a video */
+@media print {
+  .video {
+    display: none;
+  }
+}
 
+/* Media-properties query */
+@media (450px < width < 800px) {
+  .fixed_grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  #mole {
+    grid-column: 1 / 3;
+  }
+}
+
+@media (450px <= width) {
+  .fixed_grid {
+    grid-template-columns: 100%;
+  }
+}
 
