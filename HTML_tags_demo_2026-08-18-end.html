@@ -108,15 +108,35 @@
   </dl>
   <h2 style="color: darkviolet">Table</h2>
 
-  <table>
-    <tr><th colspan="5">Converse classrooms</th></tr>
-    <tr><th colspan="2">Building</th><th rowspan="2">Room</th><th colspan="2">Features</th>
-    <tr><th>Picture</th><th>Name</th><th>Seats</th><th>Notes</th></tr>
-    <tr><td rowspan="3"><img class="building" src="ddd7e279cc9e63f36235414eac9bd116.original.webp" alt="Kuhn Hall, Converse University"></td><td rowspan="3">Kuhn</td><td>212</td><td>22</td><td>Computer lab</td></tr>
-    <tr><td>217</td><td>30</td><td>Data-science classroom</td></tr>
-    <tr><td>203</td><td>70</td><td>Lever Auditorium</td></tr>
-    <tr><td rowspan="2"><img class="building" src="phifer.jpg" alt="Phifer Hall, Converse University"></td><td rowspan="2">Phifer</td><td>201</td><td>15</td><td></td></tr>
-    <tr><td>211</td><td>30</td><td>Lab</td></tr>
+  <table class="plain_table">
+    <caption>Converse classrooms</caption>
+    <colgroup class="left_header" span="2"></colgroup>
+    <thead>
+      <tr><th rowspan="2">Building</th><th rowspan="2">Room</th><th colspan="2">Features</th>
+      <tr><th>Seats</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr><td rowspan="3">Kuhn</td><td>212</td><td>22</td><td>Computer lab</td></tr>
+      <tr><td>217</td><td>30</td><td>Data-science classroom</td></tr>
+      <tr><td>203</td><td>70</td><td>Lever Auditorium</td></tr>
+      <tr><td rowspan="2">Phifer</td><td>201</td><td>15</td><td></td></tr>
+      <tr><td>211</td><td>30</td><td>Lab</td></tr>
+    </tbody>
+  </table>
+  
+  <table class="pix_table">
+    <caption>Converse classrooms</caption>
+    <thead>
+      <tr><th colspan="2">Building</th><th rowspan="2">Room</th><th colspan="2">Features</th>
+      <tr><th>Picture</th><th>Name</th><th>Seats</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr><td rowspan="3"><img class="building" src="ddd7e279cc9e63f36235414eac9bd116.original.webp" alt="Kuhn Hall, Converse University"></td><td rowspan="3">Kuhn</td><td>212</td><td>22</td><td>Computer lab</td></tr>
+      <tr><td>217</td><td>30</td><td>Data-science classroom</td></tr>
+      <tr><td>203</td><td>70</td><td>Lever Auditorium</td></tr>
+      <tr><td rowspan="2"><img class="building" src="phifer.jpg" alt="Phifer Hall, Converse University"></td><td rowspan="2">Phifer</td><td>201</td><td>15</td><td></td></tr>
+      <tr><td>211</td><td>30</td><td>Lab</td></tr>
+    </tbody>  
   </table>
 
   <h2>Image</h2>

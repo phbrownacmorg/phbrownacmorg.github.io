@@ -83,19 +83,42 @@ tr:nth-of-type(4) > td:nth-of-type(3) { vertical-align: bottom; }
 tr:nth-of-type(4) > td:nth-of-type(4) { vertical-align: top; }
 
 /* Borders */
-td { border: thin solid; }
-th { border-width: thin medium thick 2px; 
+.pix_table td { border: thin solid; }
+.pix_table th { border-width: thin medium thick 2px; 
      border-style: dashed dotted double solid; 
      border-color: green blue black red; 
      border-radius: 30%; }
 /* Slash allows specifying horizontal and vertical radii separately */
-tr:first-of-type > th { border-radius: 1% / 30%;  }
+.pix_table tr:first-of-type > th { border-radius: 1% / 30%;  }
 
 /* Padding */
 tr:nth-of-type(3) > th:nth-of-type(2) { padding: 0.5em; }
 tr:nth-of-type(3) > th:nth-of-type(3) { padding: 0em 1em; }
 ol.bordered li { border: thin solid black; }
 ol.margined ol > li { margin: 0.5em; background-color: tan; }
+
+/* Margins */
+
+table {
+  margin: 3ex 0 0 0;
+}
+
+/* Table stuff */
+.plain_table {
+  border-collapse: collapse;
+  margin: 0 0 5ex 0;
+}
+
+caption {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.plain_table th, .plain_table td {
+  border: thin solid;
+}
+
+
 
 body {
   font-family: sans-serif;
