@@ -9,197 +9,258 @@
   </style>
 </head>
 <body> <!-- The BODY holds the body of the document itself. -->
-  <h1>HTML tags</h1>
-  <div id="headers">
-    <h2>Headers</h2>
-      <p>Headers break the document into sections.</p>
-    <h3>Third-level header</h3>
-    <h4>Fourth-level header</h4>
-    <h5><span>Fifth</span>-level header</h5>
-    <h6>Sixth-level header</h6>
-  </div>
-  <h2 id="Links">Links</h2>
-  <p>Hyperlinks provide a way to go to <a href="https://converse.instructure.com/courses/12623/pages/8-slash-13-introduction?module_item_id=374212">another page</a> with a single click.</p>
-  <p>Links can also go to within a page to any tag with an <var>id</var> attribute, like this: go to the <a href="#Links">links</a>.
-  <h2>Text tags</h2>
-  <h3>Common</h3>
-  <p class="doublespace">The paragraph tag has been one of the most commonly used tags in HTML right from the beginning of the Web.  There are also common tags for <em>emphasized</em> and <strong>strongly emphasized</strong> text.  Note that the presentation of the <code>&lt;em&gt;</code> and <code>&lt;strong&gt;</code> tags, while <em>usually</em> reliable, is <strong>not</strong> guaranteed!</p>
-  <h3>Less common</h3>
-  <p><code>&lt;blockquote&gt;</code>:</p>
-  <blockquote>Some famous thing that some famous person said, with <strong>great</strong> and <em>entirely</em> unnecessary prolixity, showing off all the three-dollar words in his (or her) bloated vocabulary and boring everyone listening (or reading).</blockquote>
-  <p><code>&lt;sub&gt;</code> and <code>&lt;sup&gt;</code>:<br>
-    2<sup>10</sup>, <var>a<sub>i</sub></var><p>
-  <p><code>&lt;br&gt;</code> and <code>&lt;pre&gt;</code>:<br>
-    <pre>HTML generally collapses white space.  Use &lt;pre&gt;
-      if you
-            must have
-                      control.</pre>
-  <h3>Geeks only</h3>
-  <code>&lt;code&gt;</code> encloses computer code.  <code>&lt;var&gt;</code> encloses variables, like this: <code><var>count</var> = <var>count</var> + 1</code>
-  <h2>Lists</h2>
-  <h3>Unordered</h3>
-  <ul>
-    <li>Items</li>
-    <li>with</li>
-    <li>no</li>
-    <li>natural</li>
-    <li>ordering</li>
-  </ul>
-  <h3>Ordered</h3>
-  <ol class="margined bordered">
-    <li>One
+  <div class="page">
+    <header>
+      <h1>HTML tags</h1>
+    </header>
+    <article>
+      <div id="headers">
+        <h2>Headers</h2>
+          <p>Headers break the document into sections.</p>
+        <h3>Third-level header</h3>
+        <h4>Fourth-level header</h4>
+        <h5><span>Fifth</span>-level header</h5>
+        <h6>Sixth-level header</h6>
+      </div>
+      <h2 id="Links">Links</h2>
+      <p>Hyperlinks provide a way to go to <a href="https://converse.instructure.com/courses/12623/pages/8-slash-13-introduction?module_item_id=374212">another page</a> with a single click.</p>
+      <p>Links can also go to within a page to any tag with an <var>id</var> attribute, like this: go to the <a href="#Links">links</a>.
+      <h2>Text tags</h2>
+      <h3>Common</h3>
+      <p class="doublespace">The paragraph tag has been one of the most commonly used tags in HTML right from the beginning of the Web.  There are also common tags for <em>emphasized</em> and <strong>strongly emphasized</strong> text.  Note that the presentation of the <code>&lt;em&gt;</code> and <code>&lt;strong&gt;</code> tags, while <em>usually</em> reliable, is <strong>not</strong> guaranteed!</p>
+      <h3>Less common</h3>
+      <p><code>&lt;blockquote&gt;</code>:</p>
+      <blockquote>Some famous thing that some famous person said, with <strong>great</strong> and <em>entirely</em> unnecessary prolixity, showing off all the three-dollar words in his (or her) bloated vocabulary and boring everyone listening (or reading).</blockquote>
+      <p><code>&lt;sub&gt;</code> and <code>&lt;sup&gt;</code>:<br>
+        2<sup>10</sup>, <var>a<sub>i</sub></var><p>
+      <p><code>&lt;br&gt;</code> and <code>&lt;pre&gt;</code>:<br>
+        <pre>HTML generally collapses white space.  Use &lt;pre&gt;
+          if you
+                must have
+                          control.</pre>
+      <h3>Geeks only</h3>
+      <code>&lt;code&gt;</code> encloses computer code.  <code>&lt;var&gt;</code> encloses variables, like this: <code><var>count</var> = <var>count</var> + 1</code>
+      <h2>Lists</h2>
+      <h3>Unordered</h3>
       <ul>
-        <li>These items have a natural ordering.</li>
+        <li>Items</li>
+        <li>with</li>
+        <li>no</li>
+        <li>natural</li>
+        <li>ordering</li>
       </ul>
-    </li>
-    <li>Two
-      <ol class="numeric">
-        <li>&Sqrt;5 &ap; 2.23607</li>
-        <li><var>e</var> &ap; 2.71828</li>
-        <li>&Sqrt;8 &ap; 2.82843</li>
+      <h3>Ordered</h3>
+      <ol class="margined bordered">
+        <li>One
+          <ul>
+            <li>These items have a natural ordering.</li>
+          </ul>
+        </li>
+        <li>Two
+          <ol class="numeric">
+            <li>&Sqrt;5 &ap; 2.23607</li>
+            <li><var>e</var> &ap; 2.71828</li>
+            <li>&Sqrt;8 &ap; 2.82843</li>
+          </ol>
+        </li>
+        <li>Three</li>
+        <li>Four</li>
       </ol>
-    </li>
-    <li>Three</li>
-    <li>Four</li>
-  </ol>
 
-  <p>An outline is an example of a set of ordered lists, nested inside higher-level ordered lists.  Outlines up to four levels deep can be produced in HTML using the <code>type</code> attribute on an <code>&lt;ol&gt;</code> tag.</p>
-  <ol type="I" class="outline doublespace">
-    <li>First top-level item<ol type="A">
-      <li>First second-level item, inside item I<ol type="a">
-        <li>First third-level item, inside item I.A<ol type="i">
-          <li>First fourth-level item, inside item I.A.a.</li>
-          <li>Second fourth-level item, inside item I.A.a.</li>
+      <p>An outline is an example of a set of ordered lists, nested inside higher-level ordered lists.  Outlines up to four levels deep can be produced in HTML using the <code>type</code> attribute on an <code>&lt;ol&gt;</code> tag.</p>
+      <ol type="I" class="outline doublespace">
+        <li>First top-level item<ol type="A">
+          <li>First second-level item, inside item I<ol type="a">
+            <li>First third-level item, inside item I.A<ol type="i">
+              <li>First fourth-level item, inside item I.A.a.</li>
+              <li>Second fourth-level item, inside item I.A.a.</li>
+            </ol></li>
+            <li>Second third-level item, inside item I.A</li>
+          </ol></li>
+          <li>Second second-level item, inside item I</li>
+          <li>Third second-level item, inside item I</li>
         </ol></li>
-        <li>Second third-level item, inside item I.A</li>
-      </ol></li>
-      <li>Second second-level item, inside item I</li>
-      <li>Third second-level item, inside item I</li>
-    </ol></li>
-    <li>Second top-level item<ol type="A">
-      <li>First second-level item, inside item II</li>
-      <li>Second second-level item, inside item II</li>
-      <li>Third second-level item, inside item II<ol type="a">
-        <li>First third-level item, inside item II.C<ol type="i">
-          <li>First fourth-level item, inside item II.C.a.</li>
-          <li>Second fourth-level item, inside item II.C.a.</li>
+        <li>Second top-level item<ol type="A">
+          <li>First second-level item, inside item II</li>
+          <li>Second second-level item, inside item II</li>
+          <li>Third second-level item, inside item II<ol type="a">
+            <li>First third-level item, inside item II.C<ol type="i">
+              <li>First fourth-level item, inside item II.C.a.</li>
+              <li>Second fourth-level item, inside item II.C.a.</li>
+            </ol></li>
+            <li>Second third-level item, inside item II.C</li>
+            </ol></li>
+          </ol></li>
+        <li>Third top-level item<ol type="A">
+          <li>First second-level item, inside item III</li>
+          <li>Second second-level item, inside item III<ol type="a">
+            <li>First third-level item, inside item III.B</li>
+            <li>Second third-level item, inside item III.B<ol type="i">
+              <li>First fourth-level item, inside item III.B.b.</li>
+              <li>Second fourth-level item, inside item III.B.b.</li>
+            </ol></li>
+          </ol></li>
+          <li>Third second-level item, inside item III</li>
         </ol></li>
-        <li>Second third-level item, inside item II.C</li>
-        </ol></li>
-      </ol></li>
-    <li>Third top-level item<ol type="A">
-      <li>First second-level item, inside item III</li>
-      <li>Second second-level item, inside item III<ol type="a">
-        <li>First third-level item, inside item III.B</li>
-        <li>Second third-level item, inside item III.B<ol type="i">
-          <li>First fourth-level item, inside item III.B.b.</li>
-          <li>Second fourth-level item, inside item III.B.b.</li>
-        </ol></li>
-      </ol></li>
-      <li>Third second-level item, inside item III</li>
-    </ol></li>
-  </ol>
+      </ol>
 
-  <h3>Definition (not common)</h3>
-  <dl>
-    <dt>Term</dt><dd>A term is in item in a definition list.</dd>
-    <dt>Definition</dt><dd>A definition is the writer's hopeful attempt to make
-      sense of the term.</dd>
-  </dl>
-  <h2 style="color: darkviolet">Table</h2>
+      <h3>Definition (not common)</h3>
+      <dl>
+        <dt>Term</dt><dd>A term is in item in a definition list.</dd>
+        <dt>Definition</dt><dd>A definition is the writer's hopeful attempt to make
+          sense of the term.</dd>
+      </dl>
+      <h2 style="color: darkviolet">Table</h2>
 
-  <table class="plain_table">
-    <caption>Converse classrooms</caption>
-    <colgroup class="left_header" span="2"></colgroup>
-    <thead>
-      <tr><th rowspan="2">Building</th><th rowspan="2">Room</th><th colspan="2">Features</th>
-      <tr><th>Seats</th><th>Notes</th></tr>
-    </thead>
-    <tbody>
-      <tr><th rowspan="3">Kuhn</th><th>212</th><td>22</td><td>Computer lab</td></tr>
-      <tr><th>217</th><td>30</td><td>Data-science classroom</td></tr>
-      <tr><th>203</th><td>70</td><td>Lever Auditorium</td></tr>
-      <tr><th rowspan="2">Phifer</th><th>201</th><td>15</td><td></td></tr>
-      <tr><th>211</th><td>30</td><td>Lab</td></tr>
-    </tbody>
-  </table>
-  
-  <table class="pix_table">
-    <caption>Converse classrooms</caption>
-    <thead>
-      <tr><th colspan="2">Building</th><th rowspan="2">Room</th><th colspan="2">Features</th>
-      <tr><th>Picture</th><th>Name</th><th>Seats</th><th>Notes</th></tr>
-    </thead>
-    <tbody>
-      <tr><td rowspan="3"><img class="building" src="ddd7e279cc9e63f36235414eac9bd116.original.webp" alt="Kuhn Hall, Converse University"></td><td rowspan="3">Kuhn</td><td>212</td><td>22</td><td>Computer lab</td></tr>
-      <tr><td>217</td><td>30</td><td>Data-science classroom</td></tr>
-      <tr><td>203</td><td>70</td><td>Lever Auditorium</td></tr>
-      <tr><td rowspan="2"><img class="building" src="phifer.jpg" alt="Phifer Hall, Converse University"></td><td rowspan="2">Phifer</td><td>201</td><td>15</td><td></td></tr>
-      <tr><td>211</td><td>30</td><td>Lab</td></tr>
-    </tbody>  
-  </table>
+      <table class="plain_table">
+        <caption>Converse classrooms</caption>
+        <colgroup class="left_header" span="2"></colgroup>
+        <thead>
+          <tr><th rowspan="2">Building</th><th rowspan="2">Room</th><th colspan="2">Features</th>
+          <tr><th>Seats</th><th>Notes</th></tr>
+        </thead>
+        <tbody>
+          <tr><th rowspan="3">Kuhn</th><th>212</th><td>22</td><td>Computer lab</td></tr>
+          <tr><th>217</th><td>30</td><td>Data-science classroom</td></tr>
+          <tr><th>203</th><td>70</td><td>Lever Auditorium</td></tr>
+          <tr><th rowspan="2">Phifer</th><th>201</th><td>15</td><td></td></tr>
+          <tr><th>211</th><td>30</td><td>Lab</td></tr>
+        </tbody>
+      </table>
+      
+      <table class="pix_table">
+        <caption>Converse classrooms</caption>
+        <thead>
+          <tr><th colspan="2">Building</th><th rowspan="2">Room</th><th colspan="2">Features</th>
+          <tr><th>Picture</th><th>Name</th><th>Seats</th><th>Notes</th></tr>
+        </thead>
+        <tbody>
+          <tr><td rowspan="3"><img class="building" src="ddd7e279cc9e63f36235414eac9bd116.original.webp" alt="Kuhn Hall, Converse University"></td><td rowspan="3">Kuhn</td><td>212</td><td>22</td><td>Computer lab</td></tr>
+          <tr><td>217</td><td>30</td><td>Data-science classroom</td></tr>
+          <tr><td>203</td><td>70</td><td>Lever Auditorium</td></tr>
+          <tr><td rowspan="2"><img class="building" src="phifer.jpg" alt="Phifer Hall, Converse University"></td><td rowspan="2">Phifer</td><td>201</td><td>15</td><td></td></tr>
+          <tr><td>211</td><td>30</td><td>Lab</td></tr>
+        </tbody>  
+      </table>
 
-  <h2>Image</h2>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/PRR_4465_Brick.JPG" class="halfwidth"
-  alt="4400-HP electric locomotive, built 1963.  This was the last mainline electric freight locomotive built in the U.S. for a common-carrier American railroad.">
-  <p>4400-HP electric locomotive, built 1963.  This was the last mainline electric freight locomotive built in the U.S. for a common-carrier American railroad.</p>
+      <h2>Image</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/PRR_4465_Brick.JPG" class="halfwidth"
+      alt="4400-HP electric locomotive, built 1963.  This was the last mainline electric freight locomotive built in the U.S. for a common-carrier American railroad.">
+      <p>4400-HP electric locomotive, built 1963.  This was the last mainline electric freight locomotive built in the U.S. for a common-carrier American railroad.</p>
 
-  <div class="video halfwidth">
-  <h2>Video</h2>
+      <div class="video halfwidth">
+      <h2>Video</h2>
 
-  <video src="https://cs.converse.edu/CSC235/Tacita-silent-movie.mp4" 
-    controls="controls" class="halfwidth">
-  </video>
-  </div>
-
-  <h2>Image collection (flexbox)</h2>
-  <div class="box flex_row">
-    <div class="box flex_col" id="space">
-      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Rotating_earth_animated_transparent.gif/250px-Rotating_earth_animated_transparent.gif" 
-        alt="Earth, seen from space, animated so it appears to rotate">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Pluto_rotation_movie_%28transparent%292.gif" 
-        alt="Rotation movie of Pluto based on images from NASA's New Horizons spacecraft up to and including an image obtained when the spacecraft was 738,000 km from Pluto.">
-    </div>
-    <div class="box flex_col" id="people">
-      <div class="box flex_row" id="saints_et_al">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Boethius_transparent_background_clearer.png" 
-            alt="Project Gutenberg&#039;s rendition of Boethius (c.480-524), Christian philosopher and martyr">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Sainte_Clotilde_-_transparent_background_01.jpg" 
-            alt="Statue of St. Clotilde (c.474-545), Queen of the Franks">
-          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png/330px-Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png" 
-            alt="Drawing of St. Teresa of &Aacute;vila (1515-1582), Spanish mystic, nun, and co-founder of the Discalced Carmelites">
-          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png/330px-Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png" 
-            alt="Picture of Thomas &agrave; Kempis (c. 1380-1471), canon and author of the Imitation of Christ">
+      <video src="https://cs.converse.edu/CSC235/Tacita-silent-movie.mp4" 
+        controls="controls" class="halfwidth">
+      </video>
       </div>
-      <div class="box flex_row" id="art_lit">
-        <div class="box flex_col" id="art_film_music">
-            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png/120px-Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png" 
-              alt="Alfred Hitchcock, pointing at his watch, from a 1960 poster for the film Psycho">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Scott_Joplin_1907_%28transparent%29.png" 
-              alt="June 1903 photograph of Scott Joplin (1868-1917), composer and pianist known as the &ldquo;King of Ragtime&rdquo;">
-            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg/250px-Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg"
-              alt="Portrait of John Laurens (1754-1782), South Carolina soldier and statesman, by Charles Willson Peale">
-        </div>
-        <div class="box flex_col" id="literature">
-          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victor_Hugo_in_Black_and_White_in_Transparent_Background.png/330px-Victor_Hugo_in_Black_and_White_in_Transparent_Background.png" 
-            alt="Picture of Victor Hugo (1802-1885), French author and national hero, from an 1876 photograph by &Eacute;tienne Carjat">
-          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Edith_Wharton_in_Black_and_White_in_Transparent_Background.png/330px-Edith_Wharton_in_Black_and_White_in_Transparent_Background.png" 
-            alt="Picture of Edith Wharton (1862-1937), American author, from a c.1890 photograph by E. F. Cooper">
-          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Walt_Whitman_in_Black_and_White_with_Transparent_Background.png/330px-Walt_Whitman_in_Black_and_White_with_Transparent_Background.png" 
-            alt="Picture of Walt Whitman (1819-1892), American poet, from an 1887 photograph by George Collins Cox">
-        </div>
-      </div>
+
+      <h2>Image collection (flexbox)</h2>
       <div class="box flex_row">
+        <div class="box flex_col" id="space">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Rotating_earth_animated_transparent.gif/250px-Rotating_earth_animated_transparent.gif" 
+            alt="Earth, seen from space, animated so it appears to rotate">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Pluto_rotation_movie_%28transparent%292.gif" 
+            alt="Rotation movie of Pluto based on images from NASA's New Horizons spacecraft up to and including an image obtained when the spacecraft was 738,000 km from Pluto.">
+        </div>
+        <div class="box flex_col" id="people">
+          <div class="box flex_row" id="saints_et_al">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Boethius_transparent_background_clearer.png" 
+                alt="Project Gutenberg&#039;s rendition of Boethius (c.480-524), Christian philosopher and martyr">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Sainte_Clotilde_-_transparent_background_01.jpg" 
+                alt="Statue of St. Clotilde (c.474-545), Queen of the Franks">
+              <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png/330px-Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png" 
+                alt="Drawing of St. Teresa of &Aacute;vila (1515-1582), Spanish mystic, nun, and co-founder of the Discalced Carmelites">
+              <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png/330px-Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png" 
+                alt="Picture of Thomas &agrave; Kempis (c. 1380-1471), canon and author of the Imitation of Christ">
+          </div>
+          <div class="box flex_row" id="art_lit">
+            <div class="box flex_col" id="art_film_music">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png/120px-Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png" 
+                  alt="Alfred Hitchcock, pointing at his watch, from a 1960 poster for the film Psycho">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Scott_Joplin_1907_%28transparent%29.png" 
+                  alt="June 1903 photograph of Scott Joplin (1868-1917), composer and pianist known as the &ldquo;King of Ragtime&rdquo;">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg/250px-Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg"
+                  alt="Portrait of John Laurens (1754-1782), South Carolina soldier and statesman, by Charles Willson Peale">
+            </div>
+            <div class="box flex_col" id="literature">
+              <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victor_Hugo_in_Black_and_White_in_Transparent_Background.png/330px-Victor_Hugo_in_Black_and_White_in_Transparent_Background.png" 
+                alt="Picture of Victor Hugo (1802-1885), French author and national hero, from an 1876 photograph by &Eacute;tienne Carjat">
+              <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Edith_Wharton_in_Black_and_White_in_Transparent_Background.png/330px-Edith_Wharton_in_Black_and_White_in_Transparent_Background.png" 
+                alt="Picture of Edith Wharton (1862-1937), American author, from a c.1890 photograph by E. F. Cooper">
+              <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Walt_Whitman_in_Black_and_White_with_Transparent_Background.png/330px-Walt_Whitman_in_Black_and_White_with_Transparent_Background.png" 
+                alt="Picture of Walt Whitman (1819-1892), American poet, from an 1887 photograph by George Collins Cox">
+            </div>
+          </div>
+          <div class="box flex_row">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Harry_Holland_%28transparent_background%29.png/250px-Harry_Holland_%28transparent_background%29.png" 
+              alt="Picture of Harry Holland (1868-1933), New Zealand politician, from a 1925 photo by Stanley Polkinghorne Andrew">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Unknown_American_-_Mrs._Sam_Houston_-_Google_Art_Project_%28transparent_background%29.png/250px-Unknown_American_-_Mrs._Sam_Houston_-_Google_Art_Project_%28transparent_background%29.png" 
+              alt="Picture of Mrs. Sam Houston, from an 1860 daguerreotype">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Nick_Vujicic_in_Black_and_White_with_Transparent_Background.png/330px-Nick_Vujicic_in_Black_and_White_with_Transparent_Background.png" 
+              alt="Picture of Nick Vujicic (1982-), Australian-American evangelist and speaker, from an April 1, 2011 photograph in Christliches Medianmagazin pro">
+          </div>  
+        </div>
+        <div class="box flex_row" id="animals">
+          <div class="box flex_col" id="mammals">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Mouse_transparent_background.png" 
+              alt="Common house mouse (Mus musculus), wild type">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Lily_the_white_poodle_%28transparent_background%29.png/330px-Lily_the_white_poodle_%28transparent_background%29.png" 
+              alt="Lily the white poodle">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Turkish_Van_cat_transparent.png/250px-Turkish_Van_cat_transparent.png"
+              alt="Red tabby and white Turkish Van cat on transparent background">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Talpa_europaea_MHNT_on_transparent_background.png/330px-Talpa_europaea_MHNT_on_transparent_background.png" 
+              alt="European mole (Talpa europaea) on transparent background">
+          </div>
+          <div class="box flex_col" id="birds">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Alpine_swift_at_Koytendag%2C_SE_Turkmenistan_%28transparent_background%29.png/330px-Alpine_swift_at_Koytendag%2C_SE_Turkmenistan_%28transparent_background%29.png" 
+              alt="Alpine swift at Koytendag, SE Turkmenistan.  Photo by Paul F. Donald, editing by Paolo Villa.">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Apus_apus_flying_%28transparent_background%29.png/330px-Apus_apus_flying_%28transparent_background%29.png" 
+              alt="Common swift (Apus apus) flying in Barcelona, Spain">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Eurasian_crag_martin_David_Raju_%28transparent_background%29.png/250px-Eurasian_crag_martin_David_Raju_%28transparent_background%29.png" 
+              alt="Eurasian crag martin (Ptyonoprogne rupestris) in flight.  Photo by David Raju, edited by Paolo Villa.">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/HirundoRusticaFlight_%28transparent_background%29.png/330px-HirundoRusticaFlight_%28transparent_background%29.png"  
+              alt="Swallow (Hirundo rustica) in flight">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Tachybaptus_rufolavatus_by_Citron_transparent_background.png/250px-Tachybaptus_rufolavatus_by_Citron_transparent_background.png" 
+              alt="Grebe (Tachybaptus rufolavatus) standing">
+          </div>
+        </div>
+      </div>
+
+      <h2>Image collection (responsive, wrapping flexbox)</h2>
+
+      <div class="box flex_row flex_wrapping">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Rotating_earth_animated_transparent.gif/250px-Rotating_earth_animated_transparent.gif" 
+          alt="Earth, seen from space, animated so it appears to rotate">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Pluto_rotation_movie_%28transparent%292.gif" 
+          alt="Rotation movie of Pluto based on images from NASA's New Horizons spacecraft up to and including an image obtained when the spacecraft was 738,000 km from Pluto.">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Boethius_transparent_background_clearer.png" 
+          alt="Project Gutenberg&#039;s rendition of Boethius (c.480-524), Christian philosopher and martyr">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Sainte_Clotilde_-_transparent_background_01.jpg" 
+          alt="Statue of St. Clotilde (c.474-545), Queen of the Franks">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png/330px-Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png" 
+          alt="Drawing of St. Teresa of &Aacute;vila (1515-1582), Spanish mystic, nun, and co-founder of the Discalced Carmelites">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png/330px-Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png" 
+          alt="Picture of Thomas &agrave; Kempis (c. 1380-1471), canon and author of the Imitation of Christ">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png/120px-Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png" 
+          alt="Alfred Hitchcock, pointing at his watch, from a 1960 poster for the film Psycho">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Scott_Joplin_1907_%28transparent%29.png" 
+          alt="June 1903 photograph of Scott Joplin (1868-1917), composer and pianist known as the &ldquo;King of Ragtime&rdquo;">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg/250px-Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg"
+          alt="Portrait of John Laurens (1754-1782), South Carolina soldier and statesman, by Charles Willson Peale">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victor_Hugo_in_Black_and_White_in_Transparent_Background.png/330px-Victor_Hugo_in_Black_and_White_in_Transparent_Background.png" 
+          alt="Picture of Victor Hugo (1802-1885), French author and national hero, from an 1876 photograph by &Eacute;tienne Carjat">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Edith_Wharton_in_Black_and_White_in_Transparent_Background.png/330px-Edith_Wharton_in_Black_and_White_in_Transparent_Background.png" 
+          alt="Picture of Edith Wharton (1862-1937), American author, from a c.1890 photograph by E. F. Cooper">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Walt_Whitman_in_Black_and_White_with_Transparent_Background.png/330px-Walt_Whitman_in_Black_and_White_with_Transparent_Background.png" 
+          alt="Picture of Walt Whitman (1819-1892), American poet, from an 1887 photograph by George Collins Cox">
         <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Harry_Holland_%28transparent_background%29.png/250px-Harry_Holland_%28transparent_background%29.png" 
           alt="Picture of Harry Holland (1868-1933), New Zealand politician, from a 1925 photo by Stanley Polkinghorne Andrew">
         <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Unknown_American_-_Mrs._Sam_Houston_-_Google_Art_Project_%28transparent_background%29.png/250px-Unknown_American_-_Mrs._Sam_Houston_-_Google_Art_Project_%28transparent_background%29.png" 
           alt="Picture of Mrs. Sam Houston, from an 1860 daguerreotype">
         <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Nick_Vujicic_in_Black_and_White_with_Transparent_Background.png/330px-Nick_Vujicic_in_Black_and_White_with_Transparent_Background.png" 
           alt="Picture of Nick Vujicic (1982-), Australian-American evangelist and speaker, from an April 1, 2011 photograph in Christliches Medianmagazin pro">
-      </div>  
-    </div>
-    <div class="box flex_row" id="animals">
-      <div class="box flex_col" id="mammals">
         <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Mouse_transparent_background.png" 
           alt="Common house mouse (Mus musculus), wild type">
         <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Lily_the_white_poodle_%28transparent_background%29.png/330px-Lily_the_white_poodle_%28transparent_background%29.png" 
@@ -208,8 +269,6 @@
           alt="Red tabby and white Turkish Van cat on transparent background">
         <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Talpa_europaea_MHNT_on_transparent_background.png/330px-Talpa_europaea_MHNT_on_transparent_background.png" 
           alt="European mole (Talpa europaea) on transparent background">
-      </div>
-      <div class="box flex_col" id="birds">
         <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Alpine_swift_at_Koytendag%2C_SE_Turkmenistan_%28transparent_background%29.png/330px-Alpine_swift_at_Koytendag%2C_SE_Turkmenistan_%28transparent_background%29.png" 
           alt="Alpine swift at Koytendag, SE Turkmenistan.  Photo by Paul F. Donald, editing by Paolo Villa.">
         <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Apus_apus_flying_%28transparent_background%29.png/330px-Apus_apus_flying_%28transparent_background%29.png" 
@@ -220,171 +279,121 @@
           alt="Swallow (Hirundo rustica) in flight">
         <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Tachybaptus_rufolavatus_by_Citron_transparent_background.png/250px-Tachybaptus_rufolavatus_by_Citron_transparent_background.png" 
           alt="Grebe (Tachybaptus rufolavatus) standing">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Statue_of_liberty_%28transparent%29.png/250px-Statue_of_liberty_%28transparent%29.png"
+          alt="Transparent-background image of the Statue of Liberty">
       </div>
-    </div>
-  </div>
 
-  <h2>Image collection (responsive, wrapping flexbox)</h2>
+      <h2>Image collection (responsive, flexible grid)</h2>
+      <div class="grid">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Rotating_earth_animated_transparent.gif/250px-Rotating_earth_animated_transparent.gif" 
+          alt="Earth, seen from space, animated so it appears to rotate">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Pluto_rotation_movie_%28transparent%292.gif" 
+          alt="Rotation movie of Pluto based on images from NASA's New Horizons spacecraft up to and including an image obtained when the spacecraft was 738,000 km from Pluto.">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Boethius_transparent_background_clearer.png" 
+          alt="Project Gutenberg&#039;s rendition of Boethius (c.480-524), Christian philosopher and martyr">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Sainte_Clotilde_-_transparent_background_01.jpg" 
+          alt="Statue of St. Clotilde (c.474-545), Queen of the Franks">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png/330px-Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png" 
+          alt="Drawing of St. Teresa of &Aacute;vila (1515-1582), Spanish mystic, nun, and co-founder of the Discalced Carmelites">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png/330px-Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png" 
+          alt="Picture of Thomas &agrave; Kempis (c. 1380-1471), canon and author of the Imitation of Christ">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png/120px-Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png" 
+          alt="Alfred Hitchcock, pointing at his watch, from a 1960 poster for the film Psycho">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Scott_Joplin_1907_%28transparent%29.png" 
+          alt="June 1903 photograph of Scott Joplin (1868-1917), composer and pianist known as the &ldquo;King of Ragtime&rdquo;">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg/250px-Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg"
+          alt="Portrait of John Laurens (1754-1782), South Carolina soldier and statesman, by Charles Willson Peale">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victor_Hugo_in_Black_and_White_in_Transparent_Background.png/330px-Victor_Hugo_in_Black_and_White_in_Transparent_Background.png" 
+          alt="Picture of Victor Hugo (1802-1885), French author and national hero, from an 1876 photograph by &Eacute;tienne Carjat">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Edith_Wharton_in_Black_and_White_in_Transparent_Background.png/330px-Edith_Wharton_in_Black_and_White_in_Transparent_Background.png" 
+          alt="Picture of Edith Wharton (1862-1937), American author, from a c.1890 photograph by E. F. Cooper">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Walt_Whitman_in_Black_and_White_with_Transparent_Background.png/330px-Walt_Whitman_in_Black_and_White_with_Transparent_Background.png" 
+          alt="Picture of Walt Whitman (1819-1892), American poet, from an 1887 photograph by George Collins Cox">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Harry_Holland_%28transparent_background%29.png/250px-Harry_Holland_%28transparent_background%29.png" 
+          alt="Picture of Harry Holland (1868-1933), New Zealand politician, from a 1925 photo by Stanley Polkinghorne Andrew">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Unknown_American_-_Mrs._Sam_Houston_-_Google_Art_Project_%28transparent_background%29.png/250px-Unknown_American_-_Mrs._Sam_Houston_-_Google_Art_Project_%28transparent_background%29.png" 
+          alt="Picture of Mrs. Sam Houston, from an 1860 daguerreotype">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Nick_Vujicic_in_Black_and_White_with_Transparent_Background.png/330px-Nick_Vujicic_in_Black_and_White_with_Transparent_Background.png" 
+          alt="Picture of Nick Vujicic (1982-), Australian-American evangelist and speaker, from an April 1, 2011 photograph in Christliches Medianmagazin pro">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Mouse_transparent_background.png" 
+          alt="Common house mouse (Mus musculus), wild type">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Lily_the_white_poodle_%28transparent_background%29.png/330px-Lily_the_white_poodle_%28transparent_background%29.png" 
+          alt="Lily the white poodle">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Turkish_Van_cat_transparent.png/250px-Turkish_Van_cat_transparent.png"
+          alt="Red tabby and white Turkish Van cat on transparent background">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Talpa_europaea_MHNT_on_transparent_background.png/330px-Talpa_europaea_MHNT_on_transparent_background.png" 
+          alt="European mole (Talpa europaea) on transparent background">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Alpine_swift_at_Koytendag%2C_SE_Turkmenistan_%28transparent_background%29.png/330px-Alpine_swift_at_Koytendag%2C_SE_Turkmenistan_%28transparent_background%29.png" 
+          alt="Alpine swift at Koytendag, SE Turkmenistan.  Photo by Paul F. Donald, editing by Paolo Villa.">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Apus_apus_flying_%28transparent_background%29.png/330px-Apus_apus_flying_%28transparent_background%29.png" 
+          alt="Common swift (Apus apus) flying in Barcelona, Spain">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Eurasian_crag_martin_David_Raju_%28transparent_background%29.png/250px-Eurasian_crag_martin_David_Raju_%28transparent_background%29.png" 
+          alt="Eurasian crag martin (Ptyonoprogne rupestris) in flight.  Photo by David Raju, edited by Paolo Villa.">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/HirundoRusticaFlight_%28transparent_background%29.png/330px-HirundoRusticaFlight_%28transparent_background%29.png"  
+          alt="Swallow (Hirundo rustica) in flight">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Tachybaptus_rufolavatus_by_Citron_transparent_background.png/250px-Tachybaptus_rufolavatus_by_Citron_transparent_background.png" 
+          alt="Grebe (Tachybaptus rufolavatus) standing">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Statue_of_liberty_%28transparent%29.png/250px-Statue_of_liberty_%28transparent%29.png"
+          alt="Transparent-background image of the Statue of Liberty">
+      </div>
 
-  <div class="box flex_row flex_wrapping">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Rotating_earth_animated_transparent.gif/250px-Rotating_earth_animated_transparent.gif" 
-      alt="Earth, seen from space, animated so it appears to rotate">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Pluto_rotation_movie_%28transparent%292.gif" 
-      alt="Rotation movie of Pluto based on images from NASA's New Horizons spacecraft up to and including an image obtained when the spacecraft was 738,000 km from Pluto.">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Boethius_transparent_background_clearer.png" 
-      alt="Project Gutenberg&#039;s rendition of Boethius (c.480-524), Christian philosopher and martyr">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Sainte_Clotilde_-_transparent_background_01.jpg" 
-      alt="Statue of St. Clotilde (c.474-545), Queen of the Franks">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png/330px-Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png" 
-      alt="Drawing of St. Teresa of &Aacute;vila (1515-1582), Spanish mystic, nun, and co-founder of the Discalced Carmelites">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png/330px-Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png" 
-      alt="Picture of Thomas &agrave; Kempis (c. 1380-1471), canon and author of the Imitation of Christ">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png/120px-Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png" 
-      alt="Alfred Hitchcock, pointing at his watch, from a 1960 poster for the film Psycho">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Scott_Joplin_1907_%28transparent%29.png" 
-      alt="June 1903 photograph of Scott Joplin (1868-1917), composer and pianist known as the &ldquo;King of Ragtime&rdquo;">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg/250px-Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg"
-      alt="Portrait of John Laurens (1754-1782), South Carolina soldier and statesman, by Charles Willson Peale">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victor_Hugo_in_Black_and_White_in_Transparent_Background.png/330px-Victor_Hugo_in_Black_and_White_in_Transparent_Background.png" 
-      alt="Picture of Victor Hugo (1802-1885), French author and national hero, from an 1876 photograph by &Eacute;tienne Carjat">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Edith_Wharton_in_Black_and_White_in_Transparent_Background.png/330px-Edith_Wharton_in_Black_and_White_in_Transparent_Background.png" 
-      alt="Picture of Edith Wharton (1862-1937), American author, from a c.1890 photograph by E. F. Cooper">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Walt_Whitman_in_Black_and_White_with_Transparent_Background.png/330px-Walt_Whitman_in_Black_and_White_with_Transparent_Background.png" 
-      alt="Picture of Walt Whitman (1819-1892), American poet, from an 1887 photograph by George Collins Cox">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Harry_Holland_%28transparent_background%29.png/250px-Harry_Holland_%28transparent_background%29.png" 
-      alt="Picture of Harry Holland (1868-1933), New Zealand politician, from a 1925 photo by Stanley Polkinghorne Andrew">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Unknown_American_-_Mrs._Sam_Houston_-_Google_Art_Project_%28transparent_background%29.png/250px-Unknown_American_-_Mrs._Sam_Houston_-_Google_Art_Project_%28transparent_background%29.png" 
-      alt="Picture of Mrs. Sam Houston, from an 1860 daguerreotype">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Nick_Vujicic_in_Black_and_White_with_Transparent_Background.png/330px-Nick_Vujicic_in_Black_and_White_with_Transparent_Background.png" 
-      alt="Picture of Nick Vujicic (1982-), Australian-American evangelist and speaker, from an April 1, 2011 photograph in Christliches Medianmagazin pro">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Mouse_transparent_background.png" 
-      alt="Common house mouse (Mus musculus), wild type">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Lily_the_white_poodle_%28transparent_background%29.png/330px-Lily_the_white_poodle_%28transparent_background%29.png" 
-      alt="Lily the white poodle">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Turkish_Van_cat_transparent.png/250px-Turkish_Van_cat_transparent.png"
-      alt="Red tabby and white Turkish Van cat on transparent background">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Talpa_europaea_MHNT_on_transparent_background.png/330px-Talpa_europaea_MHNT_on_transparent_background.png" 
-      alt="European mole (Talpa europaea) on transparent background">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Alpine_swift_at_Koytendag%2C_SE_Turkmenistan_%28transparent_background%29.png/330px-Alpine_swift_at_Koytendag%2C_SE_Turkmenistan_%28transparent_background%29.png" 
-      alt="Alpine swift at Koytendag, SE Turkmenistan.  Photo by Paul F. Donald, editing by Paolo Villa.">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Apus_apus_flying_%28transparent_background%29.png/330px-Apus_apus_flying_%28transparent_background%29.png" 
-      alt="Common swift (Apus apus) flying in Barcelona, Spain">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Eurasian_crag_martin_David_Raju_%28transparent_background%29.png/250px-Eurasian_crag_martin_David_Raju_%28transparent_background%29.png" 
-      alt="Eurasian crag martin (Ptyonoprogne rupestris) in flight.  Photo by David Raju, edited by Paolo Villa.">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/HirundoRusticaFlight_%28transparent_background%29.png/330px-HirundoRusticaFlight_%28transparent_background%29.png"  
-      alt="Swallow (Hirundo rustica) in flight">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Tachybaptus_rufolavatus_by_Citron_transparent_background.png/250px-Tachybaptus_rufolavatus_by_Citron_transparent_background.png" 
-      alt="Grebe (Tachybaptus rufolavatus) standing">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Statue_of_liberty_%28transparent%29.png/250px-Statue_of_liberty_%28transparent%29.png"
-       alt="Transparent-background image of the Statue of Liberty">
-  </div>
-
-  <h2>Image collection (responsive, flexible grid)</h2>
-  <div class="grid">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Rotating_earth_animated_transparent.gif/250px-Rotating_earth_animated_transparent.gif" 
-      alt="Earth, seen from space, animated so it appears to rotate">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Pluto_rotation_movie_%28transparent%292.gif" 
-      alt="Rotation movie of Pluto based on images from NASA's New Horizons spacecraft up to and including an image obtained when the spacecraft was 738,000 km from Pluto.">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Boethius_transparent_background_clearer.png" 
-      alt="Project Gutenberg&#039;s rendition of Boethius (c.480-524), Christian philosopher and martyr">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Sainte_Clotilde_-_transparent_background_01.jpg" 
-      alt="Statue of St. Clotilde (c.474-545), Queen of the Franks">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png/330px-Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png" 
-      alt="Drawing of St. Teresa of &Aacute;vila (1515-1582), Spanish mystic, nun, and co-founder of the Discalced Carmelites">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png/330px-Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png" 
-      alt="Picture of Thomas &agrave; Kempis (c. 1380-1471), canon and author of the Imitation of Christ">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png/120px-Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png" 
-      alt="Alfred Hitchcock, pointing at his watch, from a 1960 poster for the film Psycho">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Scott_Joplin_1907_%28transparent%29.png" 
-      alt="June 1903 photograph of Scott Joplin (1868-1917), composer and pianist known as the &ldquo;King of Ragtime&rdquo;">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg/250px-Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg"
-      alt="Portrait of John Laurens (1754-1782), South Carolina soldier and statesman, by Charles Willson Peale">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victor_Hugo_in_Black_and_White_in_Transparent_Background.png/330px-Victor_Hugo_in_Black_and_White_in_Transparent_Background.png" 
-      alt="Picture of Victor Hugo (1802-1885), French author and national hero, from an 1876 photograph by &Eacute;tienne Carjat">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Edith_Wharton_in_Black_and_White_in_Transparent_Background.png/330px-Edith_Wharton_in_Black_and_White_in_Transparent_Background.png" 
-      alt="Picture of Edith Wharton (1862-1937), American author, from a c.1890 photograph by E. F. Cooper">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Walt_Whitman_in_Black_and_White_with_Transparent_Background.png/330px-Walt_Whitman_in_Black_and_White_with_Transparent_Background.png" 
-      alt="Picture of Walt Whitman (1819-1892), American poet, from an 1887 photograph by George Collins Cox">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Harry_Holland_%28transparent_background%29.png/250px-Harry_Holland_%28transparent_background%29.png" 
-      alt="Picture of Harry Holland (1868-1933), New Zealand politician, from a 1925 photo by Stanley Polkinghorne Andrew">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Unknown_American_-_Mrs._Sam_Houston_-_Google_Art_Project_%28transparent_background%29.png/250px-Unknown_American_-_Mrs._Sam_Houston_-_Google_Art_Project_%28transparent_background%29.png" 
-      alt="Picture of Mrs. Sam Houston, from an 1860 daguerreotype">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Nick_Vujicic_in_Black_and_White_with_Transparent_Background.png/330px-Nick_Vujicic_in_Black_and_White_with_Transparent_Background.png" 
-      alt="Picture of Nick Vujicic (1982-), Australian-American evangelist and speaker, from an April 1, 2011 photograph in Christliches Medianmagazin pro">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Mouse_transparent_background.png" 
-      alt="Common house mouse (Mus musculus), wild type">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Lily_the_white_poodle_%28transparent_background%29.png/330px-Lily_the_white_poodle_%28transparent_background%29.png" 
-      alt="Lily the white poodle">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Turkish_Van_cat_transparent.png/250px-Turkish_Van_cat_transparent.png"
-      alt="Red tabby and white Turkish Van cat on transparent background">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Talpa_europaea_MHNT_on_transparent_background.png/330px-Talpa_europaea_MHNT_on_transparent_background.png" 
-      alt="European mole (Talpa europaea) on transparent background">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Alpine_swift_at_Koytendag%2C_SE_Turkmenistan_%28transparent_background%29.png/330px-Alpine_swift_at_Koytendag%2C_SE_Turkmenistan_%28transparent_background%29.png" 
-      alt="Alpine swift at Koytendag, SE Turkmenistan.  Photo by Paul F. Donald, editing by Paolo Villa.">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Apus_apus_flying_%28transparent_background%29.png/330px-Apus_apus_flying_%28transparent_background%29.png" 
-      alt="Common swift (Apus apus) flying in Barcelona, Spain">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Eurasian_crag_martin_David_Raju_%28transparent_background%29.png/250px-Eurasian_crag_martin_David_Raju_%28transparent_background%29.png" 
-      alt="Eurasian crag martin (Ptyonoprogne rupestris) in flight.  Photo by David Raju, edited by Paolo Villa.">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/HirundoRusticaFlight_%28transparent_background%29.png/330px-HirundoRusticaFlight_%28transparent_background%29.png"  
-      alt="Swallow (Hirundo rustica) in flight">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Tachybaptus_rufolavatus_by_Citron_transparent_background.png/250px-Tachybaptus_rufolavatus_by_Citron_transparent_background.png" 
-      alt="Grebe (Tachybaptus rufolavatus) standing">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Statue_of_liberty_%28transparent%29.png/250px-Statue_of_liberty_%28transparent%29.png"
-       alt="Transparent-background image of the Statue of Liberty">
-  </div>
-
-  <h2>Image collection (fixed, 4-column grid)</h2>
-  <div class="fixed_grid">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Rotating_earth_animated_transparent.gif/250px-Rotating_earth_animated_transparent.gif" 
-      alt="Earth, seen from space, animated so it appears to rotate" id="earth">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Pluto_rotation_movie_%28transparent%292.gif" 
-      alt="Rotation movie of Pluto based on images from NASA's New Horizons spacecraft up to and including an image obtained when the spacecraft was 738,000 km from Pluto.">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Boethius_transparent_background_clearer.png" 
-      alt="Project Gutenberg&#039;s rendition of Boethius (c.480-524), Christian philosopher and martyr">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Sainte_Clotilde_-_transparent_background_01.jpg" 
-      alt="Statue of St. Clotilde (c.474-545), Queen of the Franks" id="Clotilde">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png/330px-Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png" 
-      alt="Drawing of St. Teresa of &Aacute;vila (1515-1582), Spanish mystic, nun, and co-founder of the Discalced Carmelites">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png/330px-Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png" 
-      alt="Picture of Thomas &agrave; Kempis (c. 1380-1471), canon and author of the Imitation of Christ">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png/120px-Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png" 
-      alt="Alfred Hitchcock, pointing at his watch, from a 1960 poster for the film Psycho" id="Hitchcock">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Scott_Joplin_1907_%28transparent%29.png" 
-      alt="June 1903 photograph of Scott Joplin (1868-1917), composer and pianist known as the &ldquo;King of Ragtime&rdquo;">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg/250px-Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg"
-      alt="Portrait of John Laurens (1754-1782), South Carolina soldier and statesman, by Charles Willson Peale">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victor_Hugo_in_Black_and_White_in_Transparent_Background.png/330px-Victor_Hugo_in_Black_and_White_in_Transparent_Background.png" 
-      alt="Picture of Victor Hugo (1802-1885), French author and national hero, from an 1876 photograph by &Eacute;tienne Carjat">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Edith_Wharton_in_Black_and_White_in_Transparent_Background.png/330px-Edith_Wharton_in_Black_and_White_in_Transparent_Background.png" 
-      alt="Picture of Edith Wharton (1862-1937), American author, from a c.1890 photograph by E. F. Cooper">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Walt_Whitman_in_Black_and_White_with_Transparent_Background.png/330px-Walt_Whitman_in_Black_and_White_with_Transparent_Background.png" 
-      alt="Picture of Walt Whitman (1819-1892), American poet, from an 1887 photograph by George Collins Cox">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Harry_Holland_%28transparent_background%29.png/250px-Harry_Holland_%28transparent_background%29.png" 
-      alt="Picture of Harry Holland (1868-1933), New Zealand politician, from a 1925 photo by Stanley Polkinghorne Andrew">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Unknown_American_-_Mrs._Sam_Houston_-_Google_Art_Project_%28transparent_background%29.png/250px-Unknown_American_-_Mrs._Sam_Houston_-_Google_Art_Project_%28transparent_background%29.png" 
-      alt="Picture of Mrs. Sam Houston, from an 1860 daguerreotype">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Nick_Vujicic_in_Black_and_White_with_Transparent_Background.png/330px-Nick_Vujicic_in_Black_and_White_with_Transparent_Background.png" 
-      alt="Picture of Nick Vujicic (1982-), Australian-American evangelist and speaker, from an April 1, 2011 photograph in Christliches Medianmagazin pro">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Mouse_transparent_background.png" 
-      alt="Common house mouse (Mus musculus), wild type" id="mouse">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Lily_the_white_poodle_%28transparent_background%29.png/330px-Lily_the_white_poodle_%28transparent_background%29.png" 
-      alt="Lily the white poodle">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Turkish_Van_cat_transparent.png/250px-Turkish_Van_cat_transparent.png"
-      alt="Red tabby and white Turkish Van cat on transparent background">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Talpa_europaea_MHNT_on_transparent_background.png/330px-Talpa_europaea_MHNT_on_transparent_background.png" 
-      alt="European mole (Talpa europaea) on transparent background" id="mole">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Alpine_swift_at_Koytendag%2C_SE_Turkmenistan_%28transparent_background%29.png/330px-Alpine_swift_at_Koytendag%2C_SE_Turkmenistan_%28transparent_background%29.png" 
-      alt="Alpine swift at Koytendag, SE Turkmenistan.  Photo by Paul F. Donald, editing by Paolo Villa.">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Apus_apus_flying_%28transparent_background%29.png/330px-Apus_apus_flying_%28transparent_background%29.png" 
-      alt="Common swift (Apus apus) flying in Barcelona, Spain">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Eurasian_crag_martin_David_Raju_%28transparent_background%29.png/250px-Eurasian_crag_martin_David_Raju_%28transparent_background%29.png" 
-      alt="Eurasian crag martin (Ptyonoprogne rupestris) in flight.  Photo by David Raju, edited by Paolo Villa.">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/HirundoRusticaFlight_%28transparent_background%29.png/330px-HirundoRusticaFlight_%28transparent_background%29.png"  
-      alt="Swallow (Hirundo rustica) in flight">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Tachybaptus_rufolavatus_by_Citron_transparent_background.png/250px-Tachybaptus_rufolavatus_by_Citron_transparent_background.png" 
-      alt="Grebe (Tachybaptus rufolavatus) standing">
-    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Statue_of_liberty_%28transparent%29.png/250px-Statue_of_liberty_%28transparent%29.png"
-       alt="Transparent-background image of the Statue of Liberty">
+      <h2>Image collection (fixed, 4-column grid)</h2>
+      <div class="fixed_grid">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Rotating_earth_animated_transparent.gif/250px-Rotating_earth_animated_transparent.gif" 
+          alt="Earth, seen from space, animated so it appears to rotate" id="earth">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Pluto_rotation_movie_%28transparent%292.gif" 
+          alt="Rotation movie of Pluto based on images from NASA's New Horizons spacecraft up to and including an image obtained when the spacecraft was 738,000 km from Pluto.">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Boethius_transparent_background_clearer.png" 
+          alt="Project Gutenberg&#039;s rendition of Boethius (c.480-524), Christian philosopher and martyr">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Sainte_Clotilde_-_transparent_background_01.jpg" 
+          alt="Statue of St. Clotilde (c.474-545), Queen of the Franks" id="Clotilde">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png/330px-Teresa_of_Avila_in_Black_and_White_with_Transparent_Background.png" 
+          alt="Drawing of St. Teresa of &Aacute;vila (1515-1582), Spanish mystic, nun, and co-founder of the Discalced Carmelites">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png/330px-Thomas_a_Kempis_in_Black_and_White_with_Transparent_Background.png" 
+          alt="Picture of Thomas &agrave; Kempis (c. 1380-1471), canon and author of the Imitation of Christ">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png/120px-Alfred_Hitchcock_-_1960%2C_no_late_admissions_%28transparent%29.png" 
+          alt="Alfred Hitchcock, pointing at his watch, from a 1960 poster for the film Psycho" id="Hitchcock">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Scott_Joplin_1907_%28transparent%29.png" 
+          alt="June 1903 photograph of Scott Joplin (1868-1917), composer and pianist known as the &ldquo;King of Ragtime&rdquo;">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg/250px-Charles_Willson_Peale_-_John_Laurens_-_Google_Art_Project.jpg"
+          alt="Portrait of John Laurens (1754-1782), South Carolina soldier and statesman, by Charles Willson Peale">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victor_Hugo_in_Black_and_White_in_Transparent_Background.png/330px-Victor_Hugo_in_Black_and_White_in_Transparent_Background.png" 
+          alt="Picture of Victor Hugo (1802-1885), French author and national hero, from an 1876 photograph by &Eacute;tienne Carjat">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Edith_Wharton_in_Black_and_White_in_Transparent_Background.png/330px-Edith_Wharton_in_Black_and_White_in_Transparent_Background.png" 
+          alt="Picture of Edith Wharton (1862-1937), American author, from a c.1890 photograph by E. F. Cooper">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Walt_Whitman_in_Black_and_White_with_Transparent_Background.png/330px-Walt_Whitman_in_Black_and_White_with_Transparent_Background.png" 
+          alt="Picture of Walt Whitman (1819-1892), American poet, from an 1887 photograph by George Collins Cox">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Harry_Holland_%28transparent_background%29.png/250px-Harry_Holland_%28transparent_background%29.png" 
+          alt="Picture of Harry Holland (1868-1933), New Zealand politician, from a 1925 photo by Stanley Polkinghorne Andrew">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Unknown_American_-_Mrs._Sam_Houston_-_Google_Art_Project_%28transparent_background%29.png/250px-Unknown_American_-_Mrs._Sam_Houston_-_Google_Art_Project_%28transparent_background%29.png" 
+          alt="Picture of Mrs. Sam Houston, from an 1860 daguerreotype">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Nick_Vujicic_in_Black_and_White_with_Transparent_Background.png/330px-Nick_Vujicic_in_Black_and_White_with_Transparent_Background.png" 
+          alt="Picture of Nick Vujicic (1982-), Australian-American evangelist and speaker, from an April 1, 2011 photograph in Christliches Medianmagazin pro">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Mouse_transparent_background.png" 
+          alt="Common house mouse (Mus musculus), wild type" id="mouse">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Lily_the_white_poodle_%28transparent_background%29.png/330px-Lily_the_white_poodle_%28transparent_background%29.png" 
+          alt="Lily the white poodle">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Turkish_Van_cat_transparent.png/250px-Turkish_Van_cat_transparent.png"
+          alt="Red tabby and white Turkish Van cat on transparent background">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Talpa_europaea_MHNT_on_transparent_background.png/330px-Talpa_europaea_MHNT_on_transparent_background.png" 
+          alt="European mole (Talpa europaea) on transparent background" id="mole">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Alpine_swift_at_Koytendag%2C_SE_Turkmenistan_%28transparent_background%29.png/330px-Alpine_swift_at_Koytendag%2C_SE_Turkmenistan_%28transparent_background%29.png" 
+          alt="Alpine swift at Koytendag, SE Turkmenistan.  Photo by Paul F. Donald, editing by Paolo Villa.">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Apus_apus_flying_%28transparent_background%29.png/330px-Apus_apus_flying_%28transparent_background%29.png" 
+          alt="Common swift (Apus apus) flying in Barcelona, Spain">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Eurasian_crag_martin_David_Raju_%28transparent_background%29.png/250px-Eurasian_crag_martin_David_Raju_%28transparent_background%29.png" 
+          alt="Eurasian crag martin (Ptyonoprogne rupestris) in flight.  Photo by David Raju, edited by Paolo Villa.">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/HirundoRusticaFlight_%28transparent_background%29.png/330px-HirundoRusticaFlight_%28transparent_background%29.png"  
+          alt="Swallow (Hirundo rustica) in flight">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Tachybaptus_rufolavatus_by_Citron_transparent_background.png/250px-Tachybaptus_rufolavatus_by_Citron_transparent_background.png" 
+          alt="Grebe (Tachybaptus rufolavatus) standing">
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Statue_of_liberty_%28transparent%29.png/250px-Statue_of_liberty_%28transparent%29.png"
+          alt="Transparent-background image of the Statue of Liberty">
+      </div>
+    </article>
+    <footer>
+      <p>CSC 235, Fall 2026</p>
+    </footer>
   </div>
 </body>
 </html>
