@@ -238,7 +238,7 @@ body {
   }
 }
 
-@media (450px <= width) {
+@media (450px >= width) {
   .fixed_grid {
     grid-template-columns: 100%;
   }
