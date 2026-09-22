@@ -191,7 +191,7 @@ body {
   grid-template-columns: repeat(4, 25%);
 }
 
-@media(450px <= width) {
+@media screen and (500px <= width) {
   #earth {  /* Grows 2x in both directions */
     min-width: 400px; /* Force growth beyond original size */
     min-height: 400px;
@@ -228,7 +228,17 @@ body {
 }
 
 /* Media-properties query */
-@media (450px < width < 800px) {
+@media screen and (700px <= width < 900px) {
+  .fixed_grid {
+    grid-template-columns: 33% 34% 33%;
+  }
+
+  #mole {
+    grid-column: 2 / 4;
+  }
+}
+
+@media screen and (500px < width < 700px) {
   .fixed_grid {
     grid-template-columns: repeat(2, 50%);
   }
@@ -238,9 +248,44 @@ body {
   }
 }
 
-@media (450px >= width) {
+@media screen and (width <= 500px) {
   .fixed_grid {
     grid-template-columns: 100%;
   }
+
+  #mouse {
+    grid-column: 1 / auto;
+  }
+  #mole {
+    grid-column: 1 / auto;
+  }
 }
 
+/* Header and footer, using Flexbox */
+
+html, body {
+  height: 100%; /* Can't grow without limit vertically */
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Can't grow without limit vertically */
+}
+
+.content {
+  overflow: auto; /* When there's too much, use a scrollbar */
+}
+
+header, footer {
+  background-color: #49176D; /* Converse purple */
+  color: white;
+  flex: 0 0; /* Don't grow or shrink */
+}
+
+header > h1, footer > p {
+  margin: 0;          /* Use only the space required */
+  padding: 0;
+  text-align: center; /* Center horizontally */
+}
