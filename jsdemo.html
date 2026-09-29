@@ -76,9 +76,10 @@
         </script>
         <noscript>If you had Javascript enabled, you'd be able to click
             a button and see the time.</noscript>
-        <p><label><var>n:</var></label>
-            <input type="number" min="1" step="1" name="n" id="n">
-            <button onclick="insertTable(this.parent.parent, this.previousElementSibling.value)">Insert table of squares</button>
-        </p>
+        <div class="squares_table">
+            <label><var>n:</var></label>
+            <input type="number" min="1" step="1" name="n" id="n" value="3">
+            <button onclick="insertTable(this.parentElement, this.previousElementSibling.value)">Insert table of squares</button>
+        </div>
     </body>
 </html>

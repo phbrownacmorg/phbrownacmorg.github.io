@@ -17,6 +17,7 @@ function tableOfSquares(n) {
 }
 
 function insertTable(parentElt, n) {
+    console.log(parentElt, n);
     let lastChild = parentElt.lastElementChild;
     if (lastChild.tagName === 'table') {
         lastChild.remove();

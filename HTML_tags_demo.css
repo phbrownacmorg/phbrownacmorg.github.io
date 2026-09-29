@@ -289,3 +289,7 @@ header > h1, footer > p {
   padding: 0;
   text-align: center; /* Center horizontally */
 }
+
+.squares_table {
+  margin-left: 2em;
+}
