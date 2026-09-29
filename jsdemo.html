@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CSC 235 Javascript demo</title>
+        <link rel="stylesheet" href="HTML_tags_demo.css">
+        <!-- Link to external file.  Nothing beween beginning and ending tags -->
+        <script src="jsdemo.js"></script>
+        <!-- Script tag in head, just defines functions -->
+        <script>
+            function updateTime(button) {
+                let nextElt = button.nextElementSibling;
+                if (nextElt !== null) {
+                    nextElt.remove();
+                }
+                let span = document.createElement('span');
+                span.innerHTML = "&nbsp;&nbsp;" + (new Date()).toString();
+                button.after(span);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Javascript demo</h1>
+        <h2>GET form</h2>
+        <form method="get" action="https://cs.converse.edu/CSC235/formecho.php">
+            <fieldset>
+                <legend>Monty Python ripoffs</legend>
+                <label for="get-name">What is your name?</label>
+                <input type="text" id="get-name" name="name" required><span class="flag"></span><br>
+                <label for="get-quest">What is your quest?</label>
+                <input type="text" id="get-quest" name="quest" required><span class="flag"></span><br>
+                <label for="get-color">What is your favorite color?</label>
+                <select id="get-color" name="color" required>
+                    <option value="">&mdash;Please select an answer&mdash;</option>
+                    <optgroup label="Colors">
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </optgroup>
+                    <optgroup label="Bad answers">
+                        <option>I don't know.  AAAAAUUUUUGGGH!</option>
+                    </optgroup>
+                </select><span class="flag"></span><br>
+                <label for="get-airspeed">What is the airspeed velocity of a swallow carrying a coconut? (m/s)</label>
+                <input type="number" name="airspeed" id="get-airspeed" min="0" max="10" step="0.1" required><span class="flag"></span><br>
+            </fieldset>
+            <fieldset>
+                <legend>Standard biographical stuff</legend>
+                <div class="question"><label for="get-dob">Date of birth:</label>
+                <input type="date" id="get-dob" name="DOB" value="2006-08-29"></div>
+                <div class="question"><label for="get-pswd">Password</label>
+                <input type="password" id="get-pswd" name="password"></div>
+            </fieldset>
+            <fieldset>
+                <legend>Nosy personal questions</legend>
+                <p class="question">I plan to graduate in:<br>
+                <input type="radio" id="get26" name="grad-year"><label for="get26">2026</label><br>
+                <input type="radio" id="get27" name="grad-year"><label for="get27">2027</label><br>
+                <input type="radio" id="get28" name="grad-year"><label for="get28">2028</label><br>
+                <input type="radio" id="get29" name="grad-year"><label for="get29">2029</label><br>
+                </p>
+                <p class="question">I like the following flavors of ice cream (check all that apply):<br>
+                    <input type="checkbox" id="get-vanilla" name="vanilla"><label for="get-vanilla">Vanilla</label><br>
+                    <input type="checkbox" id="get-chocolate" name="chocolate"><label for="get-chocolate">Chocolate</label><br>
+                    <input type="checkbox" id="get-coffee" name="coffee"><label for="get-coffee">Coffee</label><br>
+                    <input type="checkbox" id="get-bacon" name="bacon"><label for="get-bacon">Bacon</label><br>
+                </p>
+                <input type="hidden" name="not-really-bacon" value="Just kidding, I like bacon but not in ice cream">
+                <label for="get-comments">General comments:</label><br>
+                <textarea name="comments" id="get-comments"></textarea><br>
+            </fieldset>
+            <input type="submit"><input type="reset">
+        </form>
+        <!-- Script tag in body, may display content -->
+        <script>
+            document.write('<p><button onclick="updateTime(this);">Update time</button></p>');
+        </script>
+        <noscript>If you had Javascript enabled, you'd be able to click
+            a button and see the time.</noscript>
+        <p><label><var>n:</var></label>
+            <input type="number" min="1" step="1" name="n" id="n">
+            <button onclick="insertTable(this.parent.parent, this.previousElementSibling.value)">Insert table of squares</button>
+        </p>
+    </body>
+</html>
