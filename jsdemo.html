@@ -19,9 +19,17 @@
             }
         </script>
     </head>
-    <body>
+    <!-- onload event runs when the page is loaded -->
+    <body onload="fillStyleProperties(document.getElementById('get-pswd'));">
         <h1>Javascript demo</h1>
-        <h2>GET form</h2>
+        <div class="style_properties">
+            <h2>Show style properties</h2>
+            <select id="style_props" onchange="showValue(this, document.getElementById('get-name'),
+                                                            document.getElementById('style_echo_space'));">
+                <option value="">&mdash;Choose a property&mdash;</option>
+            </select>: <span id="style_echo_space"></span>
+
+        </div>
         <form method="get" action="https://cs.converse.edu/CSC235/formecho.php">
             <fieldset>
                 <legend>Monty Python ripoffs</legend>

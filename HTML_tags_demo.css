@@ -293,3 +293,7 @@ header > h1, footer > p {
 .squares_table {
   margin-left: 2em;
 }
+
+.style_properties {
+  margin-bottom: 2ex;
+}
