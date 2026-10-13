@@ -92,7 +92,7 @@ function fill_airspeeds_list() {
 function echoSliderValue(slider) {
     value = parseInt(slider.value);
     echoSpan = slider.nextElementSibling;
-    echoSpan.innerText = value.toString();
+    echoSpan.innerText = "Value: " + value.toString();
 }
 
 function init_page() {
