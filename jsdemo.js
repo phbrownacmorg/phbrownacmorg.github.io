@@ -30,16 +30,15 @@ function tableOfSquares(n) {
 }
 
 function insertTable(parentElt, n) {
-    let lastChild = parentElt.lastElementChild;
-    console.log(parentElt, n, lastChild, lastChild.tagName);
-    if (lastChild.tagName == 'TABLE') {
+    let lastChild = parentElt.querySelector('table:last-child');
+    if (lastChild) {
         lastChild.remove();
     }
     parentElt.append(tableOfSquares(n));
 }
 
 function fillStyleProperties(elt) {
-    let selectElt = document.getElementById('style_props');
+    let selectElt = document.querySelector('#style_props'); //document.getElementById('style_props');
     // Remove any <option> elements after the first
     let options = selectElt.options;
     options.length = 1;
@@ -67,5 +66,37 @@ function showValue(selectElt, subjectElt, targetElt) {
         targetElt.innerHTML = prop + ": '" + val.toString() + "'";
         //console.log(prop, '"' + val.toString() + '"');
     }
+}
 
+function fill_airspeeds_list() {
+    // Get the range control
+    range = document.querySelector('#get-airspeed');
+    minval = parseInt(range.getAttribute('min')); // Assume it exists
+    maxval = parseInt(range.getAttribute('max')); // Assume it exists
+
+    // Tick-mark stepsize may not match the range's step
+    steps = 10;
+    while (((maxval-minval) % steps !== 0) && (steps > 1)) {
+        steps--;
+    }
+    stepsize = (maxval-minval) / steps;
+
+    datalist = document.querySelector('#airspeeds-list');
+    for (let i = minval; i <= maxval; i += stepsize) {
+        opt = document.createElement('option');
+        opt.value = i;
+        datalist.append(opt);
+    }
+}
+
+function echoSliderValue(slider) {
+    value = parseInt(slider.value);
+    echoSpan = slider.nextElementSibling;
+    echoSpan.innerText = value.toString();
+}
+
+function init_page() {
+    fillStyleProperties(document.getElementById('get-pswd'));
+    fill_airspeeds_list();
+    echoSliderValue(document.querySelector('#get-airspeed'));
 }
