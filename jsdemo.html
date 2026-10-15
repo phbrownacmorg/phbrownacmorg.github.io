@@ -30,7 +30,7 @@
             </select>: <span id="style_echo_space"></span>
 
         </div>
-        <form method="get" action="https://cs.converse.edu/CSC235/formecho.php">
+        <form method="get" action="https://cs.converse.edu/CSC235/formecho.php" onsubmit="return validateForm(this);">
             <fieldset>
                 <legend>Monty Python ripoffs</legend>
                 <label for="get-name">What is your name?</label>
@@ -58,23 +58,24 @@
             <fieldset>
                 <legend>Standard biographical stuff</legend>
                 <div class="question"><label for="get-dob">Date of birth:</label>
-                <input type="date" id="get-dob" name="DOB" value="2006-08-29"></div>
+                <input type="date" id="get-dob" name="DOB" value="2006-08-29" min="1906-10-15" max="2026-10-15" required><span class="flag"></span></div>
                 <div class="question"><label for="get-pswd">Password</label>
-                <input type="password" id="get-pswd" name="password"></div>
+                <input type="password" id="get-pswd" name="password" required pattern="\w{12,}"><span class="flag"></span></div>
             </fieldset>
             <fieldset>
                 <legend>Nosy personal questions</legend>
                 <p class="question">I plan to graduate in:<br>
-                <input type="radio" id="get26" name="grad-year"><label for="get26">2026</label><br>
-                <input type="radio" id="get27" name="grad-year"><label for="get27">2027</label><br>
-                <input type="radio" id="get28" name="grad-year"><label for="get28">2028</label><br>
-                <input type="radio" id="get29" name="grad-year"><label for="get29">2029</label><br>
-                </p>
-                <p class="question">I like the following flavors of ice cream (check all that apply):<br>
+                <span class="radio"><input type="radio" id="get26" name="grad-year"><label for="get26">2026</label></span>
+                <span class="radio"></span><input type="radio" id="get27" name="grad-year"><label for="get27">2027</label></span>
+                <span class="radio"></span><input type="radio" id="get28" name="grad-year"><label for="get28">2028</label></span>
+                <span class="radio"></span><input type="radio" id="get29" name="grad-year" required><label for="get29">2029</label></span>
+                <span class="flag"></span></p>
+                <p class="question" id="ice_cream_question">I like the following flavors of ice cream (check all that apply):<br>
                     <input type="checkbox" id="get-vanilla" name="vanilla"><label for="get-vanilla">Vanilla</label><br>
                     <input type="checkbox" id="get-chocolate" name="chocolate"><label for="get-chocolate">Chocolate</label><br>
                     <input type="checkbox" id="get-coffee" name="coffee"><label for="get-coffee">Coffee</label><br>
                     <input type="checkbox" id="get-bacon" name="bacon"><label for="get-bacon">Bacon</label><br>
+                    <input type="checkbox" id="get-none" name="none"><label for="get-none">None of the above</label><br>
                 </p>
                 <input type="hidden" name="not-really-bacon" value="Just kidding, I like bacon but not in ice cream">
                 <label for="get-comments">General comments:</label><br>

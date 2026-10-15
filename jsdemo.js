@@ -90,13 +90,45 @@ function fill_airspeeds_list() {
 }
 
 function echoSliderValue(slider) {
-    value = parseInt(slider.value);
-    echoSpan = slider.nextElementSibling;
+    let value = parseInt(slider.value);
+    let echoSpan = slider.nextElementSibling;
     echoSpan.innerText = "Value: " + value.toString();
+}
+
+function initDate(dateElt) {
+    let now = new Date();
+    dateElt.setAttribute('max', now.toISOString().slice(0,10));
+    let maxAge = 120; // Nobody's more than 120 years old
+    let then = new Date(now.getFullYear() - maxAge, now.getMonth(), now.getDate());
+    dateElt.setAttribute('min', then.toISOString().slice(0,10));
+    then.setFullYear(now.getFullYear() - 20);
+    dateElt.setAttribute('value', then.toISOString().slice(0,10));
 }
 
 function init_page() {
     fillStyleProperties(document.getElementById('get-pswd'));
     fill_airspeeds_list();
     echoSliderValue(document.querySelector('#get-airspeed'));
+    initDate(document.querySelector('#get-dob'));
+}
+
+function requireChecked(checkboxList, minChecked) {
+    let countChecked = 0;
+    for (box of checkboxList) {
+        if (box.checked) {
+            countChecked++;
+        }
+    }
+    alert(countChecked);
+    return (countChecked >= minChecked);
+}
+
+function validateForm(formElt) {
+    let checkboxParent = formElt.querySelector('#ice_cream_question');
+    let boxes = checkboxParent.querySelectorAll('input[type=checkbox]')
+    //alert(boxes.length);
+    console.log('Calling requireChecked');
+    let valid = requireChecked(boxes, 1);
+    console.log('requireChecked returned ' + valid.toString());
+    return valid;
 }

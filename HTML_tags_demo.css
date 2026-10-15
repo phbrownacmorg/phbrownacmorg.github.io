@@ -297,3 +297,7 @@ header > h1, footer > p {
 .style_properties {
   margin-bottom: 2ex;
 }
+
+span.radio {
+  margin-left: 1em;
+}
