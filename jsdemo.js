@@ -105,30 +105,55 @@ function initDate(dateElt) {
     dateElt.setAttribute('value', then.toISOString().slice(0,10));
 }
 
+function checkPasswordValidity() {
+    const passwordElt = document.querySelector('#get-pswd');
+    const constraint = new RegExp(passwordElt.getAttribute('pattern'));
+    if (passwordElt.value.length < 12) {
+        passwordElt.setCustomValidity('Password must be at least 12 characters');
+    }
+    else if (constraint.test(passwordElt.value)) {
+        passwordElt.setCustomValidity("");
+    }
+    else {
+        passwordElt.setCustomValidity('Password can only contain letters, digits, and _');
+    }
+
+}
+
 function init_page() {
     fillStyleProperties(document.getElementById('get-pswd'));
     fill_airspeeds_list();
     echoSliderValue(document.querySelector('#get-airspeed'));
     initDate(document.querySelector('#get-dob'));
+    document.querySelector('#get-pswd').addEventListener('change', checkPasswordValidity);
+    document.querySelector('#get-pswd').addEventListener('input', checkPasswordValidity);
 }
 
-function requireChecked(checkboxList, minChecked) {
+function requireChecked(checkboxList, minChecked, flagElt) {
     let countChecked = 0;
     for (box of checkboxList) {
         if (box.checked) {
             countChecked++;
         }
     }
-    alert(countChecked);
+    if (countChecked >= minChecked) {
+        flagElt.classList.remove('invalid');
+        flagElt.classList.add('valid');
+    }
+    else {
+        flagElt.classList.remove('valid');
+        flagElt.classList.add('invalid');
+    }
     return (countChecked >= minChecked);
 }
 
-function validateForm(formElt) {
+function checkBoxes(formElt) {
     let checkboxParent = formElt.querySelector('#ice_cream_question');
-    let boxes = checkboxParent.querySelectorAll('input[type=checkbox]')
-    //alert(boxes.length);
-    console.log('Calling requireChecked');
-    let valid = requireChecked(boxes, 1);
-    console.log('requireChecked returned ' + valid.toString());
+    let boxes = checkboxParent.querySelectorAll('input[type=checkbox]');
+    return requireChecked(boxes, 1, checkboxParent.querySelector('.flag'));
+}
+
+function validateForm(formElt) {
+    let valid = checkBoxes(formElt);
     return valid;
 }

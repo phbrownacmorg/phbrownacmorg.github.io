@@ -37,13 +37,13 @@ ol.outline ol ol > li:hover { background-color: mintcream; }
 
 
 /* Mark required, valid, and invalid form elements */
-span.flag::before {
+output.flag::before {
     color: firebrick;
     content: '*';
 }
 
-:valid + span.flag::before, span.flag.valid::before, 
-:valid + label + span.flag::before {
+:valid + output.flag::before, output.flag.valid::before, 
+:valid + label + output.flag::before {
     color: green;
     content: '✓';
 }
