@@ -298,6 +298,6 @@ header > h1, footer > p {
   margin-bottom: 2ex;
 }
 
-span.radio {
+span.radio, span.form_control {
   margin-left: 1em;
 }

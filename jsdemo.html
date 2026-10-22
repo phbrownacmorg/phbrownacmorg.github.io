@@ -97,6 +97,25 @@
         </script>
         <noscript>If you had Javascript enabled, you'd be able to click
             a button and see the time.</noscript>
+        <div id="stocks">
+            <form>
+                <fieldset>
+                    <legend>Stock value</legend>
+                    <span class="form_control">
+                        <label>API token:</label>
+                        <input type="text" name="API_token">
+                    </span>
+                    <span class="form_control">
+                        <label>Stock symbol:</label>
+                        <input type="text" name="symbol">
+                    </span>
+                    <button type="button" onclick="findStock(this.form);">Find price</button>
+                    <span class="form_control">
+                        <output id="stock_output"></output>
+                    </span>
+                </fieldset>
+            </form>
+        </div>
         <div class="squares_table">
             <label><var>n:</var></label>
             <input type="number" min="1" step="1" name="n" id="n" value="3">

@@ -157,3 +157,10 @@ function validateForm(formElt) {
     let valid = checkBoxes(formElt);
     return valid;
 }
+
+async function findStock(formElt) {
+    let msg = '';
+    // try {
+
+    // }
+}
