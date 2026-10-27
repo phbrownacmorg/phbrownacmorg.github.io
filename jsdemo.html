@@ -102,12 +102,14 @@
                 <fieldset>
                     <legend>Stock value</legend>
                     <span class="form_control">
-                        <label>API token:</label>
-                        <input type="text" name="API_token">
+                        <label>API key:</label>
+                        <input type="text" name="API_token" required>
+                        <output class="flag"></output>
                     </span>
                     <span class="form_control">
                         <label>Stock symbol:</label>
-                        <input type="text" name="symbol">
+                        <input type="text" name="symbol" required>
+                        <output class="flag"></output>
                     </span>
                     <button type="button" onclick="findStock(this.form);">Find price</button>
                     <span class="form_control">

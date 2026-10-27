@@ -160,7 +160,29 @@ function validateForm(formElt) {
 
 async function findStock(formElt) {
     let msg = '';
-    // try {
+    let apiKey = formElt.API_token.value;
+    console.log('API key: ', apiKey);
+    if (apiKey.length === 0) {
+        alert('Please fill in the API key.');
+        return;
+    }
+    let symbol = formElt.symbol.value;
+    console.log('Symbol: ', symbol);
+    if (symbol.length === 0) {
+        alert('Please fill in the stock symbol.');
+        return;
+    }
+    let opts = {
+        method: 'GET'
+    };   
+    let query = `https://api.marketstack.com/v2/eod?access_key=${apiKey}&symbols=${symbol}&limit=1`;
+    try {
+        let response = await fetch(query, opts);
+        console.log(response);
+        let info = await response.json();
+        console.log(info);
+    } catch (err) {
+        console.log(err);
+    }
 
-    // }
 }
