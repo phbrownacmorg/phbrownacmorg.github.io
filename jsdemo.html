@@ -112,7 +112,7 @@
                         <output class="flag"></output>
                     </span>
                     <button type="button" onclick="findStock(this.form);">Find price</button>
-                    <span class="form_control">
+                    <span class="form_control block">
                         <output id="stock_output"></output>
                     </span>
                 </fieldset>
@@ -122,6 +122,22 @@
             <label><var>n:</var></label>
             <input type="number" min="1" step="1" name="n" id="n" value="3">
             <button onclick="insertTable(this.parentElement, this.previousElementSibling.value)">Insert table of squares</button>
+        </div>
+        <div class="nobel">
+            <h2>Look up Nobel laureates</h2>
+            <form id="nobel_form">
+                <span class="form_control"><label for="nobel_year">Year:</label>
+                    <input type="number" min="1901" max="2024" value="1962" name="nobel_year" id="nobel_year"
+                            oninput="setCategories(this.form);"></span>
+                <span class="form_control"><label for="nobel_cat">Category:</label>
+                    <select id="nobel_cat" name="nobel_cat" disabled
+                        oninput="showLaureates(this.form);">
+                        <option value="">&mdash;Please select a category&mdash;</option>
+                    </select></span>
+                <span class="form_control block">
+                    <output id="nobel_output"></output>
+                </span>
+            </form>
         </div>
     </body>
 </html>

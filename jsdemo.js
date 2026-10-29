@@ -159,30 +159,60 @@ function validateForm(formElt) {
 }
 
 async function findStock(formElt) {
-    let msg = '';
-    let apiKey = formElt.API_token.value;
+    const apiKey = formElt.API_token.value;
     console.log('API key: ', apiKey);
     if (apiKey.length === 0) {
         alert('Please fill in the API key.');
         return;
     }
-    let symbol = formElt.symbol.value;
+    const symbol = formElt.symbol.value;
     console.log('Symbol: ', symbol);
     if (symbol.length === 0) {
         alert('Please fill in the stock symbol.');
         return;
     }
-    let opts = {
-        method: 'GET',
+    const opts = {
+        method: 'GET'
     };   
-    let query = `https://api.marketstack.com/v2/eod?access_key=${apiKey}&symbols=${symbol}&limit=1`;
+    const query = `https://api.marketstack.com/v2/eod?access_key=${apiKey}&symbols=${symbol}&limit=1`;
     try {
-        let response = await fetch(query, opts);
-        console.log(response);
-        let info = await response.json();
+        const response = await fetch(query, opts);
+        //console.log(response);
+        const info = await response.json();
         console.log(info);
+        const msg = `<span class="hspace">Symbol: ${info.data[0].symbol}</span>`
+                    + `<span class="hspace">Price: ${info.data[0].close}</span>`
+        formElt.querySelector('#stock_output').innerHTML = msg;
     } catch (err) {
         console.log(err);
     }
+}
+
+var nobelData;
+
+async function readNobelData() {
+    const url = 'https://sharmadhiraj.github.io/free-json-datasets/awards-achievements/nobel_prizes.json';
+    let data;
+    try {
+        const response = await fetch(url);
+        console.info(response);
+        const data = response.json();
+    } catch(err) {
+        console.error(err);
+    }
+    return data;
+}
+
+function setCategories(formElt) {
+    // Read the data if this is the first time the event has fired
+    if (!nobelData) {
+        nobelData = readNobelData();
+        console.info("Data read");
+    }
+    const year = parseInt(formElt.nobel_year.value);
+    console.info(year);
+    // RaCE CONDITION
+    const years_prizes = nobelData.data.find((element) => element.year == year);
+    console.info(years_prizes);
 
 }

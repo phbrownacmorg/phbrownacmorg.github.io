@@ -301,3 +301,12 @@ header > h1, footer > p {
 span.radio, span.form_control {
   margin-left: 1em;
 }
+
+.block {
+  display: block;
+}
+
+.hspace {
+  margin-left: 1em;
+  margin-right: 1em;
+}
