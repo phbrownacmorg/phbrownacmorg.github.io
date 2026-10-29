@@ -173,7 +173,7 @@ async function findStock(formElt) {
         return;
     }
     let opts = {
-        method: 'GET'
+        method: 'GET',
     };   
     let query = `https://api.marketstack.com/v2/eod?access_key=${apiKey}&symbols=${symbol}&limit=1`;
     try {
