@@ -127,6 +127,7 @@ function init_page() {
     initDate(document.querySelector('#get-dob'));
     document.querySelector('#get-pswd').addEventListener('change', checkPasswordValidity);
     document.querySelector('#get-pswd').addEventListener('input', checkPasswordValidity);
+    setCategories(document.querySelector('#nobel_form'));
 }
 
 function requireChecked(checkboxList, minChecked, flagElt) {
@@ -194,25 +195,86 @@ async function readNobelData() {
     const url = 'https://sharmadhiraj.github.io/free-json-datasets/awards-achievements/nobel_prizes.json';
     let data;
     try {
-        const response = await fetch(url);
+        const response = await fetch(url, { method: 'GET' });
         console.info(response);
-        const data = response.json();
+        data = response.json();
+        console.info('data: ',data);
     } catch(err) {
         console.error(err);
     }
+    console.info('Returning: ',data);
     return data;
 }
 
-function setCategories(formElt) {
+async function setCategories(formElt) {
     // Read the data if this is the first time the event has fired
     if (!nobelData) {
-        nobelData = readNobelData();
-        console.info("Data read");
+        nobelData = await readNobelData();
+        console.info("Data read: ", nobelData);
     }
     const year = parseInt(formElt.nobel_year.value);
-    console.info(year);
-    // RaCE CONDITION
+    console.info(nobelData);
+    console.info(nobelData.data);
     const years_prizes = nobelData.data.find((element) => element.year == year);
-    console.info(years_prizes);
+    const selectElt = formElt.nobel_cat;
+    // Remove the old categories (but not the top option)
+    for (let i = selectElt.options.length - 1; i > 0; i--) {
+        selectElt.remove(i);
+    }
+    // Make new options
+    for (const category of years_prizes.categories) {
+        const optElt = document.createElement('option');
+        optElt.innerText = category.name;
+        selectElt.add(optElt);
+    }
+    selectElt.disabled = false;
+}
 
+function showLaureates(formElt) {
+    const category = formElt.nobel_cat.value;
+    if (category !== "") {
+        const year = parseInt(formElt.nobel_year.value);
+        console.info(year);
+        const years_prizes = nobelData.data.find((element) => element.year == year);
+        console.info(years_prizes);
+        console.info('Category: ', category);
+        const prize = years_prizes.categories.find((element) => element.name == category);
+        console.info('Prize: ',prize);
+
+        const outputElt = formElt.querySelector('#nobel_output');
+        outputElt.innerHTML = ""; // Remove anything previously there
+        outputElt.append(document.createElement('table'));
+        const tableElt = outputElt.lastChild;
+        tableElt.append(document.createElement('caption'));
+        tableElt.lastChild.innerHTML = `${year} ${prize.full_title}`;
+        tableElt.append(document.createElement('tr'));
+        let row = tableElt.lastChild;
+        for (const heading of ['Laureate(s)', 'Motivation']) {
+            row.append(document.createElement('th'));
+            row.lastChild.innerText = heading;
+        }
+
+        for (const award of prize.awards) {
+            for (const laureate of award.laureates) {
+                tableElt.append(document.createElement('tr'));
+                const row = tableElt.lastChild;
+                row.append(document.createElement('td'));
+                const cell = row.lastChild;
+                cell.append(document.createElement('a'));
+                cell.lastChild.href = laureate.profile_url;
+                cell.lastChild.innerText = laureate.name;
+
+                if (laureate === award.laureates[0]) {
+                    row.append(document.createElement('td'));
+                    row.lastChild.innerText = award.motivation.slice(1, -1);
+                    row.lastChild.setAttribute('rowspan', award.laureates.length);
+                    if (award !== prize.awards[0]) {
+                        row.setAttribute('class','top_not_first');
+                    }
+                }
+
+                
+            }
+        }
+    }
 }

@@ -310,3 +310,25 @@ span.radio, span.form_control {
   margin-left: 1em;
   margin-right: 1em;
 }
+
+.vspace {
+  margin-top: 1ex;
+  margin-bottom: 1ex;
+}
+
+#nobel_output > table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#nobel_output > table > tr:first-of-type {
+  border-bottom: 3px double;
+}
+
+#nobel_output > table > tr.top_not_first {
+  border-top: thin solid gray;
+}
+
+#nobel_output > table > tr > td {
+  padding: 0 0.5em;
+}
