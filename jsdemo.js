@@ -180,12 +180,12 @@ async function findStock(formElt) {
         const response = await fetch(query, opts);
         //console.log(response);
         const info = await response.json();
-        console.log(info);
+        //console.log(info);
         const msg = `<span class="hspace">Symbol: ${info.data[0].symbol}</span>`
                     + `<span class="hspace">Price: ${info.data[0].close}</span>`
         formElt.querySelector('#stock_output').innerHTML = msg;
     } catch (err) {
-        console.log(err);
+        console.error(err);
     }
 }
 
@@ -196,13 +196,10 @@ async function readNobelData() {
     let data;
     try {
         const response = await fetch(url, { method: 'GET' });
-        console.info(response);
         data = response.json();
-        console.info('data: ',data);
     } catch(err) {
         console.error(err);
     }
-    console.info('Returning: ',data);
     return data;
 }
 
@@ -210,11 +207,8 @@ async function setCategories(formElt) {
     // Read the data if this is the first time the event has fired
     if (!nobelData) {
         nobelData = await readNobelData();
-        console.info("Data read: ", nobelData);
     }
     const year = parseInt(formElt.nobel_year.value);
-    console.info(nobelData);
-    console.info(nobelData.data);
     const years_prizes = nobelData.data.find((element) => element.year == year);
     const selectElt = formElt.nobel_cat;
     // Remove the old categories (but not the top option)
@@ -234,12 +228,8 @@ function showLaureates(formElt) {
     const category = formElt.nobel_cat.value;
     if (category !== "") {
         const year = parseInt(formElt.nobel_year.value);
-        console.info(year);
         const years_prizes = nobelData.data.find((element) => element.year == year);
-        console.info(years_prizes);
-        console.info('Category: ', category);
         const prize = years_prizes.categories.find((element) => element.name == category);
-        console.info('Prize: ',prize);
 
         const outputElt = formElt.querySelector('#nobel_output');
         outputElt.innerHTML = ""; // Remove anything previously there
